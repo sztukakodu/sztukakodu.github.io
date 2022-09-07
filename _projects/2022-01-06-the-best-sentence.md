@@ -1,7 +1,7 @@
 ---
-title: The Best Sentence
+title: Spring Boot Advanced
 date: 2022-01-06 08:01:35 +0300
-subtitle: Lettering
+subtitle: Szkolenie
 image: '/images/project-5.jpg'
 ---
 

@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Hilton
+title: Sztuka Kodu
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hilton is a super simple portfolio theme for Jekyll.
+description: Pomogam rozwijać się programistom Java.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -10,35 +10,32 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'Strona Główna'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+    # - title: 'Projekty'
+    #   url: '/projects/'
+    # - title: 'Strony'
+    #   submenu:
+    # - url: '/wspolpraca/'
+    #   title: 'Współpraca'
+    # - url: '/kontakt/'
+    #   title: 'Kontakt'
 
 
 #-------------------------------
 # Author Settings
 author:
-  author__name: Monica Hilton
-  author__bio: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  author__avatar: '/images/01-1.jpg'
+  author__name: Dariusz Mydlarz
+  author__bio: Java Developer z ponad 10-letnim doświadczeniem. Uwielbiam Springa, Mikroserwisy i czysty kod.
+  author__avatar: 'https://sztukakodu.pl/wp-content/uploads/2021/04/dario-bluza.jpeg'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-github", link: "https://github.com"}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/darekmydlarz"}
+- {icon: "ion-logo-facebook", link: "https://facebook.com/dkmydlarz"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/darek.mydlarz"}
+- {icon: "ion-logo-github", link: "https://github.com/darek1024"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -47,29 +44,29 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: I'm Monica. I will create design that can give you value
-  hero__description: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  hero__image: '/images/01.jpg'
+  hero__title: Cześć, jestem Darek. Pomogę Ci stawać się lepszym programistą Java
+  hero__description: Zapisz się na newsletter i odbieraj materiały, które pomogą Ci w rozwoju Twojej kariery 👇
+  hero__image: '/images/darek-nfj.jpeg'
 
 
 #-------------------------------
 # Newsletter
 mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
 mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-mailchimp__input__text: Your email address...
-mailchimp__button__text: Get updates
+mailchimp__input__text: Twój adres e-mail
+mailchimp__button__text: Zaczynam!
 
 
 #-------------------------------
 # Projects Settings
 projects__settings:
-  projects__title: Latest works
+  projects__title: Ostatnie projekty
   projects__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
 
 
 #-------------------------------
 # Testimonials Section
-testimonial__title: What clients say
+testimonial__title: Co mówią klienci
 testimonial__description:
 
 testimonial__items:
@@ -107,46 +104,48 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Recent Posts
+  blog__title: Ostatnie wpisy
   blog__description:
 
 
 #-------------------------------
 # Gallery Footer Settings
-gallery:
-  gallery__images:
-    - alt: 'Rest'
-      url: '/images/gallery-1.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/gallery-2.jpg'
-    - alt: 'Hobby'
-      url: '/images/gallery-3.jpg'
-    - alt: 'Notes'
-      url: '/images/gallery-4.jpg'
+# gallery:
+#   gallery__images:
+#     - alt: 'Rest'
+#       url: '/images/gallery-1.jpg'
+#     - alt: 'Lifestyle'
+#       url: '/images/gallery-2.jpg'
+#     - alt: 'Hobby'
+#       url: '/images/gallery-3.jpg'
+#     - alt: 'Notes'
+#       url: '/images/gallery-4.jpg'
 
 
 #-------------------------------
 # Footer Navigation Settings
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'Strona Główna'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    # - title: 'Projects'
+    #   url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - url: '/about/'
-      title: 'About'
-    - url: '/contact/'
-      title: 'Contact'
-    - url: '/elements/'
-      title: 'Elements'
+    # - url: '/about/'
+    #   title: 'About'
+    # - url: '/contact/'
+    #   title: 'Contact'
+    - url: '/regulamin/'
+      title: 'Regulamin'
+    - url: '/polityka/'
+      title: 'Polityka Prywatności'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your form_id
+  email: darek@sztukakodu.pl # Add your form_id
   description: Hilton comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE

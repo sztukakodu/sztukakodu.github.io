@@ -1,8 +1,8 @@
 ---
-title: Script Using Pencil
+title: Szkoła Springa
 date: 2022-01-10 08:01:35 +0300
-subtitle: Calligraphy
-image: '/images/project-1.jpg'
+subtitle: Kurs Online
+image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/01/szkola-springa.png'
 ---
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.

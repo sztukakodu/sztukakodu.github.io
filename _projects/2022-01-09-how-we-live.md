@@ -1,8 +1,8 @@
 ---
-title: How We Live
+title: Kurs Współbieżności
 date: 2022-01-09 08:01:35 +0300
 subtitle: Letterign
-image: '/images/project-2.jpg'
+image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/kurs-wspolbieznosci.png'
 ---
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.

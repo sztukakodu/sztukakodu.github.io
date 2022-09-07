@@ -1,7 +1,7 @@
 ---
-title: Ride My Bike
+title: Java dla Zaawansowanych
 date: 2022-01-05 08:01:35 +0300
-subtitle: Procreate
+subtitle: Szkolenie
 image: '/images/project-6.jpg'
 ---
 
