@@ -2,6 +2,12 @@
   Syntax Highlighting
 */
 
+p>code {
+    background: var(--syntax-highlighting-background);;
+    padding: 0em 0.5em;
+    border-radius: 3px;
+}
+
 .highlight {
   margin-bottom: 32px;
   background: var(--syntax-highlighting-background);
