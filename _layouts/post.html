@@ -49,7 +49,8 @@ layout: default
   <article class="post">
 
     <div class="post__content">
-      {{ content }}
+      <!--{{ content }}-->
+      {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor" h_max=2 %}
     </div>
 
     <div class="post__share">
