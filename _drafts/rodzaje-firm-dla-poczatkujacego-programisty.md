@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  Rodzaje Firm Dla Programisty - Jaką Wybrać? (Moje 10 lat doświadczenia)
+layout:	post
+title:	Rodzaje Firm Dla Programisty - Jaką Wybrać? (Moje 10 lat doświadczenia)
 description: Jeśli stoisz przed wyborem kolejnego miejsca, skorzytaj z mojego doświadczenia i sprawdź, która firma może być najlepsza dla Ciebie.
-image: '/images/cowybrac.jpg'
-tags: [programista, kariera]
+image:	/images/cowybrac.jpg
+tags:		[programista, kariera]
 ---
 
 

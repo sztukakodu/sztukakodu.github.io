@@ -3,7 +3,7 @@ layout: post
 title:  Lazy Initialization Exception. Jak sobie z nim radzić? (Spring & Hibernate)
 description: Jeśli pracujesz na co dzień z Javą i Hibernatem, są duże szanse, że Twój program zgłosił Ci wyjątek LazyInitializaitonException. Z czego on wynika i jak sobie z nim poradzić?
 date:   2022-03-13 13:24:35 +0200
-image:  '/images/fine.jpg'
+image:  /images/fine.jpg
 tags:   [spring, java, hibernate, jpa]
 ---
 

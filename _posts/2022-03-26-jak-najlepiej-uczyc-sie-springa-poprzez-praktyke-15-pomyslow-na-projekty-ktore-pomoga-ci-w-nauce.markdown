@@ -3,7 +3,7 @@ layout: post
 title:  Jak najlepiej uczyć się Springa? Poprzez praktykę! 15 pomysłów na projekty, które pomogą Ci w nauce
 description: Jak najlepiej uczyć się Springa? Poprzez praktykę. Oto 15 pomysłów na projekty, które pomogą Ci w nauce.
 date:   2022-03-26 14:24:35 +0200
-image:  '/images/projekty.png'
+image:  /images/projekty.png
 tags:   [spring, projekty, kariera, pomysły]
 ---
 
