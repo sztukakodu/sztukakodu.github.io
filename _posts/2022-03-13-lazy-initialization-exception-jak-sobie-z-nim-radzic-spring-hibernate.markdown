@@ -3,188 +3,283 @@ layout: post
 title:  Lazy Initialization Exception. Jak sobie z nim radzić? (Spring & Hibernate)
 description: Jeśli pracujesz na co dzień z Javą i Hibernatem, są duże szanse, że Twój program zgłosił Ci wyjątek LazyInitializaitonException. Z czego on wynika i jak sobie z nim poradzić?
 date:   2022-03-13 13:24:35 +0200
-image:  'https://sztukakodu.pl/wp-content/uploads/2022/03/fine.jpeg'
+image:  '/images/fine.jpg'
 tags:   [spring, java, hibernate, jpa]
 ---
 
-Zdradzę Ci sekret.
+Jeśli pracujesz na co dzień z Javą i Hibernatem, są duże szanse, że Twój program zgłosił Ci wyjątek **LazyInitializaitonException**.
 
-Lomboka używam w każdym projekcie z Javą z jaką mam styczność.
+Z czego on wynika i jak sobie z nim poradzić?
 
-W każdym!
+## Najpierw przygotujmy sobie fragment kodu, w którym zpreprodukujemy dany przypadek.
 
-Zakładam, że Ty pewnie też.
-
-Adnotacje `@Data`, `@Value` czy `@RequiredArgsConstructor` zaoszczędzają mi mnóstwo czasu.
-
-(Java == Boilerplate code, itd ;).
-
-Ale!
-
-To nie wszystko funkcje, jakie skrywa w sobie Lombok.
-
-Zobacz 3 ciekawe możliwości, o których być może nie miałeś do tej pory pojęcia!
-
-<!--more-->
-
-# 1. Sneaky Throws
-
-Genialna sprawa.
-
-Adnotacja, dzięki której nie muszę deklarować tam i z powrotem `CheckedExceptions`, których i tak nie chcę w żaden sposób obsługiwać.
-
-Albo gdy muszę zaimplementować interfejs, który nie deklaruje rzucania wyjątkami.
-
-W takich sytuacjach sprawdza się znakomicie.
-
-Przed korzystaniem z tej adnotacji kod może wyglądać tak.
+Mamy dwie encje - `Comment` i `Blogpost`.
 
 ```java
-class CustomerService {
-
-  private ObjectMapper mapper;
-
-  public Customer parseJson(String json) throws JsonParsingException {
-      return mapper.readValue(json, Customer.class);
-  }
+@Entity
+public class Comment {
+    @Id
+    @GeneratedValue
+    private Long id;
+    private String author;
+    private String content;
 }
 ```
 
-Natomiast po dodaniu `@SneakyThrows` nie ma potrzeby pisać smutnego `throws Json....Exception`.
-
 ```java
-class CustomerService {
+@Entity
+public class Blogpost {
+    @Id
+    private Long id;
+    private String title;
+    private String content;
 
-  private ObjectMapper mapper;
-
-  @SneakyThrows
-  public Customer parseJson(String json) {
-      return mapper.readValue(json, Customer.class);
-  }
+    @OneToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @JoinColumn(name = "post_id")
+    private Set<Comment> comments;
 }
 ```
 
-Genialne! :)
+Jak widać, jest między nimi prosta relacja - **OneToMany**.
 
+Jeden wpis na blogu może mieć wiele komentarzy.
 
-# 2. Cleanup
-
-Umówmy się.
-
-Java powstała już jakiś czasu.
-
-I nie każda konstrukcja języka jest przyjemna do czytania.
-
-Jak na przykład zamykanie zasobów implementujących interfejs `AutoClosable`.
-
-Przed Javą 7 wyglądało to tak:
+Przygotujmy sobie teraz proste repozytorium do pobierania blogpostów.
 
 ```java
-public Customer parseFromFile(String file) {
-  Customer customer = null;
-  InputStream stream = new FileInputStream("foo.txt")
-  try {
-    customer = mapper.readValue(stream, Customer.class);
-  } finally {
-    stream.close();
-  }
-  return customer;
+public interface BlogpostRepository extends JpaRepository<Blogpost, Long> {
 }
 ```
 
-Od Javy 7 kwestia trochę się poprawiła.
+I napiszmy prosty test.
 
-Można wkładać zasób do bloku try-catch.
-
-Zamknięty zostanie automatycznie.
-
-```java
-public Customer parseFromFile(String file) {
-  Customer customer = null;
-  try (InputStream stream = new FileInputStream("foo.txt")) {
-    customer = mapper.readValue(stream, Customer.class);
-  }
-  return customer;
-}
-```
-
-Ale czy można lepiej?
-
-Oczywiście!
-
-Z pomocą przychodzi `Cleanup` z Lomboka :)
+1. Tworzymy zbiór komentarzy - z jednym komentarzem.
+2. Oraz jedną książkę - do której przypisujemy ten komentarz.
+3. W teście pobieramy samą książkę, a potem próbujemy zliczyć liczbę wszystkich komentarzy.
+4. W efekcie dostajemy **LazyInitializationException** 👻
 
 ```java
-@SneakyThrows
-public Customer parseFromFile(String file) {
-  @Cleanup InputStream stream = new FileInputStream(file);
-  return mapper.readValue(stream, Customer.class);
-}
-```
+@SpringBootTest
+class BlogpostTest {
 
-Zamiast 5 linii mamy 2! :) 
+    @Autowired
+    BlogpostRepository repository;
 
-# 3. Lazy Getter
-
-Jak zaimplementować mechanizm leniwego inicjalizowania zmiennej?
-
-Musimy podciągnąć rękawy, ubrudzić ręce i napisać taki smutny kodzik 👇
-
-(Wzorzec podwójnego mechanizmu blokującego - *double locking mechanism*).
-
-```java
-class Rates {
-  private Map<String, BigDecimal> rates = new HashMap<>();
-  private static final Object FETCH_LOCK = new Object();
-
-  public Map<String, BigDecimal> getRates() {
-    if(rates == null) {
-      synchronized(FETCH_LOCK) {
-        if(rates == null) {
-          rates = fetchRates();
-        }
-      }
+    @BeforeEach
+    public void setup() {
+        Set<Comment> comments = Set.of(
+            new Comment(1L, "Frodo Baggins", "One To Rule Them All!")
+        );
+        Blogpost blogpost = new Blogpost(1L, "Atlas Shrugged", "Who is John Galt?", comments);
+        repository.save(blogpost);
     }
-    return rates;
-  }
 
-  private Map<String, BigDecimal> fetchRates() {
-    // make a long HTTP call
-  }
+    @Test
+    void throwsLazyInitException() {
+        // when
+        Blogpost blogpost = repository.getById(1L);
+
+        // then
+        assertThrows(
+            LazyInitializationException.class,
+            () -> blogpost.getComments().size()
+        );
+    }
 }
 ```
 
-17 linii i całkiem spore pole do popełnienia błędu..
+> Po uruchomieniu tego testu zobaczymy zielony napis: TESTS PASSED ✅
 
-A jak to wygląda z Lombokiem?
+## Ok. A z czego to wynika?
 
-Dodajmy adnotację `@Getter(lazy = true)`.
+Relacja między `Blogpost` a `Comment` sprawia, że przy pobieraniu wpisu, komentarze pobierane są w sposób **Lazy**.
+
+Oznacza to, że jeśli nie wskażemy wprost, Hibernate nie zaciągnie tych dodatkowych wierszych do pamięci naszej aplikacji.
+
+Wynika to z optymalizacji, które Hibernate próbuje dla nas zrobić.
+
+Oraz z domyślnej wartości parametru `fetchType` w adnotacji `@OneToMany`.
+
+Sesja Hibernatowa (otwarte połączenie do bazy danych) jest tutaj krótkotrwała i odbywa się tylko w momencie zawołania kodu: `Blogpost blogpost = repository.getById(1L)`.
+
+Potem sesja (połączenie do bazy danych) jest zamykane i w momencie, gdy próbujemy pobrać komentarze do wpisu: `blogpost.getComments().size()` Hibernate nie ma już połączenia z bazą danych i informuje nas o tym wyjątkiem **LazyInitializaitonException**.
+
+## Jak to w takim razie naprawić?
+
+Rozwiązań jest kilka.
+
+Przyjrzyjmy się im po kolei.
+
+### Rozwiązanie 1 - Założenie transakcji.
 
 ```java
-class Rates {
-  @Getter(lazy = true)
-  private final Map<String, BigDecimal> rates = fetchRates();
+@Test
+@Transactional
+void fetchesBlogpostWithCommentsInTransaction() {
+    // when
+    Blogpost blogpost = repository.getById(1L);
 
-  private Map<String, BigDecimal> fetchRates() {
-    // make a long HTTP call
-  }
+    // then
+    assertEquals(1, blogpost.getComments().size());
 }
 ```
 
-6 lini!
+Najprostszy sposób. Przez zastosowanie adnotacji `@Transactional` instruujemy Hibernate-a by przez całą metodę testową miał otwartą sesję do bazy danych.
 
-I ten sam efekt.
+Dzięki temu w momencie zawołania `blogpost.getComments().size()` wykonywane są pod spodem kolejne zapytania SQL, które dociągają brakujące komentarze do naszej aplikacji.
 
-Skoro nie widać różnicy, to po co przepłacać? :)
+### Rozwiązanie 2 - Join Fetch
 
-...no chyba, że masz płacone za liczbę linii kodu...
+Minusem poprzedniego rozwiązania jest generowanie tak zwanego **problemu N + 1**.
 
-Ale to już temat na inną rozmowę 😅
+Między aplikacją a bazą danych wykonywanych jest zbyt wiele zapytań.
 
-# Szybkie podsumowanie.
+Rozwiązaniem może być skorzystanie z polecenia `JOIN FETCH`.
 
-1. Lombok jest zajebisty.
-2. Adnotacje @Value, @Data czy @RequiredArgsConstructor zna większość programistów.
-3. Ale stosowanie innych konstrukcji jak: `@SneakyThrows`, `@Cleanup` czy `@Getter(lazy = true)` może wznieść Twój kodzik na jeszcze wyższy poziom.
+```java
+public interface BlogpostRepository extends JpaRepository<Blogpost, Long> {
+    @Query("SELECT b FROM Blogpost b JOIN FETCH b.comments WHERE b.id = :id")
+    Blogpost getByIdWithComments(@Param("id") Long id);
+}
+```
 
-A Ty? Znałeś te adnotacje? :)
+W tym wypadku musimy zdefiniować dodatkowo zapytanie w `BlogpostRepository`, w którym definiujemy wprost, że chcemy by zależne encje były również od razu pobrane z bazy danych.
+
+```java
+@Test
+void fetchesBlogpostWithCommentsInSingleCall() {
+    // when
+    Blogpost blogpost = repository.getByIdWithComments(1L);
+
+    // then
+    assertEquals(1, blogpost.getComments().size());
+}
+```
+
+Test ponownie przechodzi, a my znacznie zredukowaliśmy liczbę zapytań do bazy.
+
+### Rozwiązanie 3 - Entity Graph
+
+Alternatywnym sposobem jest skorzystanie z konstrukcji `@EntityGraph`.
+Tak jak widać na poniższym fragmencie kodu.
+
+```java
+public interface BlogpostRepository extends JpaRepository<Blogpost, Long> {
+    @EntityGraph(attributePaths = {"comments"})
+    Blogpost getBlogpostGraphById(Long id);
+}
+```
+
+Efekt będzie podobny jak w **JOIN FETCH**, a nasz test ponownie będzie zielony.
+
+```java
+@Test
+void fetchesBlogpostWithCommentsGraph() {
+    // when
+    Blogpost blogpost = repository.getBlogpostGraphById(1L);
+
+    // then
+    assertEquals(1, blogpost.getComments().size());
+}
+```
+
+### Rozwiązanie 4 - Named Entity Graph
+
+Możemy też skorzystać z konstrukcji **Named Entity Graphs**.
+
+W tym przypadku definiujemy **nazwany graf encji** w definicji klasy i wskazujemy wprost, jakie dodatkowe relacje chcemy pobrać `attributeNodes = { @NamedAttributeNode("comments") }`.
+
+Nazwany graf encji `@NamedEntityGraph(name = "Blogpost.comments")` wykorzystamy potem w `JpaRepository`.
+
+```java
+@Entity
+@NamedEntityGraph(
+    name = "Blogpost.comments",
+    attributeNodes = { @NamedAttributeNode("comments") }
+)
+public class Blogpost {
+    @Id
+    private Long id;
+    private String title;
+    private String content;
+
+    @OneToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @JoinColumn(name = "post_id")
+    private Set<Comment> comments;
+}
+```
+
+```java
+public interface BlogpostRepository extends JpaRepository<Blogpost, Long> {
+    @EntityGraph("Blogpost.comments")
+    Blogpost getBlogpostNamedGraphById(Long id);
+}
+```
+
+I tak jak poprzednio, test przechodzi na zielono.
+
+```java
+@Test
+void fetchesBlogpostWithCommentsNamedGraph() {
+    // when
+    Blogpost blogpost = repository.getBlogpostNamedGraphById(1L);
+
+    // then
+    assertEquals(1, blogpost.getComments().size());
+}
+```
+
+### Rozwiązanie 5 - FetchType.EAGER (raczej! tego nie rób)
+
+Ostatnie, ale najmniej zalecane rozwiązanie.
+
+Zmiana sposobu pobierania encji z **Lazy** na **Eager**: `@OneToMany(..., fetch = FetchType.EAGER)`.
+
+```java
+@Entity
+public class Blogpost {
+    @Id
+    private Long id;
+    private String title;
+    private String content;
+
+    @OneToMany(
+        cascade = {CascadeType.MERGE, CascadeType.PERSIST},
+        fetch = FetchType.EAGER
+    )
+    @JoinColumn(name = "post_id")
+    private Set<Comment> comments;
+}
+```
+
+W tym przypadku komentarze zawsze będą pobierane, gdy będziemy z bazy pobierać też wpisy na bloga.
+
+
+```java
+@Test
+void fetchesCommentsEagerly() {
+    // when
+    Blogpost blogpost = repository.findById(1L).get();
+
+    // then
+    assertEquals(1, blogpost.getComments().size());
+}
+```
+Sprawi to, że test będzie zielony.
+
+Ale wydajnościowo może sprawić nam problemy.
+
+W końcu nie zawsze będziemy chcieli pobierać razem z wpisami ich wszystkie komentarze.
+
+W przypadku skorzystania z tej opcji, nie mamy możliwości wybory czy chcemy czy nie pobrać komentarze.
+
+W poprzednich rozwiązaniach, to my decydujemy, kiedy będziemy dodatkowe encje z bazy danych wyciągać.
+
+
+## W porządku. To z czego to wszystko wynika?
+
+1. Źródłem problemu jest tzw. lazy-loading.
+2. Optymalizacja, którą stosuje Hibernate przy zapewnić wysoką wydajność Twojej aplikacji.
+3. Niestety bez znajomości tego mechanizmu, działanie Twojej aplikacji - jak w zaprezentowanym u góry przykładzie - może być dla Ciebie zaskakujące.
+
+Dlatego przy relacjach OneToMany, ManyToOne i ManyToMany upewnij się, że w odpowiedni sposób rozwiązujesz kwestię relacji.

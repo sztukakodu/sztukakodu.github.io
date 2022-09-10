@@ -3,13 +3,11 @@ layout: post
 title:  17 Błędów Początkujących ze Współbieżnością
 description: Temat współbieżności nie należy do najłatwiejszych obszarów programowania. Na początku nauki często jest pomijany. Młodzi programiści skupiają się na nauce języka, paradygmatów programowania, czy pracy z bazą danych. Pominięcie temu współbieżności może jednak prowadzić do poważnych problemów. W tym wpisie przedstawię Ci 17 błędów, które często popełniają początkujący w tym zakresie.
 date:   2021-02-11 13:24:35 +0200
-image:  'https://sztukakodu.pl/wp-content/uploads/2021/02/bledy-wspolbizenosc.png'
+image:  '/images/bledy-wspolbieznosc.png'
 tags:   [java, wspołbieżność, wielowątkowość]
 ---
 
 Temat współbieżności nie należy do najłatwiejszych obszarów programowania. Na początku nauki często jest pomijany. Młodzi programiści skupiają się na nauce języka, paradygmatów programowania, czy pracy z bazą danych. Pominięcie temu współbieżności może jednak prowadzić do poważnych problemów. W tym wpisie przedstawię Ci 17 błędów, które często popełniają początkujący w tym zakresie.
-
-<!--more-->
 
 # 1. Ignorowanie problemu współbieżności
 Podstawowym problemem jest ignorowanie tematu współbieżności.
