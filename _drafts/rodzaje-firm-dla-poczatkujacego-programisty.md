@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Rodzaje Firm Dla Programisty - Jaką Wybrać? (Moje 10 lat doświadczenia)
-description: ...
-image: '/images/thinking.jpg'
+description: Jeśli stoisz przed wyborem kolejnego miejsca, skorzytaj z mojego doświadczenia i sprawdź, która firma może być najlepsza dla Ciebie.
+image: '/images/cowybrac.jpg'
 tags: [programista, kariera]
 ---
 
@@ -75,6 +75,24 @@ Minusy:
 
 # 100% Zdalna Firma Konsultingowa (z płaską strukturą)
 
+Po pracy w dynamicznym (😉) startupie, przyszedł czas na firmę w 100% zdalną (jeszcze zanim to było modne), świadczącą usługi dla klientów z zagranicy.
+
+Trochę jak Software House, ale z tą różnicą, że każdy pracownik miał większą autonomię, firmą składała się w ok. 90% z programistów i można było mieć większą swobodę decydowania o tym w jakich projektach i w jaki sposób bierze się udział.
+
+W moim czasie w firmie było ok. 50% osób i panowała tzw. "płaska struktura". Firma mocno wspierała projekty Open Source, można było udzielać się na konferencjach i pisać ciekawy wpisy na blogu.
+
+Największy minus - brak większego wspólnego celu. Członkowie firmy w zależności od projektu zbierali się w zespołu w ramach których razem współpracowali, ale firma jako całość nie dążyła do jakiejś wspólnej misji. Stąd brak było poczucia między pracownikami wspólnego celu.
+
+Plusy:
+1. Duża autonomia pracy, możliwość pracy z różnymi technologiami.
+2. Praca w 100% zdalna, bez sztywnych godzin pracy.
+3. Częściowa możliwość decydowania o projektach, w których bierze się udział.
+4. Super spotkania integracyjne każdego miesiąca w różnych miejscach Polski połączone z ciekawymi aktywnościami (jak wspólne wyjście w góry, czy przedstawienie w Teatrze Muzycznym).
+
+Minusy:
+1. Praca dla zewnętrznych klientów. Jesteś zależny od rodzaju projektu, typu klienta. Zdarzało się, że zamiast robić ciekawe, corowe projekty, robiło się jakieś poboczne projekciki o małym znaczeniu, co nie budowało motywacji do pracy.
+2. Częściowa możliwość decydowania o projektach, w których bierze się udział. 😉 Jeśli przez dłuższy czas nie ma dla Ciebie projektu "idealnego",  "musisz" dołączyć do czegoś innego. Czasami "wypisanie" się z takiego projektu, może nie być takie łatwe - przecież musisz zarabiać dla firmy.
+3. Ponownie (jak w innym Software House) - zarobki firmy pochodzą z marży ze "sprzedanych" programistów. Firma ma ograniczone możliwości skalowania, a Ty możliwości awansowania i zdobywania nowych doświadczeń.
 
 # Polski Startup z niedużym działem IT
 
