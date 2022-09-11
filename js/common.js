@@ -34,6 +34,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   };
 
+  // attach target=_blank for external URLs in main-nav
+  document.querySelectorAll(".main-nav a[href^='https://']").forEach(link => {
+    link.setAttribute('target', '_blank');
+  });
+
 
   // Theme Switcher
   function darkMode() {
