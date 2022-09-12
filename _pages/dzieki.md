@@ -6,7 +6,7 @@ title: Jeszcze tylko jeden krok...
 permalink: /dzieki/
 ---
 
-Potwierdź swoją subskrypcję na mailu, abym mógł wysyłać Ci wiadomości.
+Potwierdź swoją subskrypcję, abym mógł wysyłać Ci wiadomości.
 
 * [Otwórz moją skrzynkę Gmail](https://gmail.com)
 
