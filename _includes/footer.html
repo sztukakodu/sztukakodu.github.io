@@ -1,6 +1,7 @@
 <!-- begin footer -->
 <footer class="footer">
 
+  {% if page.footer %}
   <div class="footer__gallery">
     {% if site.data.settings.gallery %}
     <div class="gallery">
@@ -65,6 +66,7 @@
       </div>
     </div>
   </div>
+  {% endif %}
 
   <div class="container">
     <div class="row">
