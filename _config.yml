@@ -24,10 +24,10 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /projekty/:slug
 
 # Pages Path
 defaults:
