@@ -1,0 +1,32 @@
+---
+layout: page
+title: Kontakt
+footer: false
+permalink: /kontakt/
+---
+
+<div class="form-box">
+  <div class="contact-head">
+      <p class="contact-description">
+        Masz pytanie, propozycję współpracy, chcesz się ze mną skontaktować?<br/>Wypełnij formularz.
+        <br/>Odpisuję na wszystkie wiadomości (zazwyczaj w ciągu 24 godzin).</p>
+  </div>
+  <form class="form" action="{% if site.data.settings.contact.form_id %}https://formspree.io/f/{{site.data.settings.contact.form_id}}{% else %}#{% endif %}" method="POST">
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-name">Twoje Imię</label>
+      <input class="form__input" id="form-name" type="text" name="name" placeholder="Twoje Imię" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-email">Twój Email</label>
+      <input class="form__input" id="form-email" type="email" name="email" placeholder="Twój Email" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-text">Twoja Wiadomość</label>
+      <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Twoja Wiadomość" required></textarea>
+    </div>
+    <div class="form__group">
+      <input type="hidden" name="_language" value="pl" />
+      <button class="button button--primary" type="submit">Wyślij wiadomość</button>
+    </div>
+  </form>
+</div>
