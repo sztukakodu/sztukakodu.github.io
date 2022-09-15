@@ -170,6 +170,14 @@
   }
 }
 
+.wide-video {
+  margin-top: 2em;
+  width: 100vw;
+  max-width: 968px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Share */
 .post__share {
   padding-bottom: 48px;
