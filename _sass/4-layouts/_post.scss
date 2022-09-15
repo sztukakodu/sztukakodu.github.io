@@ -225,6 +225,14 @@
       }
     }
 
+    &.share__linkedin {
+      background-color: #0072b1;
+
+      &:hover {
+        background-color: darken(#0072b1, 10%);
+      }
+    }
+
     &.share__pinterest {
       background-color: #bd081c;
 

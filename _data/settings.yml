@@ -150,7 +150,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-# disqus-identifier: sztuka-kodu # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: sztuka-kodu # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
