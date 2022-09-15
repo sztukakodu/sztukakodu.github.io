@@ -29,7 +29,7 @@ menu__settings:
 author:
   author__name: Dariusz Mydlarz
   author__bio: Java Developer z ponad 10-letnim doświadczeniem. Uwielbiam Springa, Mikroserwisy i czysty kod.
-  author__avatar: 'https://sztukakodu.pl/wp-content/uploads/2021/04/dario-bluza.jpeg'
+  author__avatar: '/images/darek-bluza.jpeg'
   author__link: https://www.linkedin.com/in/darekmydlarz/
 
 social:

@@ -20,12 +20,13 @@
 
   <div class="article__meta">
     <div class="article-info">
-      <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.data.settings.author.author__name}}</a> –
+      <!-- <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.data.settings.author.author__name}}</a> -->
+      {{site.data.settings.author.author__name}} –
       <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
     </div>
   </div>
 
-  <p class="article__excerpt">
+  <!-- <p class="article__excerpt">
     {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}
-  </p>
+  </p> -->
 </div>
