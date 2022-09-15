@@ -11,7 +11,8 @@
 
   <!-- LinkedIn -->
   <meta name="author" content="{{ site.data.settings.author.author__name }}">
-  {% if page.date %}<meta name="publish_date" property="og:publish_date" content="{{ page.date }}">{% endif %}
+  {% if page.date %}<meta name="publish_date" property="og:publish_date" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
