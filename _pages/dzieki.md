@@ -17,6 +17,6 @@ To wszystko, bardzo Ci dziękuję!
 ## Nie możesz znaleźć wiadomości na Gmailu?
 Sprawdź zakładkę Oferty lub Powiadomienia.
 
-* [Otwórz moją skrzynkę Gmail](https://gmail.com){: .no-lightense }
+* [Otwórz moją skrzynkę Gmail](https://gmail.com)
 
-![ofert](/images/newsletter_glowne.png)
+![ofert](/images/newsletter_glowne.png){: .no-lightense }
