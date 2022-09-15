@@ -9,6 +9,8 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.data.settings.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  {% if page.sitemap == false %}<meta name="robots" content="noindex">{% endif %}
+
   <!-- LinkedIn -->
   <meta name="author" content="{{ site.data.settings.author.author__name }}">
   {% if page.date %}<meta name="publish_date" property="og:publish_date" content="{{ page.date | date_to_xmlschema }}">{% endif %}
