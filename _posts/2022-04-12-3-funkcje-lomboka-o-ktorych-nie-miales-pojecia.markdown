@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  3 Funkcje Lomboka, O Których Nie Miałeś Pojęcia
+title: 3 Funkcje Lomboka, O Których Nie Miałeś Pojęcia
 description: Lombok to jedna z najczęściej używanych bibliotek w Javie. Pozwala zaoszczędzić czas (i pieniądze!) programisty. Poznaj te, o których nie każdy wie!
-date:   2022-04-12 12:24:35 +0200
-image:  /images/niewiedziales.jpg
-tags:   [lombok, java, spring]
+date: 2022-04-12 12:24:35 +0200
+image: /images/niewiedziales.jpg
+tags: [lombok, java, spring]
 ---
 
 Zdradzę Ci sekret.
 
-Lomboka używam w każdym projekcie z Javą z jaką mam styczność.
+Lomboka używam w każdym projekcie w Javie, z jakim mam styczność.
 
 W każdym!
 
@@ -17,19 +17,14 @@ Zakładam, że Ty pewnie też.
 
 Adnotacje `@Data`, `@Value` czy `@RequiredArgsConstructor` zaoszczędzają mi mnóstwo czasu.
 
-(Java == Boilerplate code, itd ;).
 
-Ale!
-
-To nie wszystko funkcje, jakie skrywa w sobie Lombok.
+Ale to nie wszystkie funkcje, jakie skrywa w sobie Lombok.
 
 Zobacz 3 ciekawe możliwości, o których być może nie miałeś do tej pory pojęcia!
 
 # 1. Sneaky Throws
 
-Genialna sprawa.
-
-Adnotacja, dzięki której nie muszę deklarować tam i z powrotem `CheckedExceptions`, których i tak nie chcę w żaden sposób obsługiwać.
+Adnotacja, dzięki której nie muszę deklarować `CheckedExceptions`, których i tak nie chcę w żaden sposób obsługiwać.
 
 Albo gdy muszę zaimplementować interfejs, który nie deklaruje rzucania wyjątkami.
 
@@ -48,7 +43,7 @@ class CustomerService {
 }
 ```
 
-Natomiast po dodaniu `@SneakyThrows` nie ma potrzeby pisać smutnego `throws Json....Exception`.
+Natomiast po dodaniu `@SneakyThrows` nie ma potrzeby pisać `throws JsonParsingException`.
 
 ```java
 class CustomerService {
@@ -62,7 +57,7 @@ class CustomerService {
 }
 ```
 
-Genialne! :)
+Dzięki temu klient klasy `CustomerService` nie musi przejmować się obsługą wyjątku w metodzie `parseJson`, którego i tak nie chciałby w żaden sposób obsłużyć.
 
 
 # 2. Cleanup
@@ -73,7 +68,7 @@ Java powstała już jakiś czasu.
 
 I nie każda konstrukcja języka jest przyjemna do czytania.
 
-Jak na przykład zamykanie zasobów implementujących interfejs `AutoClosable`.
+Jak, na przykład, zamykanie zasobów implementujących interfejs `AutoClosable`.
 
 Przed Javą 7 wyglądało to tak:
 
@@ -94,7 +89,7 @@ Od Javy 7 kwestia trochę się poprawiła.
 
 Można wkładać zasób do bloku try-catch.
 
-Zamknięty zostanie automatycznie.
+A ten zamknięty zostanie automatycznie.
 
 ```java
 public Customer parseFromFile(String file) {
@@ -128,7 +123,6 @@ Jak zaimplementować mechanizm leniwego inicjalizowania zmiennej?
 
 Musimy podciągnąć rękawy, ubrudzić ręce i napisać taki smutny kodzik 👇
 
-(Wzorzec podwójnego mechanizmu blokującego - *double locking mechanism*).
 
 ```java
 class Rates {
@@ -151,6 +145,8 @@ class Rates {
   }
 }
 ```
+*(Wzorzec podwójnie sprawdzanego blokowania - ang. double-checked locking)*
+
 
 17 linii i całkiem spore pole do popełnienia błędu..
 
