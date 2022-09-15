@@ -106,7 +106,7 @@ testimonial__items:
 # Blog Section
 blog__settings:
   blog__title: Ostatnie wpisy
-  blog__description:
+  blog__description: Zanurz się w świecie Javy i programowania
 
 
 #-------------------------------
