@@ -14,7 +14,6 @@ Obecnie uważana jest za jeden z najpopularniejszych języków programowania na 
 
 Co jeszcze warto o niej wiedzieć?
 
-
 ## 1. Została stworzona w 1995 roku w firmie Sun Microsystems
 
 Pierwsza wersja języka Java została opublikowana w 1995 roku. 
