@@ -14,7 +14,7 @@ plugins:
   - jekyll-feed
 
 paginate: 9
-paginate_path: "/blog/page/:num"
+paginate_path: "/blog/strona/:num"
 
 
 feed:
