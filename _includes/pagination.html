@@ -9,7 +9,7 @@
             {% if paginator.previous_page == 1 %}
               <a class="previous-link" href="/blog/">&laquo;</a>
             {% else %}
-              <a class="previous-link" href="/blog/page/{{ paginator.previous_page }}/">&laquo;</a>
+              <a class="previous-link" href="/blog/strona/{{ paginator.previous_page }}/">&laquo;</a>
             {% endif %}
       
           {% else %}
@@ -27,13 +27,13 @@
             {% if count == paginator.page %}
               <span class="active-link">{{ count }}</span>
               {% else %}
-                <a class="count-number" href="/blog/page/{{ count }}/">{{ count }}</a>
+                <a class="count-number" href="/blog/strona/{{ count }}/">{{ count }}</a>
               {% endif %}
             {% endfor %}
           </div>
       
           {% if paginator.next_page %}
-            <a class="next-link" href="{{ site.baseurl }}/blog/page/{{ paginator.next_page }}/">&raquo;</a>
+            <a class="next-link" href="{{ site.baseurl }}/blog/strona/{{ paginator.next_page }}/">&raquo;</a>
           {% else %}
             <span class="disabled">&raquo;</span>
           {% endif %}
