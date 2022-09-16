@@ -3,7 +3,7 @@ layout:	video
 title: Jak (łatwo) mierzyć ruch HTTP w Springu?
 description: Dowiedz się jak wykorzystać Micrometer, Prometheusa i Grafanę do pomiaru ruchu HTTP w Twojej aplikacji w Springu.
 image: /images/metryki-video.png
-tags: [monitoring, metryki, prometheus, grafana, observability]
+tags: [monitoring, metryki, prometheus, grafana]
 video: ypF30j6ni64
 ---
 
