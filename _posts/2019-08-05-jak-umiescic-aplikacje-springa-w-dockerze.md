@@ -3,7 +3,7 @@ layout: post
 title: Jak umieścić aplikację Springa w Dockerze
 description: 
 image: /images/docker.png
-tags: []
+tags: [spring, docker, narzędzia]
 ---
 
 Kontenery stały się jedną z najważniejszych zmian technologicznych w kontekście wytwarzania oprogramowania ostatnich lat. Niezależnie od języka programowania, bycia frontend lub backend deweloperem, testerem czy devopsem, każdy ma dzisiaj styczność z Dockerem i aplikacjami uruchamianymi z kontenera. W jaki sposób umieścić naszą aplikację Springową w kontenerze? Zapraszam.Więc aby stworzyć obraz Dockerowy dla naszej aplikacji potrzebujemy wykonać następujące kroki:

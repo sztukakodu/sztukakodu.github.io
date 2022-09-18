@@ -3,7 +3,7 @@ layout: post
 title: Jak mądrze testować CZAS ⏰ w Javie?
 description: 
 image: /images/czas.png
-tags: []
+tags: [testowanie, czas, java]
 ---
 
 Data utworzenia, data modyfikacji, data wygenerowania. Nasze systemy często potrzebują wstawić takie informacje do obiektów, którymi zarządzają. Ale jak przetestować, że poprawna wartość została wpisana do takich pól? O tym, w poniższym wpisie.Spójrzmy na fragment kodu.

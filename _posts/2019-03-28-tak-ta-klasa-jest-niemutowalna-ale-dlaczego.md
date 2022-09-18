@@ -3,7 +3,7 @@ layout: post
 title: Tak, ta klasa jest niemutowalna. Ale dlaczego?
 description: 
 image: /images/immutable.jpg
-tags: []
+tags: [java, design, wzorce]
 ---
 
 Czy klasa, która zwraca różne wartości może być niemutowalna? Wydawało by się, że nie, ale ja uważam, że tak. I w tym wpisie cię do tego przekonam.Zacznijmy od tego, czym jest klasa niemutowalna - _ang. immutable_. Jest to klasa, której zmienne instancyjne mogą zostać ustawione tylko raz i nie mogą być modyfikowane. Jakiś czas temu [Yegor Bugayenko](https://twitter.com/yegor256/status/1097056700517863424) opublikował poniższy fragment kodu na Twitterze z pytaniem czy zaprezentowana klasa jest niemutowalna.

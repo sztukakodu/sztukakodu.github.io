@@ -2,8 +2,8 @@
 layout: post
 title: Mikroserwisy a Monolity - Kiedy Jest Właściwy Czas Na Migrację?
 description: 
-image: /images/mikrsoerwisy.jpg
-tags: []
+image: /images/mikroserwisy.jpg
+tags: [mikroserwisy, architektura, praktyki]
 ---
 
 Od dobrych kilku lat mikroserwisy znajdują się w czołówce tematów rozmów w środowisku programistycznym. Programiści marzą, by pracować w tej architekturze, a konferencje wypełnione są prezentacjami na jej temat. Po pewnym czasie pojawiły się jednak głosy, że mikroserwisy nie są lekiem na wszystko i czasami lepiej jest tworzyć aplikację w formie monolitu. Kiedy zatem nadchodzi ten właściwy moment, by przeprowadzić migrację z jednego dużego serwisu na wiele mniejszych? **Mikroserwisy** to architektura, w której jedna aplikacja stworzona jest z wielu fizycznie działających programów, współpracujących i komunikujących się ze sobą. Podejście to umożliwia podział systemu na mniejsze części, pozwala na niezależne rozwijanie jego funkcji i tworzenie mniejszych, bardziej zwinnych zespołów. W monolitach zaś cały system obsługiwany jest przez jedną aplikację, będącą efektem pracy wielu osób współpracujących ze sobą. Ze względu na jej rozmiary czas potrzebny na opublikowanie nowej wersji jest dłuższy, a koordynacja prac między zespołami programistycznymi wymaga dużo wysiłku. Jako dobrą praktykę od kilku lat rekomenduje się rozpoczęcie tworzenia swojego systemu w formie monolitu, a dopiero po pewnym czasie przejście na architekturę mikroserwisową. Ale kiedy właściwie jest odpowiedni moment na taką zmianę? Oto 6 sygnałów świadczących o tym, że właśnie nadszedł.

@@ -3,7 +3,7 @@ layout: post
 title: Łatwe debugowanie z identyfikatorami błędów
 description: 
 image: /images/ladybug.jpg
-tags: []
+tags: [debugowanie, craftsmanship, testowanie]
 ---
 
 Debugowanie aplikacji to jedna z najważniejszych umiejętności programisty. To frustrujące, gdy trudno jest nam odnaleźć błąd w logach aplikacji. Ogromnym ułatwieniem może być generowanie unikalnych identyfikatorów występujących błędów.Niedawno odkryłem ciekawą technikę. Otóż za każdym razem, kiedy aplikacja webowa generuje niespodziewany błąd do jej odpowiedzi dodawany jest unikalny identyfikator. Więc jeśli do tej pory odpowiedź na żądanie wyglądała w taki sposób:

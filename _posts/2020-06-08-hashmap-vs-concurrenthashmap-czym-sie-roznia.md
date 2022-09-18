@@ -3,7 +3,7 @@ layout: post
 title: HashMap vs ConcurrentHashMap - Czym Się Różnią? 🗺
 description: 
 image: /images/concurrentmap.png
-tags: []
+tags: [hashmap, concurrenthashmap, java, współbieżność]
 ---
 
 Mapa to jedna z najczęściej używanych kolekcji przez programistów Javy. Za każdym razem, kiedy potrzebujemy odczytywać obiekty za pomocą klucza, korzystamy z tego właśnie typu. Ale czy na pewno dobrze to robimy? Czy używamy odpowiedniej implementacji?Najpopularniejsza implementacja mapy, którą spotyka się na co dzień to HashMapa. Dzięki zastosowaniu funkcji hashującej, która oblicza, gdzie w strukturze HashMapy powinien znaleźć się nasz obiekt, otrzymujemy bardzo dobrą wydajność takiej kolekcji. Nie każdy jednak wie, że na HashMapę należy uważać. O ile daje nam ona dobrą wydajność, o tyle nie zapewnia żadnych gwarancji w kontekście wielowątkowości! [sc name="webinar"]

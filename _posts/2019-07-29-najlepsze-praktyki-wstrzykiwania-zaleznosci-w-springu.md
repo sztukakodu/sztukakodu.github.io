@@ -3,7 +3,7 @@ layout: post
 title: Najlepsze Praktyki Wstrzykiwania Zależności w Springu
 description: 
 image: /images/di.png
-tags: []
+tags: [spring, początkujący]
 ---
 
 Wstrzykiwanie zależności to najważniejsza funkcja Springa. To dzięki niemu nie musimy ręcznie tworzyć całego grafu obiektów naszej aplikacji. Wystarczy, że zarejestrujemy nasze _beany_ w kontekście Springa a ten automatycznie zajmie się dostarczeniem ich w potrzebne miejsca. O ile technika ta jest bardzo przydatna i popularna, o tyle nie trudno ustrzec się od błędów. Zapraszam do wpisu, w którym zaprezentuję dobre i złe praktyki z nią związane.

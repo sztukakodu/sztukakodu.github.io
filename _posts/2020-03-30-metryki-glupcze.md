@@ -3,7 +3,7 @@ layout: post
 title: Metryki, GŁUPCZE!
 description: 
 image: /images/metryki.jpg
-tags: []
+tags: [metryki, observability, monitoring]
 ---
 
 Jaki jest warunek niezawodności systemu na produkcji? No jak to jaki? 100% pokrycia kodu testami! No raczej nie ¯\_(ツ)\_/¯ . Nawet najlepiej przetestowane oprogramowanie może powodować błędy. W takim razie, co robić? Zapraszam, to się dowiesz!Też przechodziłeś te same etapy dotyczące testowania i jakości oprogramowania co ja? Jak to było? To może po kolei.

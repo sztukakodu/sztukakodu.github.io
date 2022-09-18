@@ -3,7 +3,7 @@ layout: post
 title: Jak definiować kody HTTP odpowiedzi w Springu?
 description: 
 image: /images/kody-http.jpg
-tags: []
+tags: [spring, http, rest api]
 ---
 
 Czy zdarzyło Ci się otrzymać odpowiedź HTTP z kodem 200 OK i wiadomością: `Ooops, something went wrong`? Jeśli tak, wiesz jaki to ból. Jeśli programujesz w Springu i nie chciałbyś sprawiać podobnej przykrości innym osobom, ten wpis jest dla Ciebie! Poznaj sposoby definiowania kodów odpowiedzi w swoich kontrolerach.

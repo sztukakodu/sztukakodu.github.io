@@ -3,7 +3,7 @@ layout: post
 title: Jak zmapować relację Many to Many i nie zwariować?
 description: 
 image: /images/relacje.png
-tags: []
+tags: [spring, hibernate, relacje]
 ---
 
 Po raz kolejny próba zmapowania relacji Wiele do Wielu (ang. Many to Many) w Hibernate doprowadza Cię do frustracji? Znam to uczucie. Zapraszam Cię do przewodnika, dzięki któremu to już nigdy nie będzie dla Ciebie problemem.

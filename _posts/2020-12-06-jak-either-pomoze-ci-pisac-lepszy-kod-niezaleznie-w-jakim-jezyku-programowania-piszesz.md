@@ -3,7 +3,7 @@ layout: post
 title: Jak Either pomoże Ci pisać lepszy kod - niezależnie w jakim języku programowania piszesz!
 description: 
 image: /images/lepszykod.jpg
-tags: []
+tags: [either, craftsmanship, java]
 ---
 
 Wykonanie metod w programach może bardzo często zakończyć się na jeden z dwóch sposób. Pierwszy - sukcesem. Operacja kończy się poprawnie, dane wejściowe są w porządku, warunki wykonania algorytmu są prawidłowe, można zwrócić wynik do wołającego. Są też jednak sytuacje, gdy zawołana metoda nie może zostać wykonana.Dany użytkownik nie ma uprawnień, zamówienie nie może zostać zrealizowane, wprowadzone zostały niepoprawne dane. Co wtedy zrobić? Częstym sposobem radzenia sobie z taką sytuacją przez programistów jest rzucanie wyjątkami. Niestety ma to swoje minusy. Wyjątki zaśmiecają kod. Zobaczmy na przykładową metodę.

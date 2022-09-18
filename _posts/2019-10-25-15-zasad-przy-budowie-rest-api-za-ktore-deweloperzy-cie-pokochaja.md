@@ -3,7 +3,7 @@ layout: post
 title: 15 Zasad Przy Budowie REST API, Za Które Deweloperzy Cię Pokochają 🥰
 description: 
 image: /images/15rest.png
-tags: []
+tags: [spring, rest, api]
 ---
 
 Kiedy pierwszy raz spotkałem się z REST API od razu je pokochałem. Czysty, czytelny sposób komunikacji między usługami z jasno określonymi zasadami. Nic dziwnego, że od jakiegoś już czasu jest to najchętniej wybierane rozwiązanie przez deweloperów aplikacji webowych, czy mobilnych. W tym wpisie prezentuję Ci 15 zasad, dzięki którym zbudujesz REST API, za które deweloperzy Cię pokochają.

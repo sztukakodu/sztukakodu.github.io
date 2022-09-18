@@ -3,7 +3,7 @@ layout: post
 title: Jeden By Wszystkim Rządzić - SDKMAN!
 description: 
 image: /images/sdkman.png
-tags: []
+tags: [sdkman, narzędzia, terminal]
 ---
 
 Czy znasz to denerwujące uczucie, gdy potrzebujesz zainstalować nową wersję języka na swój komputer? Szukanie w internecie odpowiedniej instalki, pobieranie i uruchamianie sprawia, że zawsze odechciewa Ci się upgrade-u. A co w sytuacji, gdy potrzebujesz wielu wersji języka w zależności od projektu? Wtedy sprawa jest jeszcze bardziej irytująca i masz dość zarządzania środowiskami uruchomieniowymi. Ja też tak miałem. Do kiedyś.Potem trafiłem na narzędzie [SKDMAN!](https://sdkman.io/) i mój świat zmienił się w lepsze miejsce. SDKMAN! to narzędzie do zarządzania środowiskami uruchomieniowymi dla różnych języków JVM-owych, wzorowane na projektach ze świata Rubiego (rbenv), czy Node.js-a (nvm). Z jego pomocą instalacja odpowiedniej wersji Javy, Scali, czy Grooviego nie jest już problemem. Wystarczy sprawdzić jakie wersje są dostępne, a potem zainstalować odpowiednią.

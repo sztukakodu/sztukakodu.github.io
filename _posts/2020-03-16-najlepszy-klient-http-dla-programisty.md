@@ -3,7 +3,7 @@ layout: post
 title: Najlepszy klient HTTP dla programisty
 description: 
 image: /images/ideahttp.jpg
-tags: []
+tags: [http, narzędzia, intellij]
 ---
 
 Dzisiaj mam dla Ciebie wpis, który odmieni Twoje developerskie życie.Jeśli korzystasz z IntelliJ IDEA Ultimate (a powinieneś, jeśli szanujesz swój czas i pracodawcy), to mam do Ciebie prośbę. Utwórz plik `requests.http` w katalogu `dev` Twojego projektu. Wpisz do niego:

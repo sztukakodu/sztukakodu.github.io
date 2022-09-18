@@ -3,7 +3,7 @@ layout: post
 title: Czym jest kontekst Springa i jak uruchamiać go w testach?
 description: 
 image: /images/spring-context.png
-tags: []
+tags: [spring, kontekst, testy]
 ---
 
 Spring w najkrótszej definicji to wielka mapa obiektów. Poprzez wstrzykiwanie zależności framework zajmuje się tworzeniem grafu obiektów za nas. Całość zarządzana jest przez `ApplicationContext`, który jest sercem aplikacji.Dzisiaj artykuł będący odpowiedzią na [pytanie](https://strony.sztukakodu.pl/pytanie) zadane mi przez jednego z czytelników.

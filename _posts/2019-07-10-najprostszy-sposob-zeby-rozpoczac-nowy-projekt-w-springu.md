@@ -3,7 +3,7 @@ layout: post
 title: Najprostszy Sposób, Żeby Rozpocząć Nowy Projekt w Springu
 description: 
 image: /images/startspring.png
-tags: []
+tags: [spring, początkujący]
 ---
 
 Spring to najpopularniejszy obecnie framework służący do budowania aplikacji w Javie. Oferty pracy niemal zawsze wymieniają go w wymaganiach. Ale na początku zawsze musi być ten pierwszy krok - czyli wystartowanie nowego projektu. Jak to zrobić? Zapraszam do środka!Jeśli chcesz rozpocząć nowy projekt masz dwa wyjścia:

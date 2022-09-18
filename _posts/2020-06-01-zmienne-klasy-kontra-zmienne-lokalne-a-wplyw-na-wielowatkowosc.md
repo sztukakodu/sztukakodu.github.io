@@ -3,7 +3,7 @@ layout: post
 title: Zmienne klasy kontra zmienne lokalne a wpływ na wielowątkowość ⚔️
 description: 
 image: /images/zmiennelokalne.png
-tags: []
+tags: [współbieżność, wątki, wielowątkowość]
 ---
 
 Jedną z najważniejszych rzeczy podczas tworzenia aplikacji webowych, jest upewnienie się, że będą one działać bezpiecznie przy dostępie wielowątkowym. Jednym z istotnych elementów, które należy wziąć pod uwagę, jest widoczność zmiennych. W tym wpisie tłumaczę, czym różnią się zmienne klasy od zmiennych metod w kontekście wielowątkowości.[sc name="webinar"] Weźmy pod uwagę poniższą klasę `Employee`. Mamy w niej do czynienia ze zmienną klasową `workedHours` oraz ze zmienną lokalną&nbsp;`hoursSum` w metodzie `yearlyHours`. W kontekście wielowątkowości obie te zmienne mają odmienną charakterystykę.
