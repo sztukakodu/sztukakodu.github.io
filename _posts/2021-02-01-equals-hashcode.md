@@ -2,7 +2,7 @@
 layout:	post
 title: Nigdy nie popełniaj tego błędu mapując ID encji w JPA / Hibernate
 description: 
-image: /images/1500x1000.png
+image: /images/uwazaj.jpg
 tags: [spring, jpa, hibernate]
 ---
 

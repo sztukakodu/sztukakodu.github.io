@@ -2,7 +2,7 @@
 layout: post
 title: Jak pracować z propertiesami w Springu? Najlepsze praktyki i rady
 description: 
-image: /images/1500x1000.png
+image: /images/najlepsze-praktyki.jpg
 tags: []
 ---
 

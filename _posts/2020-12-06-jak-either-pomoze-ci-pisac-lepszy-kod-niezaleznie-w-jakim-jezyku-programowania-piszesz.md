@@ -2,35 +2,39 @@
 layout: post
 title: Jak Either pomoże Ci pisać lepszy kod - niezależnie w jakim języku programowania piszesz!
 description: 
-image: /images/1500x1000.png
+image: /images/lepszykod.jpg
 tags: []
 ---
 
 Wykonanie metod w programach może bardzo często zakończyć się na jeden z dwóch sposób. Pierwszy - sukcesem. Operacja kończy się poprawnie, dane wejściowe są w porządku, warunki wykonania algorytmu są prawidłowe, można zwrócić wynik do wołającego. Są też jednak sytuacje, gdy zawołana metoda nie może zostać wykonana.Dany użytkownik nie ma uprawnień, zamówienie nie może zostać zrealizowane, wprowadzone zostały niepoprawne dane. Co wtedy zrobić? Częstym sposobem radzenia sobie z taką sytuacją przez programistów jest rzucanie wyjątkami. Niestety ma to swoje minusy. Wyjątki zaśmiecają kod. Zobaczmy na przykładową metodę.
 
-    public Order placeOrder(OrderCommand command) throws OutOfStockException {
-        if(inventory.isAvailable(command.productId(), command.quantity())) {
-            throw new OutOfStockException(command.productId(), command.quantity());
-        }
-        if(...) {
-            ...
-        }
-        return order;
+```java
+public Order placeOrder(OrderCommand command) throws OutOfStockException {
+    if(inventory.isAvailable(command.productId(), command.quantity())) {
+        throw new OutOfStockException(command.productId(), command.quantity());
     }
+    if(...) {
+        ...
+    }
+    return order;
+}
+```
 
 Powyższa metoda musi zadeklarować jaki wyjątek rzuca. Co więcej, gdy powodów, dla których operacja biznesowa może się nie udać potrzebne będą kolejne wyjątki. Wtedy metoda musi zadeklarować je wszystkie, wyciągnąć je do wspólnej klasy bazowej lub po prostu deklarować, że rzuca nic nie mówiący `Exception`. Z kolei, gdy zamienimy typ wyjątku na `unchecked` to, co prawda upraszczamy sygnaturę metody, ale z kolei wołający metodę `placeOrder` traci informację, że coś może pójść nie tak i może pomyłkowo założyć, że ta operacja biznesowa zawsze się uda. W żaden sposób nie zabezpieczy się przed potencjalnymi problemami.
 ## Wtedy wchodzi Either - cały na biało
 Świetnym sposobem rozwiązania tego problemu może być zastosowanie typu `Either` pochodzącego ze świata funkcyjnego! Jak to wygląda? Zobaczmy na poniższy fragment.
 
-    public Either<Error, Order> placeOrder(PlaceOrderCommand command) {
-        if(inventory.isAvailable(command.productId(), command.quantity())) {
-            return Either.left(Error.of("OUT_OF_STOCK_EXCEPTION"))
-        }
-        if(...) {
-            ...
-        }
-        return Either.right(order);
+```java
+public Either<Error, Order> placeOrder(PlaceOrderCommand command) {
+    if(inventory.isAvailable(command.productId(), command.quantity())) {
+        return Either.left(Error.of("OUT_OF_STOCK_EXCEPTION"))
     }
+    if(...) {
+        ...
+    }
+    return Either.right(order);
+}
+```
 
 Tym razem nie rzucamy żadnym wyjątkiem, metoda jasno deklaruje, że może zakończyć się zarówno sukcesem jak i błędem, a w przypadku większej ilości problemów nie powoduje zwiększenia liczby deklarowanych błędów.
 
@@ -39,37 +43,41 @@ Tym razem nie rzucamy żadnym wyjątkiem, metoda jasno deklaruje, że może zako
 ## Jak działa Either?
 `Either` to klasa deklarująca dwie wartości. Lewa - błąd. Prawa - sukces. To wszystko. Samą klasę `Either` możesz znaleźć w bibliotece [Vavr](https://www.vavr.io/). Lub przygotować własną uproszczoną implementację. Na przykład taką.
 
-    public class Either<E, S> {
-        private final E error;
-        private final S success;
-    
-        public static <E, S> Either<E, S> error(E error) {
-            return new Either<>(error, null);
-        }
-    
-        public static <E, S> Either<E, S> success(E, S success) {
-            return new Either<>(null, success);
-        }
-    
-        public <T> T handle(Function<S, T> onSuccess, Function<E, T> onError) {
-            if(success != null) {
-                return onSuccess.apply(success);
-            } else {
-                return onError.apply(error);
-            }
+```java
+public class Either<E, S> {
+    private final E error;
+    private final S success;
+
+    public static <E, S> Either<E, S> error(E error) {
+        return new Either<>(error, null);
+    }
+
+    public static <E, S> Either<E, S> success(E, S success) {
+        return new Either<>(null, success);
+    }
+
+    public <T> T handle(Function<S, T> onSuccess, Function<E, T> onError) {
+        if(success != null) {
+            return onSuccess.apply(success);
+        } else {
+            return onError.apply(error);
         }
     }
+}
+```
 
 Jak widzisz klasa jest generyczna i może przyjmować wybrane przez Ciebie typy zarówno do oznaczenia błędu jak i sukcesu wykonania danej metody. To co jest w niej eleganckie, to późniejsza obsługa wyniku z takiej metody. Może to wyglądać następująco.
 
-    @PostMapping
-    public ReponseEntity<?> placeOrder(PlaceOrderCommand command) {
-        return orderService.placeOrder(command)
-            .handle(
-                success -> ReponseEntity.ok(success),
-                error -> new ReponseEntity(error.message(), error.code())
-            );
-    }
+```java
+@PostMapping
+public ReponseEntity<?> placeOrder(PlaceOrderCommand command) {
+    return orderService.placeOrder(command)
+        .handle(
+            success -> ReponseEntity.ok(success),
+            error -> new ReponseEntity(error.message(), error.code())
+        );
+}
+```
 
 Eleganckie, funkcyjnie skonsumowanie wyniku.
 
