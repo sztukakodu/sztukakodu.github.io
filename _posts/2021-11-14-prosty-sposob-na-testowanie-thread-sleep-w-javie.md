@@ -3,7 +3,7 @@ layout:	post
 title: Prosty sposób na testowanie Thread.sleep w Javie
 description: Jeśli korzystasz w swoim kodzie z konstrukcji Thread.sleep, ale zawsze miałeś problem z tym by ją prawidłowo przetestować, ten wpis jest dla Ciebie :).
 image: /images/prosty-sposob.jpg
-tags: [java, współbieżność, testowanie]
+tags: [java, wspolbieznosc, testowanie]
 ---
 
 Jeśli korzystasz w swoim kodzie z konstrukcji `Thread.sleep`, ale zawsze miałeś problem z tym by ją prawidłowo przetestować, ten wpis jest dla Ciebie :).

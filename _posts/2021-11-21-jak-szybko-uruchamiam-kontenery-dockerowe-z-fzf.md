@@ -3,7 +3,7 @@ layout:	post
 title:	Jak szybko uruchamiam kontenery Dockerowe z fzf?
 description: Podczas pracy z wieloma projektami może nam być trudno nawigować po wszystkich katalogach by łatwo lokalizować pliki, które chcemy uruchomić.
 image: /images/mojtrick.jpg
-tags: [docker, produktywność, terminal]
+tags: [docker, produktywnosc, terminal]
 ---
 
 Podczas pracy z wieloma projektami może nam być trudno nawigować po wszystkich katalogach by łatwo lokalizować pliki, które chcemy uruchomić.

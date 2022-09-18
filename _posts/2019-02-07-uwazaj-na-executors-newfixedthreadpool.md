@@ -3,7 +3,7 @@ layout: post
 title: Uważaj na Executors.newFixedThreadPool
 description: 
 image: /images/threadpool.jpg
-tags: [współbieżność, pule wątków, wielowątkowość]
+tags: [wspolbieznosc, pule-watkow, wielowatkowosc]
 ---
 
 Czy często zdarza Ci się korzystać z puli wątków wołając kod `Executors.newFixedThreadPool(10)`? Jeśli tak, to uważaj, bo możesz narazić się na duże problemy.Gdy tworzysz pule wątków powyższą metodą fabrykującą, tak naprawdę pod spodem tworzona jest nowa instancja `ThreadPoolExecutor` w następujący sposób:

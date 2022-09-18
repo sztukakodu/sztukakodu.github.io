@@ -3,7 +3,7 @@ layout: post
 title: Co warto wiedzieć o pulach wątków w Javie? - Najlepszy przewodnik jakiego potrzebujesz 🎢
 description: 
 image: /images/pule-watkow.png
-tags: [pule wątków, współbieżność, wielowątkowość]
+tags: [pule-watków, wspolbieznosc, wielowatkowosc]
 ---
 
 Jednym z najważniejszych czynników zwiększającą wydajność aplikacji w Javie jest możliwość korzystania z wątków. Dzięki zrównolegleniu niektórych działań efektywność programu może znacząco wzrosnąć. Przy pracy z wątkami warto jednak pamiętać o dobrych praktykach, między innymi o korzystaniu z pul wątków. Ale jak to dobrze robić? O tym w niniejszym artykule.Obsługę cyklicznych, występujących jednocześnie zdarzeń warto często zrównoleglić. Na przykład obsługa żądań HTTP, zapytań do bazy danych, odpytywania zewnętrznych serwisów, czy wykonywania wymagających obliczeń matematycznych. Możemy to uzyskać poprzez korzystanie z wątków. Ale warto pamiętać, że tworzenie nowych wątków per każde takie działanie jest bardzo kosztowne. Wymaga stworzenia prawdziwego wątku w systemie operacyjnym, zaalokowania pamięci, stworzenia deskryptora wątku. Wszystko to kosztuje. W sytuacji, gdy dane zadanie będzie żyć stosunkowo krótko i dany wątek zaraz będziemy ubijać jest to marnowanie zasobów. Zamiast tego dużo lepiej jest skorzystać z puli wątków, za pomocą której będziemy tylko wskazywać jakie zadanie ma być wykonane, a pula wątków samodzielnie zadba o to by przypisać wolny wątek do wykonania tego zadania. W Javie pule wątków są opisywane przez dwa interfejsy.

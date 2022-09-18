@@ -3,7 +3,7 @@ layout:	post
 title: Ile requestów HTTP obsłuży Twoja aplikacja? I jaki wpływ mają na to wątki?
 description: Domyślnie aplikacja webowa w Springu uruchamiana jest na wbudowanym serwerze Tomcat.
 image: /images/jakobliczyc.jpg
-tags: [współbieżność, spring, http]
+tags: [wspolbieznosc, spring, http]
 ---
 
 Domyślnie aplikacja webowa w Springu uruchamiana jest na wbudowanym serwerze Tomcat.

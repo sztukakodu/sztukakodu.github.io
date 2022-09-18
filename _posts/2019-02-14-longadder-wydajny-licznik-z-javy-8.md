@@ -3,7 +3,7 @@ layout: post
 title: LongAdder - wydajny licznik z Javy 8
 description: 
 image: /images/trail.jpg
-tags: [współbieżność, wielowątkowość, wątki]
+tags: [wspolbieznosc, wielowatkowosc, watki]
 ---
 
 Niedawno trafiłem na ciekawą strukturę z Javy 8 - `LongAdder`. 

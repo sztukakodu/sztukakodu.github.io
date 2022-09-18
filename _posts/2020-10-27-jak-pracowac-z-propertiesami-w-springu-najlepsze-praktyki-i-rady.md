@@ -3,7 +3,7 @@ layout: post
 title: Jak pracować z propertiesami w Springu? Najlepsze praktyki i rady
 description: 
 image: /images/najlepsze-praktyki.jpg
-tags: [spring, properties, początkujący]
+tags: [spring, properties, poczatkujacy]
 ---
 
 Wstrzykiwanie propertiesów może być jedną z najbardzej wartościowych praktyk programistycznych w Twoim arsenale. Jeśli będziesz ich używać w odpowiedni sposób mogą stać się niezastąpionym kompanem w uruchamianiu aplikacji na różnych środowiskach, czy na szybkim zmienianiu sposobu działania bez potrzeby ponownej kompilacji. Jeśli chcesz dowiedzieć się jak pracować z nimi w Springu, to zapraszam do poniższego wpisu.
