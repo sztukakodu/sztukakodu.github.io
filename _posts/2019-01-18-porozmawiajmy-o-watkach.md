@@ -2,7 +2,7 @@
 layout: post
 title: Porozmawiajmy o wątkach
 description: Jak to jest możliwe, że Twój komputer potrafi jednocześnie grać muzykę, odtwarzać film na Youtube, pobierać pliki czy odbierać pocztę? 
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/1500x1000.png
 tags: [współbieżność, wielowątkowość, java, wątki]
 ---
 

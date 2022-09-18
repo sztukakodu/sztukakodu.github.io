@@ -2,7 +2,7 @@
 layout:	post
 title: Jaką jedną książkę powinien przeczytać każdy programista?
 description: Jakiś czas temu zadałem na moim Instagramie do Was pytanie o to jaką książkę powinien przeczytać każdy programista. Odpowiedzi były na tyle ciekawe, że postanowiłem zebrać je w formie wpisu.
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/polecane-ksiazki.jpg
 tags: [książki, kariera, rozwój]
 ---
 

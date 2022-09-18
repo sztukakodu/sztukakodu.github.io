@@ -2,7 +2,7 @@
 layout:	video
 title: Jak połączyć Spring Security z bazą danych?
 description: Zapraszam do obejrzenia nagrania z Webinaru Live podczas którego pokazywałem jak połączyć Spring Security z bazą danych.
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/1500x1000.png
 tags: [spring, security]
 video: 5xDoW1fOdfs
 ---

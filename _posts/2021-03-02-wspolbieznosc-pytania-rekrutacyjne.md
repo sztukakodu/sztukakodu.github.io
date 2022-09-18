@@ -2,7 +2,7 @@
 layout:	post
 title: Współbieżność - pytania rekrutacyjne. 41 pytań i odpowiedzi
 description: Współbieżność to jeden z najważniejszych tematów na drodze rozwoju programisty Java. Jest to też jeden z ulubionych tematów podczas rozmowy rekrutacyjnej. 
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/1500x1000.png
 tags: [współbieżność, java, rekrutacja]
 ---
 

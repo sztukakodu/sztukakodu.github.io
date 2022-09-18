@@ -2,7 +2,7 @@
 layout: post
 title: Jak mądrze testować CZAS ⏰ w Javie?
 description: 
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/1500x1000.png
 tags: []
 ---
 

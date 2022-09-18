@@ -2,8 +2,8 @@
 layout:	post
 title:	Spring REST API – jak zwalidować cały obiekt?
 description: Jednym z ważnych elementów warstwy REST-owej aplikacji jest walidacja żądań, które przychodzą. Co jeśli chcemy zwalidować grupę parametrów?
-image:	https://dummyimage.com/1500x1000/fff/aaa
-tags:		[spring, java, walidacja]
+image: /images/znales-ten.jpg
+tags: [spring, java, walidacja]
 ---
 
 Jednym z ważnych elementów warstwy REST-owej aplikacji jest walidacja żądań, które przychodzą. Możemy osiągnąć to w łatwy sposób za pomocą adnotacji z pakietu `javax.validation.constraints` dla pojedynczych atrybutów.

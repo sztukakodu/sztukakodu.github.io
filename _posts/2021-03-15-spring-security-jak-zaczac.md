@@ -2,7 +2,7 @@
 layout:	video
 title: Spring Security - jak zacząć? Jak dodać do projektu?
 description: Zabezpieczenie aplikacji przed nieuprawnionym dostępem to jedna z najważniejszych rzeczy do zrobienia przed wypuszczeniem programu do klientów. Nie możemy sobie pozwolić na to, by dowolny użytkownik aplikacji miał dostęp do wszystkich danych i funkcji systemu. Na szczęście w Springu możemy łatwo o to zadbać z pomocą projektu Spring Security, a w tym wpisie pokażę Ci jak to zrobić :)
-image: https://dummyimage.com/1500x1000/fff/aaa
+image: /images/1500x1000.png
 tags: [spring, security]
 video: y9YIfFQWIwk
 ---
