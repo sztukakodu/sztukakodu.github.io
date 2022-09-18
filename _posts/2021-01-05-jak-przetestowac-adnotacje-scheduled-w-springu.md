@@ -3,7 +3,7 @@ layout:	video
 title: Jak przetestować adnotację @Scheduled w Springu?
 description: Korzystasz z adnotacji @Scheduled w swoim Springowym projekcie i chciałbyś mieć pewność, że wykona się ona poprawnie? Chciałbyś napisać do niej test, ale nie do końca wiesz jak się za niego zabrać? Zapraszam do środka, gdzie rozwieję Twoje wszystkie wątpliwości! :)
 image: /images/scheduled.jpg
-tags: [spring, scheduled, testowanie]
+tags: [spring, scheduled, testowanie, wideo]
 video: KpvpqF0LTfE
 ---
 

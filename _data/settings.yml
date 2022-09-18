@@ -14,6 +14,19 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+      submenu:
+        - url: '/blog/'
+          title: 'Wszystkie Wpisy'
+        - url: '/tags/?tag=spring'
+          title: 'Spring'
+        - url: '/tags/?tag=wspolbieznosc'
+          title: 'Współbieżność'
+        - url: '/tags/?tag=monitoring'
+          title: 'Monitoring'
+        - url: '/tags/?tag=lombok'
+          title: 'Lombok'
+        - url: '/tags/?tag=mikroserwisy'
+          title: 'Mikroserwisy'
     - title: 'Kursy'
       url: 'https://edu.sztukakodu.pl'
     # - title: 'Projekty'
@@ -39,6 +52,7 @@ social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/darekmydlarz"}
 - {icon: "ion-logo-facebook", link: "https://facebook.com/sztukakodu"}
 - {icon: "ion-logo-instagram", link: "https://instagram.com/darek.mydlarz"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCCpPtAUzE10Ys_LOb2t4r9g/"}
 - {icon: "ion-logo-rss", link: "/feed.xml"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}

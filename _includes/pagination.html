@@ -6,12 +6,7 @@
       <nav class="pagination animate">
         <div class="pagination__list">
           {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
               <a class="previous-link" href="/blog/">&laquo;</a>
-            {% else %}
-              <a class="previous-link" href="/blog/strona/{{ paginator.previous_page }}/">&laquo;</a>
-            {% endif %}
-      
           {% else %}
             <span class="disabled">&laquo;</span>
           {% endif %}
@@ -32,8 +27,8 @@
             {% endfor %}
           </div>
       
-          {% if paginator.next_page %}
-            <a class="next-link" href="{{ site.baseurl }}/blog/strona/{{ paginator.next_page }}/">&raquo;</a>
+          {% if paginator.page < paginator.total_pages %}
+            <a class="next-link" href="{{ site.baseurl }}/blog/strona/{{ paginator.total_pages }}/">&raquo;</a>
           {% else %}
             <span class="disabled">&raquo;</span>
           {% endif %}
