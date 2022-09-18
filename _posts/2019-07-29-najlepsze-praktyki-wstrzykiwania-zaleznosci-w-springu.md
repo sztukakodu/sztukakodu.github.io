@@ -2,7 +2,7 @@
 layout: post
 title: Najlepsze Praktyki Wstrzykiwania Zależności w Springu
 description: 
-image: /images/1500x1000.png
+image: /images/di.png
 tags: []
 ---
 

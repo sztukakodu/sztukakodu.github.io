@@ -2,7 +2,7 @@
 layout: post
 title: 15 Zasad Przy Budowie REST API, Za Które Deweloperzy Cię Pokochają 🥰
 description: 
-image: /images/1500x1000.png
+image: /images/15rest.png
 tags: []
 ---
 

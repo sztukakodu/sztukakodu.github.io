@@ -2,7 +2,7 @@
 layout: post
 title: Jak definiować kody HTTP odpowiedzi w Springu?
 description: 
-image: /images/1500x1000.png
+image: /images/kody-http.jpg
 tags: []
 ---
 

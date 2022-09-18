@@ -2,7 +2,7 @@
 layout: post
 title: Co warto wiedzieć o pulach wątków w Javie? - Najlepszy przewodnik jakiego potrzebujesz 🎢
 description: 
-image: /images/1500x1000.png
+image: /images/pule-watkow.png
 tags: []
 ---
 

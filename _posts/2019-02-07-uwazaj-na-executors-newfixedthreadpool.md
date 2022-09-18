@@ -2,7 +2,7 @@
 layout: post
 title: Uważaj na Executors.newFixedThreadPool
 description: 
-image: /images/1500x1000.png
+image: /images/threadpool.jpg
 tags: [współbieżność, pule wątków, wielowątkowość]
 ---
 

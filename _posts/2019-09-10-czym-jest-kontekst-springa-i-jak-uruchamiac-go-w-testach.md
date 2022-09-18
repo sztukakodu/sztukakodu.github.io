@@ -2,7 +2,7 @@
 layout: post
 title: Czym jest kontekst Springa i jak uruchamiać go w testach?
 description: 
-image: /images/1500x1000.png
+image: /images/spring-context.png
 tags: []
 ---
 

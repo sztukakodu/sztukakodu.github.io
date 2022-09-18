@@ -2,7 +2,7 @@
 layout: post
 title: Najlepszy klient HTTP dla programisty
 description: 
-image: /images/1500x1000.png
+image: /images/ideahttp.jpg
 tags: []
 ---
 

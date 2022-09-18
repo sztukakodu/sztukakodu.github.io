@@ -2,7 +2,7 @@
 layout: post
 title: Jeden By Wszystkim Rządzić - SDKMAN!
 description: 
-image: /images/1500x1000.png
+image: /images/sdkman.png
 tags: []
 ---
 

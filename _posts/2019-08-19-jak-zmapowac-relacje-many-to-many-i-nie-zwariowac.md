@@ -2,7 +2,7 @@
 layout: post
 title: Jak zmapować relację Many to Many i nie zwariować?
 description: 
-image: /images/1500x1000.png
+image: /images/relacje.png
 tags: []
 ---
 

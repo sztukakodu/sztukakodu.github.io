@@ -2,7 +2,7 @@
 layout: post
 title: Mikroserwisy a Monolity - Kiedy Jest Właściwy Czas Na Migrację?
 description: 
-image: /images/1500x1000.png
+image: /images/mikrsoerwisy.jpg
 tags: []
 ---
 

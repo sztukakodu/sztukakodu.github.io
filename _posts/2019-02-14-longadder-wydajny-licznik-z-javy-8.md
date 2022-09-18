@@ -2,7 +2,7 @@
 layout: post
 title: LongAdder - wydajny licznik z Javy 8
 description: 
-image: /images/1500x1000.png
+image: /images/trail.jpg
 tags: [współbieżność, wielowątkowość, wątki]
 ---
 

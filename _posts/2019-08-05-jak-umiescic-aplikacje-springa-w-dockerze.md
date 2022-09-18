@@ -2,7 +2,7 @@
 layout: post
 title: Jak umieścić aplikację Springa w Dockerze
 description: 
-image: /images/1500x1000.png
+image: /images/docker.png
 tags: []
 ---
 

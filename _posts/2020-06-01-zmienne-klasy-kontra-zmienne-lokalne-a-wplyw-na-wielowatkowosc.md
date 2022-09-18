@@ -2,7 +2,7 @@
 layout: post
 title: Zmienne klasy kontra zmienne lokalne a wpływ na wielowątkowość ⚔️
 description: 
-image: /images/1500x1000.png
+image: /images/zmiennelokalne.png
 tags: []
 ---
 

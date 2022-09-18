@@ -2,7 +2,7 @@
 layout: post
 title: 7 rzeczy, które warto wiedzieć o Javie
 description: Java jest językiem programowania ogólnego zastosowania. Do jej największych zalet należą niezależność od platformy, automatyczne zarządzanie pamięcią, nieskomplikowana składnia i wsparcie dla wielowątkowości. Obecnie uważana jest za jeden z najpopularniejszych języków programowania na świecie.
-image: /images/1500x1000.png
+image: /images/java.jpg
 tags: [java, ciekawostki]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Tak, ta klasa jest niemutowalna. Ale dlaczego?
 description: 
-image: /images/1500x1000.png
+image: /images/immutable.jpg
 tags: []
 ---
 

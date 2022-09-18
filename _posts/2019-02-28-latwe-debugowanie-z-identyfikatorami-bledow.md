@@ -2,7 +2,7 @@
 layout: post
 title: Łatwe debugowanie z identyfikatorami błędów
 description: 
-image: /images/1500x1000.png
+image: /images/ladybug.jpg
 tags: []
 ---
 

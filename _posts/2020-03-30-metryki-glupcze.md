@@ -2,7 +2,7 @@
 layout: post
 title: Metryki, GŁUPCZE!
 description: 
-image: /images/1500x1000.png
+image: /images/metryki.jpg
 tags: []
 ---
 
