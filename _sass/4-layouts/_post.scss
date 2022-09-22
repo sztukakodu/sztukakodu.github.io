@@ -144,6 +144,11 @@
     }
   }
 
+  img[src$="#small"] {
+    display: block;
+    max-width: 12em;
+  }
+
   img, .js-reframe {
     border-radius: 8px;
     overflow: hidden;
