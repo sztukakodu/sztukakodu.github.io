@@ -26,13 +26,13 @@ feed:
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /:slug
+    permalink: /:slug/
   projects:
     output: true
-    permalink: /projekty/:slug
+    permalink: /projekty/:slug/
 
 # Pages Path
 defaults:
