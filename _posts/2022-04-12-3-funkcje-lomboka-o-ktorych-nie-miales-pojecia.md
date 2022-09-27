@@ -17,7 +17,6 @@ Zakładam, że Ty pewnie też.
 
 Adnotacje `@Data`, `@Value` czy `@RequiredArgsConstructor` zaoszczędzają mi mnóstwo czasu.
 
-
 Ale to nie wszystkie funkcje, jakie skrywa w sobie Lombok.
 
 Zobacz 3 ciekawe możliwości, o których być może nie miałeś do tej pory pojęcia!

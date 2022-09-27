@@ -16,7 +16,6 @@ plugins:
 paginate: 9
 paginate_path: "/blog/strona/:num"
 
-
 feed:
   excerpt_only: true
 
