@@ -158,5 +158,10 @@ disqus-identifier: sztuka-kodu # Add your shortname for Disqus Comment. For exam
 
 
 #-------------------------------
+# Related Posts
+related-posts: false  # if display or not related-posts section under posts
+
+
+#-------------------------------
 # Google Analytics
 # google-analytics: # Add your GA Tracking Id
