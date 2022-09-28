@@ -36,7 +36,20 @@ Dzięki temu nie ma sytuacji, w której wiele wątków konkuruje o dostęp do za
 
 W ten sposób wydajność zdecydowanie wzrasta. 
 
-[caption id="attachment\_324" align="aligncenter" width="300"] ![](https://strony.sztukakodu.pl/wp-content/uploads/2019/02/longadder-1-300x288.jpg) W AtomicLongu wiele wątków stara się modyfikować ten sam obszar pamięci[/caption] [caption id="attachment\_325" align="aligncenter" width="300"] ![](https://strony.sztukakodu.pl/wp-content/uploads/2019/02/longadder-2-300x300.jpg) W LongAdderze wątki piszą do różnych obszarów pamięci[/caption] Ta struktura ma jednak też swoje minusy. 
+---
+
+
+W AtomicLongu wiele wątków stara się modyfikować ten sam obszar pamięci.
+
+![image](/images/longadder-1.jpg#small)
+
+W LongAdderze wątki piszą do różnych obszarów pamięci.
+
+![image](/images/longadder-2.jpg#small)
+
+---
+
+Ta struktura ma jednak też swoje minusy. 
 
 O ile zapisywanie jest bardzo wydajne - `O(1)` - o tyle odczyt wymaga już wykonywania operacji sumowania wszystkich wartości. 
 
