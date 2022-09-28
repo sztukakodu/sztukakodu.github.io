@@ -12,7 +12,7 @@ Każde żądanie HTTP, które przychodzi do aplikacji zostaje przypisane do jedn
 
 Takich wątków jest domyślnie 200.
 
-> Wartość tę można [nadpisać propertiesem](https://www.sztukakodu.pl/jak-pracowac-z-propertiesami-w-springu-najlepsze-praktyki-i-rady) `server.tomcat.threads.max`
+> Wartość tę można [nadpisać propertiesem](/jak-pracowac-z-propertiesami-w-springu-najlepsze-praktyki-i-rady/) `server.tomcat.threads.max`
 
 Ile requestów obsłuży twoja aplikacja?
 

@@ -265,6 +265,7 @@ void fetchesCommentsEagerly() {
     assertEquals(1, blogpost.getComments().size());
 }
 ```
+
 Sprawi to, że test będzie zielony.
 
 Ale wydajnościowo może sprawić nam problemy.

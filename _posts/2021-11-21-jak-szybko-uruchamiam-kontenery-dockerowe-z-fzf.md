@@ -31,7 +31,7 @@ A no w tym, że odpalająć `fzf` możemy łatwo zlokalizować pliki `docker-com
 
 Jeśli dodatkowo dodamy sobie do naszej powłoki alias:
 
-```
+```shell
 alias dc="docker compose"
 ```
 

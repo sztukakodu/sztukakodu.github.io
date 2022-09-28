@@ -7,6 +7,7 @@ tags: [spring, scheduled, testowanie, wideo]
 video: KpvpqF0LTfE
 ---
 
+Korzystasz z adnotacji `@Scheduled` w swoim Springowym projekcie i chciałbyś mieć pewność, że wykona się ona poprawnie? Chciałbyś napisać do niej test, ale nie do końca wiesz jak się za niego zabrać? Zapraszam do środka, gdzie rozwieję Twoje wszystkie wątpliwości! :)
 
 Załóżmy, że Twoja aplikacja wykonuje jakieś cykliczne zadania. Na przykład raz dziennie wysyła maile do użytkowników z informacjami o nowych ofertach. W tym celu skorzystałeś z adnotacji `@Scheduled` za pomocą, której zdefiniowałeś częstotliwość wykonywania się zadania.
 
@@ -88,7 +89,7 @@ Możliwe jest też przetestowanie zachowania integracyjne.
 
 Potrzebujemy wtedy wprowadzić jedynie małą zmianę do klasy `MailJob`.
 
-Zamiast definiować wyrażenie `cron` bezpośrednio w kodzie przenosimy je do [propertiesa wstrzykiwanego przez Springa](https://strony.sztukakodu.pl/jak-pracowac-z-propertiesami-w-springu-najlepsze-praktyki-i-rady/).
+Zamiast definiować wyrażenie `cron` bezpośrednio w kodzie przenosimy je do [propertiesa wstrzykiwanego przez Springa](/jak-pracowac-z-propertiesami-w-springu-najlepsze-praktyki-i-rady/).
 
 ```java
 @Component
@@ -106,7 +107,7 @@ class MailJob {
 
 W pliku `src/main/resources/application.properties` wpisujemy oczekiwaną produkcyjną wartość parametru.
 
-```
+```properties
 app.mail-job.cron=0 0 7 * * MON-FRI
 ```
 
@@ -145,7 +146,7 @@ Metoda `run()` będzie teraz wykonywać się co sekundę - zgodnie z nadpisanym 
 
 ```java
 Awaitility.await()
-		    .atMost(5, TimeUnit.SECONDS)
+      .atMost(5, TimeUnit.SECONDS)
       .until(() -> mailService.sentEmailsCount() > 0);
 ```
 

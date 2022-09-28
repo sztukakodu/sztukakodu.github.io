@@ -33,7 +33,7 @@ W tym momencie cała Twoja aplikacja jest zabezpieczona przed nieuprawnionym dos
 
 1. nazwa użytkownika - domyślnie `user`
 2. hasło - wygenerowane na Twojej konsoli w formacie UUID, np. `63474724-1ceb-4a7d-bc0e-119fd728a915`
-	* szukaj wpisu `Using generated security password: 63474724-1ceb-4a7d-bc0e-119fd728a915`
+  * szukaj wpisu `Using generated security password: 63474724-1ceb-4a7d-bc0e-119fd728a915`
 
 
 Co jeśli nie chcesz, aby wszystko było zabezpieczone?
@@ -91,7 +91,7 @@ class BookaroSecurityConfiguration extends WebSecurityConfigurerAdapter {
       .password("{noop}xxx")
       .roles("ADMIN");
   }
-}	    
+}     
 ```
 
 Za pomocą obiektu `AuthenticationManagerBuilder` możemy zdefiniować jakich użytkowników z jakimi rolami chcemy mieć w swoim systemie.
@@ -141,11 +141,10 @@ Aby adnotacja `@Secured` zadziałała, potrzeba ją explicite włączyć w nasze
 @Configuration
 @EnableGlobalMethodSecurity(securedEnabled = true)
 class BookaroSecurityConfiguration extends WebSecurityConfigurerAdapter {
-
+// ...
 }
 ```
 
 ## Gotowe!
 
 Twoja aplikacja jest zabezpieczona, wybrane endpointy są schowane za Security, konta zdefiniowane i odpowiednie role przypisane do odpowiednich operacji w aplikacji. W tej chwili dostęp do systemu jest o wiele lepiej chroniony niż wcześniej.
-

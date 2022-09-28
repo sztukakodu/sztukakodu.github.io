@@ -41,13 +41,13 @@ Jeśli Twój projekt oparty jest o `Gradle`, to poniżej pokażę Ci na to 3 spo
 
 Bezpośrednio na swoim projekcie wołasz z konsoli komendę
 
-```
+```shell
 $ gradle dependencyInsight --dependency log4j-core
 ```
 
 Jeśli masz aplikację wielomodułową musisz zawołać to zadanie na każdym z modułów.
 
-```
+```shell
 $ gradle :app:dependencyInsight --dependency log4j-core
 $ gradle :background:dependencyInsight --dependency log4j-core
 ```
@@ -60,19 +60,19 @@ Jako wynik dostaniesz informacje o tym, czy wciągasz daną bibliotekę do swoje
 
 W pliku `build.gradle` dodajesz nowe zadanie:
 
-```
+```gradle
 task findDependency(type: DependencyInsightReportTask) {}
 ```
 
 Aby odszukać używane w Twoim projekcie wersje `log4j` wystarczy teraz zawołać.
 
-```
+```shell
 $ gw findDependency --configuration compile --dependency log4j
 ```
 
 Jeśli masz projekt wielomodułowy opakuj zadanie w dyrektywę `allprojects`.
 
-```
+```gradle
 allprojects {
     task findDependency(type: DependencyInsightReportTask) {}
 }
@@ -85,7 +85,7 @@ Teraz zawołaj komendę jeszcze raz. Tym razem za jednym uruchomieniem dostanies
 
 Do pliku `build.gradle` dodaj:
 
-```
+```gradle
 configurations {
     compileClasspath {
         resolutionStrategy.activateDependencyLocking()
@@ -98,7 +98,7 @@ configurations {
 
 I zawołaj
 
-```
+```shell
 $ gradle build --write-locks -x test
 ```
 
@@ -108,13 +108,13 @@ W tych plikach sprawdź jakie wersje log4j zaciągasz.
 
 Możesz do tego użyć narzędzia `ripgrep`.
 
-```
+```shell
 $ rg 'log4j' -g '*.lockfile'
 ```
 
 Lub starego, dobrego zwykłego `grepa`.
 
-```
+```shell
 grep -r --include "*.lockfile" log4j .
 ```
 

@@ -144,6 +144,7 @@ class Rates {
   }
 }
 ```
+
 *(Wzorzec podwójnie sprawdzanego blokowania - ang. double-checked locking)*
 
 

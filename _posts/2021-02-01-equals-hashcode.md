@@ -14,7 +14,6 @@ Z kolei wiersze bazodanowe opierają się na kluczy głównym (`primary key`). H
 
 Podczas konwersji z wierszy bazodanowych na obiekty Javowe musimy zwrócić szczególną uwagę jak zachowuje się relacja tożsamości w obu tych światach. W tym celu musimy pochylić się nad metodami `equals` i `hashcode`.
 
-
 ### Podejście pierwsze - brak zwrócenia uwagi na implementację equlas / hashcode - ŹLE :(
 
 Wyobraźmy sobie sytuację, w której mamy utworzony jakiś Set lub Mapę, która żyje dłużej w naszej aplikacji niż pojedyncza sesja Hibernate - czyli na przykład pomiędzy dwoma żądaniami HTTP użytkownika.
@@ -25,13 +24,13 @@ Wtedy odpytując bazę danych o obiekty, w naszych kolekcjach pojawią się dupl
 ```java
 @Entity
 class Book {
-	@Id
-	private Long id;
-	private String title;
-	private String author;
-	private Long year;
+    @Id
+    private Long id;
+    private String title;
+    private String author;
+    private Long year;
 
-	// getters, setters
+    // getters, setters
 }
 ```
 
@@ -92,7 +91,7 @@ Jest to zdecydowanie lepsza opcja. Teraz niezależnie od tego, jak będą zmieni
 ```java
 @Entity
 class Book {
-	@Id
+    @Id
     private Long id;
     private String title;
     private String author;
@@ -121,7 +120,7 @@ Spójrzmy na poniższą sytuacje.
 
 ```java
 books.put(new Book("Adam Mickiewicz", "Pan Tadeusz", 1834));
-books.put(new Book("Juliusz Słowacki", "Kordian", 1834));	
+books.put(new Book("Juliusz Słowacki", "Kordian", 1834));   
 // books ma tylko jedną z książek!
 booksRepository.saveAll(books);
 ```
@@ -202,4 +201,3 @@ Natomiast pole `uuid` świetnie załatwia nam sprawę tożsamości obiektów i d
 3. Dlatego warto zwrócić uwagę na to jak implementujemy metody `equals` / `hashcode` w naszych encjach.
 4. Najlepszym rozwiązaniem jest zastosowanie klasy abstrakcyjnej z wygenerowanym w aplikacji atrybutem unikalności.
 5. Dzięki temu zawsze będziemy mieć pewność czy mówimy o tym samym obiekcie w aplikacji.
-

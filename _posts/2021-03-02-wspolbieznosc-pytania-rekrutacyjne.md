@@ -96,7 +96,7 @@ Wątki `deamon` przydają się to zadań pomocniczych potrzebnych podczas dział
 
 Przykładowo jest to wykorzystywane w Springu, podczas obsługi żądań HTTP (powiązanych z wątkami), gdy dane użytkownika są przypisane w jednym miejscu w stosie wywołań, a mogą być potem odczytane w innym.
 
-## Pule Wątków
+<h2 id="pule-watkow">Pule Wątków</h2>
 
 ### 1. Jak działają pule wątków?
 Pula wątków składa się z dwóch elementów - wątków obsługujących zadania oraz kolejki na przyjmowanie tych zadań. Jeśli na pule wątków trafia zadanie, to jest ono wykonywane - w sytuacji gdy dostępny jest wolny wątek - lub czeka w kolejce, aż wolny wątek się pojawi.
@@ -157,12 +157,12 @@ Przykładowo, metodę `acceptTransfer` chcielibyśmy objąć taką sekcją kryty
 
 ```java
 class Account {
-	private BigDecimal balance;
+    private BigDecimal balance;
 
-	public void acceptTransfer(BigDecimal amount) {
-		BigDecimal newBalance = balance.add(amount)
-		this.balance = newBalance;
-	}
+    public void acceptTransfer(BigDecimal amount) {
+        BigDecimal newBalance = balance.add(amount)
+        this.balance = newBalance;
+    }
 }
 ```
 
@@ -309,7 +309,7 @@ class Account {
 ### 10. Co to jest CyclicBarrier?
 Klasa służąca do cyklicznego uruchamiania wątków w grupach. Przykładowo, chcemy zacząć wykonywać zadanie, gdy pojawi się 5 wątków gotowych do wykonania.
 
-```
+```java
 CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
 ```
 
@@ -410,7 +410,9 @@ class VisitsCounter {
     private final ConcurrentHashMap<String, Long> visits = new ConcurrentHashMap<>();
 
     public void markVisit(String subpage) {
-        visits.compute(subpage, (key, currentValue) -> currentValue != null ? currentValue + 1 : 1);
+        visits.compute(subpage, (key, currentValue) -> 
+        	currentValue != null ? currentValue + 1 : 1
+        );
     }
 }
 ```
