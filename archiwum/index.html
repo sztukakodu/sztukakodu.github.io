@@ -1,0 +1,35 @@
+---
+layout: default
+title: Archiwum
+description: Blog o programowaniu w Javie, Springu, karierze i architekturze. Miejsce, w którym dokumentuję swoją drogę i dzielę się moim doświadczeniem w świecie IT.
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-8 push-2 col-t-12 push-t-0">
+      <div class="page-head">
+        <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.blog__settings.blog__title }}{% endif %}</h1>
+        <p>{{site.posts.size}} artykułów</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
+    <div class="col col-8 push-2 col-t-12 push-t-0">
+    <ul reversed>
+    {% for post in site.posts %}
+      <li style="
+      list-style: none;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 0.5em;">
+        <a href="{{ post.url }}"><time datetime="{{ post.date }}">{{ post.date | date: '%F' }}</time> &raquo; <strong>{{ post.title }}</strong><br/>
+        </a>
+      </li>    
+    {% endfor %}
+    </ol>
+  </div>
+  </div>
+</div>
+
