@@ -43,8 +43,17 @@ Liczba obiektów w kolejce będzie tak duża, że zwyczajnie aplikacji braknie p
 
 W ten sposób doprowadzisz do `OutOfMemoryException`. 
 
-(Kolejka o nieograniczonej długości) ![Kolejka Alt](https://strony.sztukakodu.pl/wp-content/uploads/2019/02/newFixedThreadPool1-300x290.jpg) 
- ![image](https://strony.sztukakodu.pl/wp-content/uploads/2019/02/newFixedThreadPool2-300x300.jpg) (Kolejka z ustaloną długością)
+---
+
+Kolejka o nieograniczonej długości. 👇
+
+![image](/images/newFixedThreadPool1.jpg#small) 
+
+Kolejka z ustaloną długością. 👇
+
+![image](/images/newFixedThreadPool2.jpg#small)
+
+---
 
 Co robić zamiast tego? Dużo lepszym rozwiązaniem jest korzystanie z kolejki o z góry określonej pojemności. 
 
