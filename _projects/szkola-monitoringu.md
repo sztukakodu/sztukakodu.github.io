@@ -3,28 +3,54 @@ title: Szkoła Monitoringu
 subtitle: Kurs Online
 image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/szkolap-monitoringu.png'
 date: 2022-01-01
+footer: false
+checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
 ---
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
+# Zacznij monitorować swoje aplikacje w Javie na produkcji!
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+Uwaga!
+Zyskaj 100% wgląd w działanie Twojej aplikacji na produkcji.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+Przerażają Cię kolejne bugi, które wkradają się na produkcję?
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-</div>
+Wiesz, że testy nie są w stanie dać 100% bezawaryjnego systemu, ale… nie wiesz co z tym zrobić?
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si quiduse worldwide methodologies.
+Czytaj do końca - tutaj sprawię, że otworzą Ci się oczy...
 
-Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer coordinate.
+...na to co się dzieje na produkcji z Twoimi aplikacjami!
+
+[Dołączam do programu]({{ page.checkout }}){: .checkout }
+
+Niezawodność Twojej aplikacji spoczywa na Twoich barkach?
+Czy masz do tego odpowiednie przygotowanie?
+W karierze każdego programisty przychodzi moment, gdy jego zmiany trafiają na produkcję.
+
+
+
+I może to być moment wielkiej dumy, albo… wielkiej klapy!
+
+Niestety wśród programistów ciągle brakuje wiedzy o odpowiednim monitorowaniu swoich aplikacji na produkcji.
+
+Skoro tu jesteś, to chcesz rozwiązać ten problem. Prawda?
+
+# Dlaczego Monitoring Aplikacji?
+
+![kurs](https://szkolamonitoringu.pl/wp-content/uploads/2021/09/monitoring-lekcja.png#right){: .no-lightense }
+
+Przede wszystkim: jest najlepszym sposobem na zapewnienie niezawodnego działania Twojej aplikacji.
+
+Zamiast skupiać się na myśleniu, co tym razem spowodowało awarię systemu, będziesz mieć wszystko jak na dłoni.
+
+Brak stresu pozwoli Ci spokojnie skupić się na obecnych zadaniach i dalszym rozwoju aplikacji.
+
+# Micrometer, Prometheus i Grafana
+
+![kurs](https://szkolamonitoringu.pl/wp-content/uploads/2021/09/monitoring-stack.png){: .no-lightense }
+
+Micrometer, Prometheus i Grafana to sprawdzony zestaw technologii, który pozwoli Ci obserwować aplikacje w Javie i wiele więcej!
+
+![kurs](https://szkolamonitoringu.pl/wp-content/uploads/2021/08/grafana.jpeg){: .no-lightense }
+
+
+[Dołączam do programu]({{ page.checkout }}){: .checkout }

@@ -3,28 +3,24 @@ title: Szkoła Lomboka
 subtitle: Kurs Online
 image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/kurs-lomboka.png'
 date: 2021-02-01
+footer: false
+checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3736
 ---
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
+👉 Pracujesz na co dzień z **Javą** jako **tester** lub **programista?**
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+👉 Masz dość pisania **w kółko tego samego kodu**?
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+👉 Chciałbyś **skupić się na dostarczaniu wartości biznesowej**, a nie na spełnianiu wymagań języka Java?
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-</div>
+🥳 Chciałbym zaprosić Cię do programu, w którym przedstawię Ci **narzędzie Lombok**.
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si quiduse worldwide methodologies.
+✅ Za pomocą którego **zaoszczędzisz godziny** w swojej codziennej pracy z kodem.
 
-Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer coordinate.
+✅ Poznasz takie adnotacje jak **@Data, @Value, @Builder, @SneakyThrows, @Cleanup, @AllArgsConstructor**.
+
+✅ Sprawisz, że **Twój kod będzie krótszy i łatwiejszy w zrozumieniu**.
+
+✅ Będziesz mógł **efektywniej wykorzystać swój czas pracy**.
+
+[Dołączam do programu]({{ page.checkout }}){: .checkout }

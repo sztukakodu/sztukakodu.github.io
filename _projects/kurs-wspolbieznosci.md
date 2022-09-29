@@ -3,28 +3,37 @@ title: Kurs Współbieżności
 subtitle: Kurs Online
 image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/kurs-wspolbieznosci.png'
 date: 2022-01-02
+footer: false
+checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 ---
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
+Ten program przygotuje cię w 100% do pracy ze **Współbieżnością** i **Wielowątkowością** w Javie. I da do tego wszystkie narzędzia. Dołącz i zdobądź lepszą pracę, podwyżkę lub awans!
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+[Dołączam do programu]({{ page.checkout }}){: .checkout }
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+# CO OTRZYMASZ KUPUJĄC DOSTĘP DO PROGRAMU?
+1. 9-Tygodniowy Program Kurs Współbieżności: Wartość 2241 PLN
+2. Spotkania Na Żywo (Live Call) Ze Studentami: Wartość 1500 PLN
+3. Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów: Wartość 1500 PLN
+4. Dostęp Do Analizy Twoich Materiałów Przeze Mnie: Wartość 500 PLN za godzinę
+5. Dożywotni Dostęp Do Grupy Na Facebooku „Kurs Współbieżności”: Bezcenne
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-    <img src="/images/fine.jpg" loading="lazy" alt="Project">
-  </div>
-</div>
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si quiduse worldwide methodologies.
+# Nie da się być dobrym programistą Java bez znajomości WSPÓŁBIEŻNOŚCI
 
-Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer coordinate.
+Podczas rozwijania swojej kariery jako Java Developer dotykamy wielu narzędzi.
+Spring, JPA, Hibernate, Bazy Danych, GIT.
+Ale często zdarza się, że pomijamy JEDEN ważny temat...
+
+![kurs](https://strony.sztukakodu.pl/wp-content/uploads/2020/05/kw-program.png#right){: .no-lightense }
+
+Współbieżność jest podstawą wydajnego działania
+wszystkich aplikacji, które tworzysz!
+
+Czy wiesz dokładnie, jak działa współbieżność i wielowątkowość w Twojej aplikacji? 
+Czym różnią się od siebie te dwa terminy?
+W jaki sposób zapewnić bezpieczny współbieżny dostęp  w Twoim programie?
+Jak ustrzec się krytycznych błędów?
+
+
+[Dołączam do programu]({{ page.checkout }}){: .checkout }
