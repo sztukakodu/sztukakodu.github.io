@@ -52,6 +52,7 @@
 .article-tags__box {
   display: flex;
   margin-bottom: 8px;
+  flex-wrap: wrap;
 
   .article__tag {
     position: relative;
