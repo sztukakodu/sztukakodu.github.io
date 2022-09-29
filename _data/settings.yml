@@ -15,7 +15,7 @@ menu__settings:
     - title: 'Blog'
       url: '/blog/'
     - title: 'Kursy'
-      url: 'https://edu.sztukakodu.pl'
+      url: '/kursy/'
     # - title: 'Projekty'
     #   url: '/projects/'
     # - title: 'Strony'
@@ -64,8 +64,8 @@ newsletter__button__text: Zaczynam!
 #-------------------------------
 # Projects Settings
 projects__settings:
-  projects__title: Ostatnie projekty
-  projects__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+  projects__title: Kursy Online
+  projects__description: Dołącz do moich programów i wskocz na wyższy poziom!
 
 
 #-------------------------------
