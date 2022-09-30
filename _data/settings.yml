@@ -24,6 +24,8 @@ menu__settings:
     #   title: 'Współpraca'
     - url: '/kontakt/'
       title: 'Kontakt'
+    - title: 'Zaloguj &nearr;'
+      url: 'https://edu.sztukakodu.pl'
 
 
 #-------------------------------
