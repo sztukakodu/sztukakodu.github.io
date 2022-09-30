@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jak mądrze testować CZAS ⏰ w Javie?
+title: Jak mądrze testować CZAS w Javie?
 description: 
 image: /images/czas.png
 tags: [testowanie, czas, java]

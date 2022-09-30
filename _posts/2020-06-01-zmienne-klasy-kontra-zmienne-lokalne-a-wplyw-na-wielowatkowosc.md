@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zmienne klasy kontra zmienne lokalne a wpływ na wielowątkowość ⚔️
+title: Zmienne klasy kontra zmienne lokalne, a wpływ na wielowątkowość
 description: 
 image: /images/zmiennelokalne.png
 tags: [wspolbieznosc, watki, wielowatkowosc]

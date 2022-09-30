@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Co warto wiedzieć o pulach wątków w Javie? - Najlepszy przewodnik jakiego potrzebujesz 🎢
+title: Co warto wiedzieć o pulach wątków w Javie? - Najlepszy przewodnik jakiego potrzebujesz
 description: 
 image: /images/pule-watkow.png
 tags: [pule-watków, wspolbieznosc, wielowatkowosc]

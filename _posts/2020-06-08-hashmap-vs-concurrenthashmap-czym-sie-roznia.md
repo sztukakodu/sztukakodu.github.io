@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HashMap vs ConcurrentHashMap - Czym Się Różnią? 🗺
+title: HashMap vs ConcurrentHashMap - Czym Się Różnią?
 description: 
 image: /images/concurrentmap.png
 tags: [hashmap, concurrenthashmap, java, wspolbieznosc]

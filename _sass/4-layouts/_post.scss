@@ -18,15 +18,15 @@
 }
 
 .post__navigation {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: auto;
   overflow: hidden;
 }
 
 .post__navigation a {
+  max-width: 50%;
   display: block;
-  width: 50%;
-  float: left;
   margin: 1em 0;
 }
 
@@ -38,7 +38,7 @@
   border-bottom: 0px;
 }
 
-.post__navigation .next {
+.post__navigation .right {
   text-align: right;
 }
 
@@ -90,6 +90,7 @@
   margin-bottom: 32px;
   font-size: 72px;
   line-height: 1;
+  overflow-wrap: break-word;
 
   @media only screen and (max-width: $wide) {
     font-size: 60px;
