@@ -1,7 +1,7 @@
 ---
 title: Kurs Współbieżności
 subtitle: Kurs Online
-image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/kurs-wspolbieznosci.png'
+image: '/images/wspolbieznosc.png'
 date: 2022-01-02
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22

@@ -1,7 +1,7 @@
 ---
 title: Szkoła Springa
 subtitle: Kurs Online
-image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/01/szkola-springa.png'
+image: '/images/spring.png'
 date: 2022-01-03
 footer: false
 ---

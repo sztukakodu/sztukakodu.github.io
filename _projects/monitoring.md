@@ -1,7 +1,7 @@
 ---
 title: Szkoła Monitoringu
 subtitle: Kurs Online
-image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/szkolap-monitoringu.png'
+image: '/images/monitoring.png'
 date: 2022-01-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803

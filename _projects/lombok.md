@@ -1,7 +1,7 @@
 ---
 title: Szkoła Lomboka
 subtitle: Kurs Online
-image: 'https://edu.sztukakodu.pl/wp-content/uploads/2021/04/kurs-lomboka.png'
+image: '/images/lombok.png'
 date: 2021-02-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3736
