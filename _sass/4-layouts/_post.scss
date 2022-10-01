@@ -193,6 +193,17 @@
 
   img[src$='#wide'] {
     display: block;
+    width: 50vw;
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  img[src$='#full'] {
+    display: block;
     width: 100vw;
     max-width: none;
     margin-left: 50%;
