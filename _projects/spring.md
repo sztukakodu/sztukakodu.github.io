@@ -4,6 +4,7 @@ subtitle: Kurs Online
 image: '/images/spring.png'
 date: 2022-01-03
 footer: false
+sitemap: false
 ---
 
 Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze praktyki, biblioteki i wzorce. Naucz się jak ułożyć architekturę, REST API, jak pracować z JPA & Hibernate, jak pisać testy i zastosować Spring Security.

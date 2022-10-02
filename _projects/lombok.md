@@ -5,6 +5,7 @@ image: '/images/lombok.png'
 date: 2021-02-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3736
+sitemap: false
 ---
 
 👉 Pracujesz na co dzień z **Javą** jako **tester** lub **programista?**

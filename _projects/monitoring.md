@@ -5,6 +5,7 @@ image: '/images/monitoring.png'
 date: 2022-01-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
+sitemap: false
 ---
 
 # Zacznij monitorować swoje aplikacje w Javie na produkcji!

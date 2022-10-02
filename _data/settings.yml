@@ -12,8 +12,8 @@ menu__settings:
   menu__items:
     - title: 'Strona Główna'
       url: '/'
-    - title: 'Kursy'
-      url: '/kursy/'
+    # - title: 'Kursy'
+    #   url: '/kursy/'
     - title: 'Blog'
       url: '/blog/'
     # - title: 'Projekty'
@@ -24,7 +24,7 @@ menu__settings:
     #   title: 'Współpraca'
     - url: '/kontakt/'
       title: 'Kontakt'
-    - title: 'Zaloguj &nearr;'
+    - title: 'Kursy &nearr;'
       url: 'https://edu.sztukakodu.pl'
 
 
