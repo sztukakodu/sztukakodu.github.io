@@ -2,6 +2,7 @@
 title: Szkoła Springa
 subtitle: Kurs Online
 image: '/images/spring.png'
+checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
 date: 2022-01-03
 footer: false
 sitemap: false
@@ -9,7 +10,7 @@ sitemap: false
 
 Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze praktyki, biblioteki i wzorce. Naucz się jak ułożyć architekturę, REST API, jak pracować z JPA & Hibernate, jak pisać testy i zastosować Spring Security.
 
-[Dołączam do programu](https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507){: .checkout }
+[Dołączam do programu]({{ page.checkout }}){: .checkout }
 
 # Jak to wygląda?
 
@@ -42,5 +43,5 @@ W ramach programu poznasz takie tematy jak:
 To wszystko w programie wspólnej nauki ze mną - autorem szkolenia - oraz grupą studentów, którzy wspólnie z Tobą dołączają do kursu.
 
 
-[Dołączam do programu](https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507){: .checkout }
+[Dołączam do programu]({{ page.checkout }}){: .checkout }
 

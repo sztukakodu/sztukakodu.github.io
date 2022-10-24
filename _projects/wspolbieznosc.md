@@ -26,8 +26,6 @@ Podczas rozwijania swojej kariery jako Java Developer dotykamy wielu narzędzi.
 Spring, JPA, Hibernate, Bazy Danych, GIT.
 Ale często zdarza się, że pomijamy JEDEN ważny temat...
 
-![kurs](https://strony.sztukakodu.pl/wp-content/uploads/2020/05/kw-program.png#right){: .no-lightense }
-
 Współbieżność jest podstawą wydajnego działania
 wszystkich aplikacji, które tworzysz!
 
