@@ -51,7 +51,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Cześć, jestem Darek. Pomogę Ci stawać się lepszym programistą Java
+  hero__title: Cześć, jestem Darek.<br/>Pomogę Ci stawać się lepszym programistą Java
   hero__description: Zapisz się na newsletter i odbieraj materiały, które pomogą Ci w rozwoju Twojej kariery 👇
   hero__image: '/images/darek-nfj.jpeg'
 
