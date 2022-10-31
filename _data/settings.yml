@@ -51,9 +51,8 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Cześć, jestem Darek.<br/>Pomogę Ci stawać się lepszym programistą Java
-  hero__description: Zapisz się na newsletter i odbieraj materiały, które pomogą Ci w rozwoju Twojej kariery 👇
-  hero__image: '/images/darek-nfj.jpeg'
+  hero__description: Zapisz się na i odbieraj materiały, które pomogą Ci w rozwoju Twojej kariery 👇
+  hero__image: '/images/skpframe.png'
 
 
 #-------------------------------
@@ -110,7 +109,7 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Ostatnie wpisy
+  blog__title: Ostatnie wpisy na blogu
   blog__description: Zanurz się w świecie Javy i programowania
 
 

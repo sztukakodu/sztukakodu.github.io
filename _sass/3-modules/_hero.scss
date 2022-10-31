@@ -89,6 +89,10 @@
   line-height: 1;
   color: var(--heading-font-color);
 
+  span {
+    color: #004aad;
+  }
+
   @media only screen and (max-width: $wide) {
     margin-bottom: 32px;
   }
