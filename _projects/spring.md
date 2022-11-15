@@ -6,11 +6,25 @@ checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
 date: 2022-01-03
 footer: false
 sitemap: false
+accent: green;
+lightbg: rgb(222 244 222)	;
 ---
 
-Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze praktyki, biblioteki i wzorce. Naucz się jak ułożyć architekturę, REST API, jak pracować z JPA & Hibernate, jak pisać testy i zastosować Spring Security.
+<div class="full-width" markdown="1" style="background: {{page.lightbg}}">
+<div class="project-content" markdown="1">
 
-[Dołączam do programu]({{ page.checkout }}){: .checkout }
+
+<h1 class="landing-title">Ten Program Nauczy Cię budować Aplikacje w Springu!</h1>
+<h2 class="landing-subtitle">Od Zera Aż Do Wdrożenia na Produkcję!</h2>
+
+<img src="/images/springlogo.png" alt="spring" style="max-width: 300px; margin: 3em auto; display: block;">
+
+<p style="text-align: center">Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze praktyki, biblioteki i wzorce. Naucz się jak ułożyć architekturę i REST API. Jak pracować z JPA & Hibernate, jak pisać testy i jak zastosować Spring Security.</p>
+
+{% include spring-kup.md %}
+
+</div>
+</div>
 
 # Jak to wygląda?
 
@@ -22,8 +36,10 @@ Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze pr
 4. Oprócz tego spotykamy się na dedykowanych webinarach, podczas których możemy dodatkowo rozwiać Twoje wątpliwości.
 5. Otrzymujesz odpowiednie narzędzia, przyszłe aktualizacje i moją dostępność by pomóc Ci w dobrym poznaniu Springa.
 
+<div class="full-width" markdown="1" style="background: {{page.lightbg}}">
+<div class="project-content" markdown="1">
+<h1 class="landing-title">SZKOŁA SPRINGA</h1>
 
-# SZKOŁA SPRINGA
 11-modułowy program, w trakcie którego pokazuję Ci krok po kroku tajniki najpopularniejszego frameworka w świecie Javy na podstawie realnej aplikacji, którą na koniec wdrożymy na produkcję.
 
 W ramach programu poznasz takie tematy jak:
@@ -43,5 +59,9 @@ W ramach programu poznasz takie tematy jak:
 To wszystko w programie wspólnej nauki ze mną - autorem szkolenia - oraz grupą studentów, którzy wspólnie z Tobą dołączają do kursu.
 
 
-[Dołączam do programu]({{ page.checkout }}){: .checkout }
+</div>
+</div>
+
+
+{% include spring-kup.md %}
 
