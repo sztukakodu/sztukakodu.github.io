@@ -133,28 +133,10 @@ Do kursu czasami wracam, żeby przypomnieć sobie zagadnienie, które akurat jes
 <div class="project-content" markdown="1">
 <h1 class="landing-title">Przykładowe Lekcje z Kursu</h1>
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/499157637?h=690a2a2bba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SPRING-4.11-odbieranie-plikow-poprawione"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-https://vimeo.com/499157637/690a2a2bba
-
-MODUŁ 2
-
-LEKCJA 3 - Pierwszy projekt w Springu
-
-https://vimeo.com/500823865/abffcb0b0f
-MODUŁ 3
-
-LEKCJA 7 - Stosowanie Interfejsów
-
-https://vimeo.com/509689209/8fa38b159a
-MODUŁ 6
-
-LEKCJA 6 - Audytowanie Encji
-
-https://vimeo.com/525431851/1cbce6a95c
-MODUŁ 10
-
-LEKCJA 6 - Deployment na Heroku
+{% include_relative _vimeo.md id="499157637" hash="690a2a2bba" opis="MODUŁ 2, LEKCJA 3 - Pierwszy projekt w Springu" %}
+{% include_relative _vimeo.md id="500823865" hash="abffcb0b0f" opis="MODUŁ 3, LEKCJA 7 - Stosowanie Interfejsów" %}
+{% include_relative _vimeo.md id="509689209" hash="8fa38b159a" opis="MODUŁ 6, LEKCJA 6 - Audytowanie Encji" %}
+{% include_relative _vimeo.md id="525431851" hash="1cbce6a95c" opis="MODUŁ 10, LEKCJA 6 - Deployment na Heroku" %}
 
 </div>
 </div>
