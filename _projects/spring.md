@@ -146,19 +146,30 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 </div>
 </div>
 
+<div class="full-width">
 <h1 class="landing-title">Zobacz, co mówią inni</h1>
+<div class="wider">
 
-> Wiedza podana jest w ciekawej formie
+<div class="landing__grid">
 
-Kurs jest godny polecenia nawet dla osób z pewnym doświadczeniem w Springu. 
+{% for row in site.data.spring-testimonals %}
 
-Wiedza podana jest w ciekawej formie, najpierw krótki wstęp teoretyczny, a później implementacja w kodzie. Generalnie kurs kładzie nacisk na praktyczne podejście, widać duże doświadczenie Darka.
+<div class="grid__box__3 testimonal" markdown="1">
 
-Osoby które już pracują w Springu znajdą tu wiele ciekawostek i gotowych rozwiązań problemów, z którymi mierzą się na codzień. 
+> {{ row["heading"] }}
 
-Do kursu czasami wracam, żeby przypomnieć sobie zagadnienie, które akurat jest mi potrzebne w pracy.
+{{ row["text"] }}
 
-**Łukasz Majcher - Senior Software Developer**
+<img src="/images/{{ row["image"] }}" />
+**{{ row["name"] }} - {{ row["role"] }}**
+
+</div>
+
+{% endfor %}
+
+</div>
+</div>
+</div>
 
 <div class="full-width" style="background: {{page.lightbg}}">
 <div class="project-content wider" markdown="1">

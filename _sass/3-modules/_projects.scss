@@ -88,7 +88,7 @@
 
 .agenda, .landing__grid {
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -103,10 +103,22 @@
   }  
 }
 
-.agenda__modul, .grid__box_3 {
+.project-content .testimonal img {
+  float: right;
+  max-width: 70px;
+  border-radius: 100px;
+}
+
+.agenda__modul,
+.grid__box__3 {
   font-size: 16px;
   box-sizing: border-box;
-  width: 32%;
+  width: 30%;
+
+  blockquote {
+    text-align: center;
+    margin: 1em 0;
+  }
 
   @media only screen and (max-width: $desktop) {
     width: 45%;
