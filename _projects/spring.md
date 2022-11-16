@@ -15,10 +15,8 @@ darkbg: rgb(53 55 53);
 <div class="project-content" markdown="1">
 
 
-<h1 class="landing-title">Ten Program Nauczy Cię budować Aplikacje w Springu!</h1>
+<h1 class="landing-title">Ten Program Nauczy Cię budować Aplikacje w <span style="color: {{page.accent}}">Springu!</span></h1>
 <h2 class="landing-subtitle">Od Zera Aż Do Wdrożenia na Produkcję!</h2>
-
-<img src="/images/springlogo.png" alt="spring" style="max-width: 300px; margin: 3em auto; display: block;">
 
 <div style="text-align: center" markdown="1">
 Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak ułożyć **architekturę** i **REST API**, jak pracować z **JPA & Hibernate**, jak pisać **testy** i jak zastosować **Spring Security**.
