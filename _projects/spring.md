@@ -130,17 +130,125 @@ Do kursu czasami wracam, żeby przypomnieć sobie zagadnienie, które akurat jes
 **Łukasz Majcher - Senior Software Developer**
 
 <div class="full-width" style="background: {{page.lightbg}}">
-<div class="project-content" markdown="1">
+<div class="project-content wider" markdown="1">
 <h1 class="landing-title">Przykładowe Lekcje z Kursu</h1>
+<h2 class="landing-subtitle">Zobacz jak wyglądają lekcje z kursu!</h2>
+
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; justify-content: space-between; margin: 2em 0">
 
 {% include_relative _vimeo.md id="499157637" hash="690a2a2bba" opis="MODUŁ 2, LEKCJA 3 - Pierwszy projekt w Springu" %}
 {% include_relative _vimeo.md id="500823865" hash="abffcb0b0f" opis="MODUŁ 3, LEKCJA 7 - Stosowanie Interfejsów" %}
 {% include_relative _vimeo.md id="509689209" hash="8fa38b159a" opis="MODUŁ 6, LEKCJA 6 - Audytowanie Encji" %}
 {% include_relative _vimeo.md id="525431851" hash="1cbce6a95c" opis="MODUŁ 10, LEKCJA 6 - Deployment na Heroku" %}
+</div>
 
 </div>
 </div>
 
+# Czy jest inna droga?
+
+Oczywiście!
+
+ Możesz podążać drogą prób i błędów. Oglądać tutoriale na Youtube, czytać artykuły na blogach
+i próbować budować coś na własną rękę. Dużo osób tak robi... i niestety szybko odpuszcza.
+Możesz znaleźć też mentora, który będzie prowadził z Tobą zajęcia jeden na jeden
+i będzie Cię to kosztować od 100 do nawet 400 złotych za godzinę.
+Możesz też iść na bootcamp, czy dedykowane szkolenie, które będzie kosztować  kilka tysięcy złotych.
+A potem zostaniesz z wiedzą i wątpliwościami sam.
+
+
+W TYM PROGRAMIE DOSTAJESZ WSZYSTKO NA TACY - NA ZAWSZE!
+
+
+
+Przeprowadzę Cię za rękę przez proces nauki Springa i budowy własnej aplikacji.
+Wszystko pod moim okiem i zaangażowaniem w proces.
+
+
+
+Jeśli tylko zaangażujesz się w naukę - nie ma opcji, że się nie uda!
+
+<div class="full-width" style="background: {{page.lightbg}}">
+<div class="project-content" markdown="1">
+
+PODSUMUJMY!
+Jeśli dołączysz do kursu, otrzymasz:
+
+1. 11-Modułowy Program Wspólnej Nauki: 1299 PLN
+1. Spotkania Na Żywo (Live Call) Ze Studentami: 899 PLN
+1. Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów: 999 PLN
+1. Dostęp Do Analizy Twoich Materiałów Przeze Mnie: 499 PLN
+1. Przedłużoną Licencję Na IntelliJ IDEA Ultimate: 249 PLN
+1. Dożywotni Dostęp Do Grupy Na Facebooku "Szkoła Springa": Bezcenne
+
+Wartość wszystkich elementów
+
+3945 PLN
+
+SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
+
+{% include spring-kup.md %}
+
+</div>
+</div>
+
+# Moja Gwarancja
+
+100% Gwaranacji zwrotu przez 30 Dni
+Pokochaj kurs, albo zwrócę Ci pieniądze!
+Jeśli z jakiegoś powodu programu nie będzie Ci odpowiadał, zwrócę Ci Twoje pieniądze!
+Na zmianę decyzji masz 30 dni od zakupu.
+Wystarczy, że napiszesz do mnie na darek@sztukakodu.pl
+
+
+
+<div class="full-width" style="background: {{page.darkbg}} color: white">
+<div class="project-content dark" markdown="1">
+<h1 class="landing-title">Agenda Programu</h1>
+
+Sprawdź co wchodzi w skład programu (ponad 19h materiału!) 👇
+
+Moduł 1 - Powitanie [0:20]
+
+1. Powitanie
+2. Jak wygląda program
+3. Agenda
+4. Efekt końcowy
+5. Gdzie szukać pomocy?
+6. Twój Instruktor
+7. Narzędzia
+8. Praca Domowa
+
+</div>
+</div>
+
+# Mam jeszcze kilka pytań...
+
+1. Kiedy zaczyna się program i jak długo trwa?
+Od razu po zakupie. Trwa tyle, ile chcesz. Zależy od Twojego tempa nauki.
+
+2. Jak długo mam dostęp do programu?
+Dożywotnio - a raczej tak długo jak Sztuka Kodu będzie istnieć.
+
+3. Czy dostanę cały kurs od razu?
+Tak. Program składa się z 11 modułów. Udostępniam Ci od razu wszystkie byś mógł sam zdecydować które tematy w jakiej kolejności chcesz przerabiać.
+
+4. Co jeśli nie jestem zadowolony z kursu?
+Po prostu napisz na darek@sztukakodu.pl, a zwrócę Ci 100% pieniędzy. Masz na to 30 dni od daty zakupu.
+
+5. Czy dostanę fakturę?
+Tak. Do każdego zakupu automatycznie generowana jest faktura.
+
+6. Chcę zapisać więcej osób na kurs. Czy dostanę zbiorczą fakturę?
+Tak. Napisz do mnie na darek@sztukakodu.pl
+
+7. Co jeśli mam dalsze pytania?
+Napisz do mnie na darek@sztukakodu.pl
+
+
+
+P.S.: Mam nadzieję, że wytłumaczyłem Ci wszystko. Teraz decyzje należy tylko do Ciebie. Ryzykujesz - inwestując w swoją lepszą przyszłość lub... zostawiasz wszystko tak jak jest.
 
 {% include spring-kup.md %}
 

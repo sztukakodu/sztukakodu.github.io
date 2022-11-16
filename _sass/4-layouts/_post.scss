@@ -235,6 +235,11 @@
   transform: translateX(-50%);
 }
 
+.wider {
+  max-width: 968px !important;
+  padding: 0 20px;
+}
+
 /* Share */
 .post__share {
   padding-bottom: 48px;

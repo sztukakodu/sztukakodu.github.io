@@ -133,18 +133,12 @@ footer_menu__settings:
   menu__items:
     - title: 'Strona Główna'
       url: '/'
-    # - title: 'Projects'
-    #   url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    # - url: '/about/'
-    #   title: 'About'
-    # - url: '/contact/'
-    #   title: 'Contact'
-    - url: 'https://edu.sztukakodu.pl/regulamin/'
-      title: 'Regulamin'
-    - url: 'https://edu.sztukakodu.pl/polityka-prywatnosci/'
-      title: 'Polityka Prywatności'
+    - title: 'Kontakt'
+      url: '/kontakt/'
+    - title: 'Kursy'  
+      url: 'https://edu.sztukakodu.pl'
 
 
 #-------------------------------
