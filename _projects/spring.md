@@ -2,7 +2,7 @@
 title: Szkoła Springa
 subtitle: Kurs Online
 image: '/images/spring.png'
-checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
+checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507
 date: 2022-01-03
 footer: false
 sitemap: false
@@ -20,7 +20,9 @@ darkbg: rgb(53 55 53);
 
 <img src="/images/springlogo.png" alt="spring" style="max-width: 300px; margin: 3em auto; display: block;">
 
-<p style="text-align: center">Zbuduj własną aplikację od 0 do wdrożenia na produkcję, poznaj najlepsze praktyki, biblioteki i wzorce. Naucz się jak ułożyć architekturę i REST API. Jak pracować z JPA & Hibernate, jak pisać testy i jak zastosować Spring Security.</p>
+<div style="text-align: center" markdown="1">
+Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak ułożyć **architekturę** i **REST API**, jak pracować z **JPA & Hibernate**, jak pisać **testy** i jak zastosować **Spring Security**.
+</div>
 
 {% include spring-kup.md %}
 
@@ -62,29 +64,60 @@ To wszystko w programie wspólnej nauki ze mną - autorem szkolenia - oraz grup�
 </div>
 </div>
 
+<div class="full-width">
+<div class="project-content wider" markdown="1">
 # Dlaczego Ten Program?
 
 Tylko tutaj otrzymasz 11 modułów intensywnej - i co najważniejsze -
 praktycznej nauki budowania własnej aplikacji w Springu, podczas której...
 
+<div class="landing__grid">
+
+<div class="grid__box__2" markdown="1">
 ## Poznasz Springa od A do Z
+![a](/images/spring-narzedzia.png)
 W programie zaczynamy od samego początku. Przeprowadzam Cię od podstaw, tak abyś na pewno dobrze zrozumiał jak pracować ze Springiem. Program kończy się wdrożeniem Twojej działającej aplikacji na produkcję!
+</div>
 
+<div class="grid__box__2" markdown="1">
 ## Otrzymasz 11-modułowy Program Online
+![a](/images/spring-moduly.png)
 Otrzymasz dostęp do lekcji online, w małych porcjach - 5-20 lekcji w każdym module. Do przerobienia kiedy chcesz. 
+</div>
 
+<div class="grid__box__2" markdown="1">
 ## Weźmiesz udział w Spotkaniach Live
+![a](/images/spring-webinary.png)
 Jeśli nie wszystko będzie dla Ciebie jasne w trakcie studiowania kursu, będziesz mógł zapytać mnie na żywo o trapiące Cię kwestie podczas jednego z trzech spotkań na żywo.
+</div>
 
+<div class="grid__box__2" markdown="1">
 ## Otrzymasz Zadania Domowe
+![a](/images/spring-zadania.png)
 W ramach nauki będziesz mieć możliwość zrobienia zadań domowych, dzięki czemu jeszcze lepiej przyswoisz nowy materiał.
+</div>
 
+<div class="grid__box__2" markdown="1">
 ## Poznasz Ludzi Takich Jak Ty
+![a](/images/spring-facebook.png)
 Jednym z elementów kursu jest dostęp do zamkniętej, dedykowanej grupy na Facebooku. W grupie spotkasz takie osoby jak Ty, z którymi łatwiej będzie przejść Ci przez cały proces.
+</div>
+
+<div class="grid__box__2" markdown="1">
+## Otrzymasz licencję na IntelliJ Ultimate
+![a](/images/intellij-logo.png)
+Jako uczestnik kursu otrzymasz aż 4-miesięczną darmową licencję na pełną wersję oprogramowania JetBrains IntelliJ Ultimate! Dzięki niemu nauka będzie jeszcze łatwiejsza.
+</div>
+
+</div>
+</div>
+</div>
 
 <div class="full-width" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
 <h1 class="landing-title">Kto będzie Twoim instruktorem?</h1>
+
+![darek](/images/darek-bluza.jpeg){: .img-right-200 }
 
 ## Dariusz Mydlarz
 
@@ -96,7 +129,7 @@ Uwielbia tworzyć aplikacje webowe i serwisy oparte o architekturę mikroserwis�
 
 Swoją wiedzą dzieli się na blogu sztukakodu.pl
 
-Opracował także efektywną metodę nauki frameworka Spring.
+**Opracował także efektywną metodę nauki frameworka Spring.**
 
 </div>
 </div>
@@ -105,12 +138,12 @@ Opracował także efektywną metodę nauki frameworka Spring.
 <div class="project-content dark" markdown="1">
 <h1 class="landing-title">Co znajdziesz w środku?</h1>
 
-1. **LEKCJE WIDEO** - Program składa się z dziesiątek lekcji wideo podzielonych na 11 modułów
-1. **ZADANIA DOMOWE** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
-1. **SPOTKANIA LIVE** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
-1. **GRUPA MASTERMIND** - W programie towarzyszy nam specjalna grupa na Facebooku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
-1. **WSPARCIE** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Facebooku gdzie pomagać Ci w Twojej drodze.
-1. **NARZĘDZIA** - Dla ułatwienia Twojej pracy przygotowałem dla Ciebie specjalną licencję na **INTELLIJ IDEA ULTIMATE**. Tak, by proces nauki był jeszcze łatwiejszy.
+1. **LEKCJE WIDEO 📹** - Program składa się z dziesiątek lekcji wideo podzielonych na 11 modułów
+1. **ZADANIA DOMOWE ✏️** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
+1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
+1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Facebooku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
+1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Facebooku gdzie pomagać Ci w Twojej drodze.
+1. **NARZĘDZIA 🪛** - Dla ułatwienia Twojej pracy przygotowałem dla Ciebie specjalną licencję na **INTELLIJ IDEA ULTIMATE**. Tak, by proces nauki był jeszcze łatwiejszy.
 
 </div>
 </div>

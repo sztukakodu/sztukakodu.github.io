@@ -80,14 +80,30 @@
   }
 }
 
-.agenda {
+.img-right-200 {
+  float: right;
+  max-width: 200px;
+  margin: 0 0 1em 1em;
+}
+
+.agenda, .landing__grid {
   display: flex;
   gap: 1em;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.agenda__modul {
+.grid__box__2 {
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 45%;
+
+  @media only screen and (max-width: $desktop) {
+    width: 100%;
+  }  
+}
+
+.agenda__modul, .grid__box_3 {
   font-size: 16px;
   box-sizing: border-box;
   width: 32%;
@@ -99,7 +115,9 @@
   @media only screen and (max-width: $mobile) {
     width: 100%;
   }
+}
 
+.agenda__modul {
   ol li {
     margin: 0;
   }
@@ -108,3 +126,4 @@
     margin-left: 20px;
   }
 }
+
