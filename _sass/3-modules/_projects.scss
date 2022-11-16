@@ -79,3 +79,32 @@
     text-transform: uppercase;
   }
 }
+
+.agenda {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.agenda__modul {
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 32%;
+
+  @media only screen and (max-width: $desktop) {
+    width: 45%;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    width: 100%;
+  }
+
+  ol li {
+    margin: 0;
+  }
+
+  ol {
+    margin-left: 20px;
+  }
+}
