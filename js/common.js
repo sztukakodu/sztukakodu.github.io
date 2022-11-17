@@ -12,13 +12,17 @@ document.addEventListener("DOMContentLoaded", function() {
   /* =======================================================
   // Menu + Theme Switcher
   ======================================================= */
-  menuOpenIcon.addEventListener("click", () => {
-    menuOpen();
-  });
+  if(menuOpenIcon) {  
+    menuOpenIcon.addEventListener("click", () => {
+      menuOpen();
+    });
+  }
 
-  menuCloseIcon.addEventListener("click", () => {
-    menuClose();
-  });
+  if(menuCloseIcon) {
+    menuCloseIcon.addEventListener("click", () => {
+      menuClose();
+    });
+  }
 
   function menuOpen() {
     menuList.classList.add("is-open");

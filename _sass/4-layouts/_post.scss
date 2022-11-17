@@ -85,6 +85,7 @@
   }
 }
 
+.landing h1,
 .landing-title,
 .post-title,
 .page-title {
@@ -170,7 +171,8 @@
 .page,
 .project-content {
   max-width: 780px;
-  margin: 0 auto 60px;
+  // margin: 0 auto 60px;
+  margin: 0 auto;
   color: var(--text-color);
 
   a {
@@ -184,6 +186,8 @@
   }
 
   .dark {
+    background: rgb(53, 55, 53);
+
     h1, h2, h3, h4, h5, h6, li, p, span, strong {
       color: white;
     }
@@ -198,7 +202,8 @@
     float: right;
     margin-left: 1em;
     display: block;
-    max-width: 400px;
+    max-width: 100%;
+    width: 400px;
   }
 
   img, .js-reframe {
@@ -237,7 +242,6 @@
 
 .wider {
   max-width: 968px !important;
-  padding: 0 20px;
   margin: 0 auto;
 }
 

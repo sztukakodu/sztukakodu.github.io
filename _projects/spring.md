@@ -7,7 +7,7 @@ date: 2022-01-03
 footer: false
 sitemap: false
 accent: green;
-lightbg: rgb(222 244 222)	;
+lightbg: rgb(222 244 222);
 darkbg: rgb(53 55 53);
 ---
 
@@ -31,31 +31,31 @@ Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak uło�
 
 ![droga](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring-droga-1536x584.png)
 
-1. Zapraszam Cię do kompleksowego programu nauki frameworka Spring.
-2. W ramach programu dostajesz dostęp do 11 modułów wideo, w których pokazuję Ci jak efektywnie budować aplikacje w Springu przechodząc od fundamentów aż do wdrożenia na produkcję.
-3. Pomagam Ci przejść cały program. Komunikujemy się za pomocą grupy na Facebooku, na której spotkasz mnie i pozostałych studentów.
-4. Oprócz tego spotykamy się na dedykowanych webinarach, podczas których możemy dodatkowo rozwiać Twoje wątpliwości.
-5. Otrzymujesz odpowiednie narzędzia, przyszłe aktualizacje i moją dostępność by pomóc Ci w dobrym poznaniu Springa.
+1. Zapraszam Cię do **kompleksowego programu** nauki **frameworka Spring**.
+2. W ramach programu dostajesz dostęp do **11 modułów wideo**, w których pokazuję Ci jak efektywnie budować aplikacje w Springu przechodząc **od fundamentów aż do wdrożenia na produkcję**.
+3. **Pomagam Ci przejść cały program**. Komunikujemy się za pomocą **grupy na Slacku**, na której spotkasz mnie i pozostałych studentów.
+4. Oprócz tego spotykamy się na **dedykowanych webinarach**, podczas których możemy dodatkowo rozwiać Twoje wątpliwości.
+5. Otrzymujesz odpowiednie **narzędzia, przyszłe aktualizacje i moją dostępność** by pomóc Ci w dobrym poznaniu Springa.
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
 <h1 class="landing-title">SZKOŁA SPRINGA</h1>
 
-11-modułowy program, w trakcie którego pokazuję Ci krok po kroku tajniki najpopularniejszego frameworka w świecie Javy na podstawie realnej aplikacji, którą na koniec wdrożymy na produkcję.
+**11-modułowy program**, w trakcie którego pokazuję Ci **krok po kroku** tajniki najpopularniejszego frameworka w świecie Javy na podstawie **realnej aplikacji**, którą na koniec **wdrożymy na produkcję**.
 
 W ramach programu poznasz takie tematy jak:
 
 ![spring](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring2021_inside-1024x886.jpg#right){: .no-lightense }
 
-1. Fundamenty Springa
-2. Architektura
-3. Spring REST API
-4. JPA & Hibernate
-5. Testowanie
-6. UI
-7. Security
-8. Wdrażanie na produkcję
-9. Integrację z Frontendem
+1. **Fundamenty Springa**
+2. **Architektura**
+3. **Spring REST API**
+4. **JPA & Hibernate**
+5. **Testowanie**
+6. **UI**
+7. **Security**
+8. **Wdrażanie na produkcję**
+9. **Integrację z Frontendem**
 
 To wszystko w programie wspólnej nauki ze mną - autorem szkolenia - oraz grupą studentów, którzy wspólnie z Tobą dołączają do kursu.
 
@@ -74,13 +74,19 @@ praktycznej nauki budowania własnej aplikacji w Springu, podczas której...
 <div class="grid__box__2" markdown="1">
 ## Poznasz Springa od A do Z
 ![a](/images/spring-narzedzia.png)
-W programie zaczynamy od samego początku. Przeprowadzam Cię od podstaw, tak abyś na pewno dobrze zrozumiał jak pracować ze Springiem. Program kończy się wdrożeniem Twojej działającej aplikacji na produkcję!
+W programie zaczynamy od samego początku.
+
+Przeprowadzam Cię od podstaw, tak abyś na pewno dobrze zrozumiał jak pracować ze Springiem.
+
+Program kończy się wdrożeniem Twojej działającej aplikacji na produkcję!
 </div>
 
 <div class="grid__box__2" markdown="1">
 ## Otrzymasz 11-modułowy Program Online
 ![a](/images/spring-moduly.png)
-Otrzymasz dostęp do lekcji online, w małych porcjach - 5-20 lekcji w każdym module. Do przerobienia kiedy chcesz. 
+Otrzymasz dostęp do lekcji online, w małych porcjach - 5-20 lekcji w każdym module.
+
+Do przerobienia kiedy chcesz. 
 </div>
 
 <div class="grid__box__2" markdown="1">
@@ -97,14 +103,18 @@ W ramach nauki będziesz mieć możliwość zrobienia zadań domowych, dzięki c
 
 <div class="grid__box__2" markdown="1">
 ## Poznasz Ludzi Takich Jak Ty
-![a](/images/spring-facebook.png)
-Jednym z elementów kursu jest dostęp do zamkniętej, dedykowanej grupy na Facebooku. W grupie spotkasz takie osoby jak Ty, z którymi łatwiej będzie przejść Ci przez cały proces.
+![a](/images/slack.png)
+Jednym z elementów kursu jest dostęp do zamkniętej, dedykowanej społeczności na Slacku.
+
+W grupie spotkasz takie osoby jak Ty, z którymi łatwiej będzie przejść Ci przez cały proces.
 </div>
 
 <div class="grid__box__2" markdown="1">
 ## Otrzymasz licencję na IntelliJ Ultimate
 ![a](/images/intellij-logo.png)
-Jako uczestnik kursu otrzymasz aż 4-miesięczną darmową licencję na pełną wersję oprogramowania JetBrains IntelliJ Ultimate! Dzięki niemu nauka będzie jeszcze łatwiejsza.
+Jako uczestnik kursu otrzymasz aż **4-miesięczną licencję** na pełną wersję oprogramowania JetBrains **IntelliJ Ultimate**!
+
+Dzięki niemu nauka będzie jeszcze łatwiejsza.
 </div>
 
 </div>
@@ -113,11 +123,11 @@ Jako uczestnik kursu otrzymasz aż 4-miesięczną darmową licencję na pełną 
 
 <div class="full-width" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
-<h1 class="landing-title">Kto będzie Twoim instruktorem?</h1>
-
-![darek](/images/darek-bluza.jpeg){: .img-right-200 }
+# Kto będzie Twoim instruktorem?
 
 ## Dariusz Mydlarz
+
+![darek](/images/darek-bluza.jpeg){: .img-right-200 }
 
 Ma 32 lata i jest wielkim fanem Javy i Springa. Tworzy w tym ekosystemie od 2012 roku.
 
@@ -132,16 +142,16 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 </div>
 </div>
 
-<div class="full-width" style="background: {{page.darkbg}} color: white">
+<div class="full-width dark">
 <div class="project-content dark" markdown="1">
-<h1 class="landing-title">Co znajdziesz w środku?</h1>
+# Co znajdziesz w środku?
 
 1. **LEKCJE WIDEO 📹** - Program składa się z dziesiątek lekcji wideo podzielonych na 11 modułów
 1. **ZADANIA DOMOWE ✏️** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
 1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
-1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Facebooku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
-1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Facebooku gdzie pomagać Ci w Twojej drodze.
-1. **NARZĘDZIA 🪛** - Dla ułatwienia Twojej pracy przygotowałem dla Ciebie specjalną licencję na **INTELLIJ IDEA ULTIMATE**. Tak, by proces nauki był jeszcze łatwiejszy.
+1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Slacku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
+1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Slacku gdzie pomagać Ci w Twojej drodze.
+1. **NARZĘDZIA 🪛** - W programie wykorzystamy produkcyjne narzędzia. Poznasz pracę z **GIT-em**, **Mavenem**, bazą **PostgreSQL**, **Dockerem**, **Swaggerem**, **Amazon Web Services** czy **Heroku**! Dla ułatwienia przygotowałem dla Ciebie też licencję na **INTELLIJ IDEA ULTIMATE**.
 
 </div>
 </div>
@@ -177,7 +187,7 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 <h2 class="landing-subtitle">Zobacz jak wyglądają lekcje z kursu!</h2>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; justify-content: space-between; margin: 2em 0">
+<div class="landing__grid">
 
 {% include_relative _vimeo.md id="499157637" hash="690a2a2bba" opis="MODUŁ 2, LEKCJA 3 - Pierwszy projekt w Springu" %}
 {% include_relative _vimeo.md id="500823865" hash="abffcb0b0f" opis="MODUŁ 3, LEKCJA 7 - Stosowanie Interfejsów" %}
@@ -188,9 +198,10 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 </div>
 </div>
 
+<!-- <div class="full-width dark">
+	<div class="project-content  dark" markdown="1">
 # Czy jest inna droga?
 
-<div class="center" markdown="1">
 ## Oczywiście!
 
 1. **Możesz podążać drogą prób i błędów.** Oglądać tutoriale na Youtube, czytać artykuły na blogach
@@ -202,6 +213,8 @@ i będzie Cię to kosztować **od 100 do nawet 400 złotych za godzinę.**
 3. **Możesz też iść na bootcamp**, czy dedykowane szkolenie, które będzie kosztować **kilka tysięcy złotych**.
 A potem zostaniesz z wiedzą i wątpliwościami sam.
 
+<div class="center" markdown="1">
+
 <u>W TYM PROGRAMIE DOSTAJESZ WSZYSTKO NA TACY - NA ZAWSZE!</u>
 
 Przeprowadzę Cię za rękę przez proces nauki Springa i budowy własnej aplikacji.  
@@ -209,19 +222,18 @@ Wszystko pod moim okiem i zaangażowaniem w proces.
 
 Jeśli tylko zaangażujesz się w naukę - **nie ma opcji, że się nie uda!**
 </div>
+</div>
+</div> -->
 
-<div class="full-width" style="background: {{page.lightbg}}">
-<div class="project-content" markdown="1">
-
-<h1 class="landing-title">Podsumujmy</h1>
-<h1 class="landing-subtitle">Jeśli dołączysz do kursu, otrzymasz:</h1>
+# Podsumujmy
+## Jeśli dołączysz do kursu, otrzymasz:
 
 1. **11-Modułowy Program Wspólnej Nauki:** 1299 PLN
 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
 1. **Przedłużoną Licencję Na IntelliJ IDEA Ultimate:** 249 PLN
-1. **Dożywotni Dostęp Do Grupy Na Facebooku "Szkoła Springa":** Bezcenne
+1. **Dożywotni Dostęp Do Społeczności Na Slacku:** Bezcenne
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
@@ -229,13 +241,14 @@ Wartość wszystkich elementów:
 <strike style="color: #D30306; font-size: 36px; font-weight: bold;">3945 PLN</strike>
 
 SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
-</div>
 
 {% include spring-kup.md %}
-
-</div>
 </div>
 
+
+
+<div class="full-width" style="background: {{page.lightbg}}">
+<div class="project-content" markdown="1">
 # Moja Gwarancja
 
 ![gwarancja](/images/gwarancja.png){: .img-right-200 }
@@ -244,17 +257,19 @@ SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
 
 Pokochaj kurs, albo zwrócę Ci pieniądze!
 
-Jeśli z jakiegoś powodu programu nie będzie Ci odpowiadał, zwrócę Ci Twoje pieniądze!
+**Jeśli z jakiegoś powodu programu nie będzie Ci odpowiadał, zwrócę Ci Twoje pieniądze!**
 
 Na zmianę decyzji masz 30 dni od zakupu.
 
 Wystarczy, że napiszesz do mnie na darek@sztukakodu.pl
+</div>
+</div>
 
 
 
 <div class="full-width" style="background: {{page.darkbg}} color: white">
 <div class="project-content dark wider" markdown="1">
-<h1 class="landing-title">Agenda Programu</h1>
+# Agenda Programu
 
 <p class="center">Sprawdź co wchodzi w skład programu (ponad 19h materiału!) 👇</p>
 
