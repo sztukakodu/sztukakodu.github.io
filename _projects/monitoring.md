@@ -6,6 +6,7 @@ date: 2022-01-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
 sitemap: false
+external_url: https://strony.sztukakodu.pl/sm/
 ---
 
 # Zacznij monitorować swoje aplikacje w Javie na produkcji!

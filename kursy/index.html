@@ -12,19 +12,32 @@ sitemap: false
     {% else site.data.settings.projects__settings.projects__description %}
       <p class="page-description">{{ site.data.settings.projects__settings.projects__description }}</p>
     {% endif %}
+    <p class="page-description" style="margin-top: 1em">Masz już dostęp? <a href="https://edu.sztukakodu.pl/wp-login.php" style="text-decoration: underline;">Zaloguj się na platformę &nearr;</a></p>
   </div>
 </div>
 
 <div class="projects-page container animate">
-  <div class="row">
+  <div class="row" style="justify-content: space-evenly;">
     {% for project in site.projects reversed %}
       <article class="project col col-4 col-d-6 col-t-12">
         <div class="project__content">
-          <a href="{{ project.url }}" class="project__image">
-            <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
-          </a>
+          {% if project.external_url %}
+            <a href="{{ project.external_url }}" class="project__image">
+              <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+            </a>
+          {% else %}
+            <a href="{{ project.url }}" class="project__image">
+              <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+            </a>
+          {% endif %}
           <div class="project__info">
-            <h3 class="project__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+            <h3 class="project__title">
+              {% if project.external_url %}
+                <a href="{{ project.external_url }}">{{ project.title }}</a>
+              {% else %}
+                <a href="{{ project.url }}">{{ project.title }}</a>
+              {% endif %}
+            </h3>
             {% if project.subtitle %}
             <div class="project__subtitle">{{ project.subtitle }}</div>
             {% endif %}

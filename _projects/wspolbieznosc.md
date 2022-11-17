@@ -6,6 +6,7 @@ date: 2022-01-02
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 sitemap: false
+external_url: https://strony.sztukakodu.pl/kw/
 ---
 
 Ten program przygotuje cię w 100% do pracy ze **Współbieżnością** i **Wielowątkowością** w Javie. I da do tego wszystkie narzędzia. Dołącz i zdobądź lepszą pracę, podwyżkę lub awans!

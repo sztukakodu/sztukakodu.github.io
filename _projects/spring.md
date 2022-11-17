@@ -5,7 +5,6 @@ image: '/images/spring.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507
 date: 2022-01-03
 footer: false
-sitemap: false
 accent: green;
 lightbg: rgb(222 244 222);
 darkbg: rgb(53 55 53);
@@ -45,7 +44,7 @@ Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak uło�
 
 W ramach programu poznasz takie tematy jak:
 
-![spring](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring2021_inside-1024x886.jpg#right){: .no-lightense }
+![spring](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring2021_inside-1024x886.jpg#right){: .no-lightense .box_shadow }
 
 1. **Fundamenty Springa**
 2. **Architektura**
@@ -127,7 +126,7 @@ Dzięki niemu nauka będzie jeszcze łatwiejsza.
 
 ## Dariusz Mydlarz
 
-![darek](/images/darek-bluza.jpeg){: .img-right-200 }
+![darek](/images/darek-bluza.jpeg){: .img-right-200 .box_shadow }
 
 Ma 32 lata i jest wielkim fanem Javy i Springa. Tworzy w tym ekosystemie od 2012 roku.
 
