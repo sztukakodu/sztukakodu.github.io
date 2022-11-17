@@ -5,8 +5,8 @@ image: '/images/wspolbieznosc.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 date: 2022-01-02
 footer: false
-accent: rgb(39,63,170);
-lightbg: rgb(242,246,244)
+accent: rgb(47, 106, 188);
+lightbg: rgb(233, 241, 250);
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
@@ -20,7 +20,8 @@ lightbg: rgb(242,246,244)
 {% include_relative _vimeo_full.md id="424725672" hash="#" %}
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
-Dołącz i zdobądź lepszą pracę, podwyżkę lub awans!
+Poznaj temat **współbieżności** w Javie i naucz się pracować z wątkami.  
+**Podnieś swoje kompetencje** i zdobądź **lepszą pracę** lub **awans**!
 </div>
 
 {% include spring-kup.md %}

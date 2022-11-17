@@ -5,8 +5,8 @@ image: '/images/lombok.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3736
 date: 2021-02-01
 footer: false
-accent: rgb(199 21 21);
-lightbg: rgb(244 222 222);
+accent: rgb(113, 39, 170);
+lightbg: rgb(241 231 248);
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">

@@ -11,11 +11,12 @@ lightbg: rgb(222 244 222);
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
 
-<h1 class="landing-title">Ten Program Nauczy Cię budować Aplikacje w <span style="color: {{page.accent}}">Springu!</span></h1>
-<h2 class="landing-subtitle">Od Zera Aż Do Wdrożenia na Produkcję!</h2>
+# Ten program nauczy Cię budować aplikacje webowe w <span style="color: {{page.accent}}">Springu</span>!
+
+## Od zera aż do <span style="color: {{page.accent}}">wdrożenia na produkcję</span>!
 
 <div style="text-align: center" markdown="1">
-Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak ułożyć **architekturę** i **REST API**, jak pracować z **JPA & Hibernate**, jak pisać **testy** i jak zastosować **Spring Security**.
+Poznaj **framework #1** w Javie do budowania **aplikacji webowych**! Stwórz swoją **pierwszą aplikację**, poznaj **najlepsze praktyki**, **biblioteki**, **narzędzia** i **wzorce**. 
 </div>
 
 {% include spring-kup.md %}
