@@ -18,7 +18,8 @@ lightbg: rgb(250, 238, 238);
 ## Zyskaj 100% wgląd w działanie Twojej aplikacji na produkcji!
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
-Poznaj **narzędzia #1** do **monitorowania** na żywo aplikacji w Javie na produkcji! Naucz się pracować z **metrykami, Prometheusem i Grafaną**.
+Poznaj **narzędzia #1** do **monitorowania** na żywo aplikacji w Javie.  
+Naucz się pracować z **metrykami, Prometheusem i Grafaną**!
 </div>
 
 <div style="text-align: center" markdown="1">

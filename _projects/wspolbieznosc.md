@@ -12,15 +12,13 @@ lightbg: rgb(233, 241, 250);
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
 
-
 # Ten program przygotuje Cię w 100% do pracy ze <span style="color: {{page.accent}}">Współbieżnością</span> w Javie!
 
-## I da do tego wszystkie narzędzia!
 
 {% include_relative _vimeo_full.md id="424725672" hash="#" %}
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
-Poznaj temat **współbieżności** w Javie i naucz się pracować z wątkami.  
+Poznaj **wszystkie narzędzia** do pracy ze **współbieżnością** w Javie.  
 **Podnieś swoje kompetencje** i zdobądź **lepszą pracę** lub **awans**!
 </div>
 

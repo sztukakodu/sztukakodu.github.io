@@ -13,9 +13,9 @@ lightbg: rgb(222 244 222);
 
 # Ten program nauczy Cię budować aplikacje webowe w <span style="color: {{page.accent}}">Springu</span>!
 
-## Od zera aż do <span style="color: {{page.accent}}">wdrożenia na produkcję</span>!
+{% include_relative _vimeo_full.md id="771996198" %}
 
-<div style="text-align: center" markdown="1">
+<div style="text-align: center; margin-top: 1em" markdown="1">
 Poznaj **framework #1** w Javie do budowania **aplikacji webowych**! Stwórz swoją **pierwszą aplikację**, poznaj **najlepsze praktyki**, **biblioteki**, **narzędzia** i **wzorce**. 
 </div>
 

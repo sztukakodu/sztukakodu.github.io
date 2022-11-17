@@ -11,8 +11,6 @@ lightbg: rgb(241 231 248);
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
-
-
 # Wykorzystaj pełnię możliwości <span style="color: {{page.accent}}">Lomboka</span>!
 
 {% include_relative _vimeo_full.md id="540595216" hash="#" %}
