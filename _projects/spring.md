@@ -43,7 +43,7 @@ Poznaj **najlepsze praktyki**, **biblioteki** i **wzorce**. Naucz się jak uło�
 
 W ramach programu poznasz takie tematy jak:
 
-![spring](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring2021_inside-1024x886.jpg#right){: .no-lightense .box_shadow }
+![spring](/images/spring-agenda.jpg#right){: .no-lightense .box_shadow }
 
 1. **Fundamenty Springa**
 2. **Architektura**

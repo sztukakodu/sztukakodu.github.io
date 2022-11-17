@@ -57,13 +57,13 @@ wszystkich aplikacji, które tworzysz!
 
 W ramach programu poznasz takie tematy jak:
 
-![spring](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring2021_inside-1024x886.jpg#right){: .no-lightense .box_shadow }
+![kurs](/images/wspolbieznosc-agenda.png#right){: .no-lightense .box_shadow }
 
 1. **Fundamenty Wielowątkowości**
 2. **Synchronizacja**
 3. **Pule Wątków**
 4. **Operacje Asynchroniczne**
-5. **Kolekcje a Współbioeżność**
+5. **Kolekcje a Współbieżność**
 6. **Utrzymanie**
 7. **Najlepsze Praktyki**
 
