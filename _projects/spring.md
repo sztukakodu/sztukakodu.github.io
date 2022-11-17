@@ -8,10 +8,8 @@ footer: false
 accent: green;
 lightbg: rgb(222 244 222);
 ---
-
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
-
 
 <h1 class="landing-title">Ten Program Nauczy Cię budować Aplikacje w <span style="color: {{page.accent}}">Springu!</span></h1>
 <h2 class="landing-subtitle">Od Zera Aż Do Wdrożenia na Produkcję!</h2>
