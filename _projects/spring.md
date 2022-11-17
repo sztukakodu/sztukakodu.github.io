@@ -7,7 +7,6 @@ date: 2022-01-03
 footer: false
 accent: green;
 lightbg: rgb(222 244 222);
-darkbg: rgb(53 55 53);
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
@@ -162,18 +161,7 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 <div class="landing__grid">
 
 {% for row in site.data.spring-testimonals %}
-
-<div class="grid__box__3 testimonal" markdown="1">
-
-> {{ row["heading"] }}
-
-{{ row["text"] }}
-
-<img src="/images/{{ row["image"] }}" />
-**{{ row["name"] }} - {{ row["role"] }}**
-
-</div>
-
+	{% include_relative _testimonal.md row=row %}
 {% endfor %}
 
 </div>
@@ -197,37 +185,10 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 </div>
 </div>
 
-<!-- <div class="full-width dark">
-	<div class="project-content  dark" markdown="1">
-# Czy jest inna droga?
-
-## Oczywiście!
-
-1. **Możesz podążać drogą prób i błędów.** Oglądać tutoriale na Youtube, czytać artykuły na blogach
-i próbować budować coś na własną rękę. **Dużo osób tak robi... i niestety szybko odpuszcza.**
-
-2. Możesz znaleźć też mentora, który będzie prowadził z Tobą zajęcia jeden na jeden
-i będzie Cię to kosztować **od 100 do nawet 400 złotych za godzinę.**
-
-3. **Możesz też iść na bootcamp**, czy dedykowane szkolenie, które będzie kosztować **kilka tysięcy złotych**.
-A potem zostaniesz z wiedzą i wątpliwościami sam.
-
-<div class="center" markdown="1">
-
-<u>W TYM PROGRAMIE DOSTAJESZ WSZYSTKO NA TACY - NA ZAWSZE!</u>
-
-Przeprowadzę Cię za rękę przez proces nauki Springa i budowy własnej aplikacji.  
-Wszystko pod moim okiem i zaangażowaniem w proces.
-
-Jeśli tylko zaangażujesz się w naukę - **nie ma opcji, że się nie uda!**
-</div>
-</div>
-</div> -->
-
 # Podsumujmy
 ## Jeśli dołączysz do kursu, otrzymasz:
 
-1. **11-Modułowy Program Wspólnej Nauki:** 1299 PLN
+1. **11-Modułowy Program Wspólnej Nauki:** 2499 PLN
 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
@@ -237,7 +198,7 @@ Jeśli tylko zaangażujesz się w naukę - **nie ma opcji, że się nie uda!**
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
 
-<strike style="color: #D30306; font-size: 36px; font-weight: bold;">3945 PLN</strike>
+<strike style="color: #D30306; font-size: 36px; font-weight: bold;">4.845 PLN</strike>
 
 SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
 
@@ -250,9 +211,9 @@ SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
 <div class="project-content" markdown="1">
 # Moja Gwarancja
 
-![gwarancja](/images/gwarancja.png){: .img-right-200 }
+## 100% Gwarancji zwrotu przez 30 Dni
 
-## 100% Gwaranacji zwrotu przez 30 Dni
+![gwarancja](/images/gwarancja.png){: .img-right-200 }
 
 Pokochaj kurs, albo zwrócę Ci pieniądze!
 
@@ -266,8 +227,8 @@ Wystarczy, że napiszesz do mnie na darek@sztukakodu.pl
 
 
 
-<div class="full-width" style="background: {{page.darkbg}} color: white">
-<div class="project-content dark wider" markdown="1">
+<div class="full-width dark">
+<div class="project-content wider" markdown="1">
 # Agenda Programu
 
 <p class="center">Sprawdź co wchodzi w skład programu (ponad 19h materiału!) 👇</p>
