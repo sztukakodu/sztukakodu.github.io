@@ -10,10 +10,10 @@ lightbg: rgb(242,246,244)
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
-<div class="project-content wider" markdown="1">
+<div class="project-content" markdown="1">
 
 
-# Ten program w 100% przygotuje Cię do pracy ze <span style="color: {{page.accent}}">Współbieżnością i Wielowątkowością</span> w Javie!
+# Ten program przygotuje Cię w 100% do pracy ze <span style="color: {{page.accent}}">Współbieżnością</span> w Javie!
 
 ## I da do tego wszystkie narzędzia!
 
