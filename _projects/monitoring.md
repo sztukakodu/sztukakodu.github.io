@@ -5,6 +5,7 @@ image: '/images/monitoring.png'
 date: 2022-01-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803
+price: 799
 sitemap: false
 accent: rgb(222, 53, 53);
 lightbg: rgb(250, 238, 238);
@@ -36,17 +37,13 @@ Naucz się pracować z **metrykami, Prometheusem i Grafaną**!
 
 # Niezawodność Twojej aplikacji spoczywa na Twoich barkach?
 
-## Czy masz do tego odpowiednie przygotowanie?
+Przerażają Cię kolejne bugi, które wkradają się na produkcję?
 
-W karierze każdego programisty przychodzi moment, gdy jego zmiany trafiają na produkcję.
+Wiesz, że **testy nie są w stanie dać 100% bezawaryjnego systemu**, ale... nie wiesz co z tym zrobić?
 
+Czytaj do końca - tutaj sprawię, że **otworzą Ci się oczy...**
 
-
-I może to być moment wielkiej dumy, albo… wielkiej klapy!
-
-Niestety wśród programistów ciągle brakuje wiedzy o odpowiednim monitorowaniu swoich aplikacji na produkcji.
-
-Skoro tu jesteś, to chcesz rozwiązać ten problem. Prawda?
+...na to co się dzieje na produkcji z Twoimi aplikacjami!
 
 </div>
 </div>
@@ -55,20 +52,20 @@ Skoro tu jesteś, to chcesz rozwiązać ten problem. Prawda?
 
 Chcesz wiedzieć...
 
-1. Jak zachowuje się Twoja aplikacja na produkcji?
-1. Jak dużo użytkowników korzysta z niej jednocześnie?
+1. Jak zachowuje się Twoja aplikacja **na produkcji**?
+1. **Jak dużo użytkowników** korzysta z niej jednocześnie?
 1.  W których godzinach jest ich najwięcej, a w których najmniej?
-1.  Jakie są czasy i statusy odpowiedzi?
-1.  Kiedy zdarzają się awarie Twojego systemu?
+1.  Jakie są **czasy i statusy odpowiedzi**?
+1.  Kiedy zdarzają się **awarie Twojego systemu**?
 1.  Czy Twój serwis wyrabia z przetwarzaniem żądań użytkowników?
-1.  Gdzie są wolne gardła Twojej aplikacji?
-1.  Ile zamówień trafiło do systemu danego dnia?
+1.  Gdzie są **wolne gardła** Twojej aplikacji?
+1.  **Ile zamówień** trafiło do systemu danego dnia?
 1.  Kiedy lista zadań na kolejce rośnie zamiast maleć?
-1.  Czy w Twojej aplikacji są wycieki pamięci?
+1.  Czy w Twojej aplikacji są **wycieki pamięci**?
 
-Jeśli choć jedna z powyższych sytuacji Cię dotyczy, to jesteś we właściwym miejscu!
+Jeśli choć jedna z powyższych sytuacji Cię dotyczy, to **jesteś we właściwym miejscu**!
 
-Szkoła Monitoringu rozprawia się z każdym z tych problemów (oferując o WIELE więcej)!
+**Szkoła Monitoringu** rozprawia się z każdym z tych problemów (oferując o WIELE więcej)!
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
@@ -107,9 +104,9 @@ praktycznej nauki pracy z metrykami i monitoringiem aplikacji w Javie, podczas k
 ![a](/images/monitoring-lekcja.png){: .box_shadow .margin_bottom }
 W programie zaczynamy od samego początku.
 
-Przeprowadzam Cię od podstaw, tak abyś na pewno dobrze zrozumiał jak pracować ze Springiem.
+Przeprowadzam Cię od podstaw, tak abyś na pewno dobrze zrozumiał jak pracować ze Metrykami i Monitoringiem.
 
-Program kończy się wdrożeniem Twojej działającej aplikacji na produkcję!
+Program kończy się zbudowaniem pełnego dashboardu w Grafanie ze 100% wglądem w działanie Twojej aplikacji.
 </div>
 
 <div class="grid__box__2" markdown="1">
@@ -191,6 +188,9 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 
 {% include_relative _vimeo.md id="564984597" hash="#" opis="Lekcja 3.7 Pomiar requestów HTTP" %}
 {% include_relative _vimeo.md id="564984607" hash="#" opis="Lekcja 3.8 Pomiar pamięci Heap" %}
+
+{% include_relative _vimeo.md id="564984736" hash="#" opis="Lekcja 4.5 Użycie adnotacji – @Timed" %}
+{% include_relative _vimeo.md id="659591864" hash="#" opis="Lekcja 5.6 Setup Alertingu" %}
 </div>
 
 </div>
@@ -199,7 +199,7 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 # Podsumujmy
 ## Jeśli dołączysz do kursu, otrzymasz:
 
-1. **5-Modułowy Program Wspólnej Nauki:** 1499 PLN
+1. **5-Modułowy Program Wspólnej Nauki:** 1.499 PLN
 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
@@ -207,11 +207,9 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-
-<strike style="color: #D30306; font-size: 36px; font-weight: bold;">3.896 PLN</strike>
-
-SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
-
+<strike class="price-red">3.896 PLN</strike>
+To wszystko dostępne za jedyne
+<p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 {% include spring-kup.md %}
 </div>
 

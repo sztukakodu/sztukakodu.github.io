@@ -4,6 +4,7 @@ subtitle: Kurs Online
 image: '/images/wspolbieznosc.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 date: 2022-01-02
+price: 799
 footer: false
 accent: rgb(47, 106, 188);
 lightbg: rgb(233, 241, 250);
@@ -186,7 +187,7 @@ Mąż i tata dwójki dzieci ;)
 # Podsumujmy
 ## Jeśli dołączysz do kursu, otrzymasz:
 
-1. **9-Tygodniowy Program Kurs Współbieżności:** Wartość 2199 PLN
+1. **9-Tygodniowy Program Kurs Współbieżności:** Wartość 1.999 PLN
 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** Wartość 899 PLN
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** Wartość 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** Wartość 499 PLN
@@ -194,14 +195,11 @@ Mąż i tata dwójki dzieci ;)
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-
-<strike style="color: #D30306; font-size: 36px; font-weight: bold;">4.596 PLN</strike>
-
-SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
-
+<strike class="price-red">4.396 PLN</strike>
+To wszystko dostępne za jedyne
+<p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 {% include spring-kup.md %}
 </div>
-
 
 
 <div class="full-width" style="background: {{page.lightbg}}">

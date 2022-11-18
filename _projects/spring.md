@@ -4,6 +4,7 @@ subtitle: Kurs Online
 image: '/images/spring.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507
 date: 2022-01-03
+price: 1.299
 footer: false
 accent: green;
 lightbg: rgb(222 244 222);
@@ -187,7 +188,7 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 # Podsumujmy
 ## Jeśli dołączysz do kursu, otrzymasz:
 
-1. **11-Modułowy Program Wspólnej Nauki:** 2499 PLN
+1. **11-Modułowy Program Wspólnej Nauki:** 2.499 PLN
 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
@@ -196,14 +197,11 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-
-<strike style="color: #D30306; font-size: 36px; font-weight: bold;">4.845 PLN</strike>
-
-SPRAWDŹ CENĘ ZA DOŻYWOTNI DOSTĘP DO KURSU 👇
-
+<strike class="price-red">5.145 PLN</strike>
+To wszystko dostępne za jedyne
+<p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 {% include spring-kup.md %}
 </div>
-
 
 
 <div class="full-width" style="background: {{page.lightbg}}">
