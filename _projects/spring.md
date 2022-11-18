@@ -27,7 +27,7 @@ Poznaj **framework #1** w Javie do budowania **aplikacji webowych**! Stwórz swo
 
 # Jak to wygląda?
 
-![droga](https://szkolaspringa.pl/wp-content/uploads/2021/01/spring-droga-1536x584.png)
+![droga](/images/spring-droga.png)
 
 1. Zapraszam Cię do **kompleksowego programu** nauki **frameworka Spring**.
 2. W ramach programu dostajesz dostęp do **11 modułów wideo**, w których pokazuję Ci jak efektywnie budować aplikacje w Springu przechodząc **od fundamentów aż do wdrożenia na produkcję**.
