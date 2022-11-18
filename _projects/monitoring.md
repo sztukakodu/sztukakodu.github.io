@@ -15,7 +15,7 @@ lightbg: rgb(250, 238, 238);
 
 # Ten program nauczy Cię <span style="color: {{page.accent}}">monitorować</span> aplikacje w <span style="color: {{page.accent}}">Javie</span> na produkcji!
 
-## Zyskaj 100% wgląd w działanie Twojej aplikacji na produkcji!
+![monitoring](/images/monitoring-cover.png){: .no-lightense .box_shadow }
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
 Poznaj **narzędzia #1** do **monitorowania** na żywo aplikacji w Javie.  
