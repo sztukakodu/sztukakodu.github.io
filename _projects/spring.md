@@ -200,6 +200,7 @@ Wartość wszystkich elementów:
 <strike class="price-red">5.145 PLN</strike>
 To wszystko dostępne za jedyne
 <p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
+
 {% include spring-kup.md %}
 </div>
 
