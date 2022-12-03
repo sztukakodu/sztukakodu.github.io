@@ -2,7 +2,7 @@
 layout:	post
 title: Producent i Konsument w Javie przy wykorzystaniu kolejki blokującej
 description: Poznaj sposób implementacji jednego z klasycznych problemów współbieżności w Javie.
-image: /images/1500x1000.png
+image: /images/producer-consumer.png
 tags: [wspolbieznosc, synchronizacja, watki, wielowatkowosc]
 ---
 
