@@ -6,10 +6,17 @@ image: /images/ipbox.png
 tags: [podatki, ipbox, b2b, ryczalt, rozliczenie, finanse, wspolpraca]
 ---
 
+Przełom roku to dobry moment na przyjrzenie się swoim finansom.
 
-Gdy mowa o podatkach, to co interesuje nas najbardziej to liczby. W branży IT bardzo popularny jest IP Box. Ulga podatkowa obniża podatek do 5%, a średnia roczna oszczędność dzięki niej wynosi 24 tysiące złotych. Słyszałeś o IP Box, ale nie wiesz tak naprawdę, z czym się to wiążę? Ile konkretnie zyskasz? Co musisz zrobić, żeby uzyskać ulgę? I czy trzeba obawiać się kontroli? 
+Wraz z firmą [Pravna](https://pravna.pl/ipbox?utm_medium=other&utm_source=sztuka+kodu&utm_campaign=ip+box+kwalifikacja+i+kalkulacja+&utm_content=sztuka+kodu+&utm_term=ip+box+kwalifikacja+i+kalkulacja+q&) przyglądam się dziś popularnej formie rozliczania jaką jest IP Box.
 
-Poniższe odpowiedzi udzielamy na bazie własnych doświadczeń i na podstawie 2850+ uzyskanych interpretacji indywidualnych ze skutecznością na poziomie 99,8%. 
+> Ta ulga podatkowa obniża podatek do 5%, a średnia roczna oszczędność wynosi 24 tysiące złotych!
+
+Słyszałeś o IP Box, ale nie wiesz tak naprawdę, z czym się to wiążę? Ile konkretnie zyskasz? Co musisz zrobić, żeby uzyskać ulgę? I czy trzeba obawiać się kontroli? 
+
+Przygotowałem listę pytań do ekspertów firmy Pravna, którzy uzyskali ponad 2.850 interpretacji indywidualnych ze skutecznością na poziomie 99,8%.
+
+Przejdźmy do listy.
 
 ## 1. Czym jest IP Box?
 IP Box to ulga w prawie podatkowym, która pozwala na obniżenie podatku do 5%. Działa od 2019 roku i można rozliczyć ją wstecznie. Prace zakwalifikowane do ulgi IP Box muszą mieć charakter innowacyjny oraz prowadzić do wytwarzania tzw. własności intelektualnej i sprzedawania praw autorskich do powstałego utworu. 
@@ -40,7 +47,7 @@ Janek zarabia 25 000 zł netto miesięcznie, a jego koszty to 300 zł. Jaki poda
 * Na skali podatkowej z ulgą IP Box Janek zapłaci roczny podatek w wysokości 41 324,57 zł, a rzeczywiste obciążenie spadnie do 13,77%. W porównaniu z ryczałtem zaoszczędzi on 5 622,96 zł w skali roku. 
 * Przy podatku liniowym z ulgą IP Box wysokość rocznego podatku Janka obniży się do 28 737,17 zł, a obciążenie podatkowe do 9,58%. W ten sposób, porównując to z ryczałtem, zaoszczędzi on w ujęciu rocznym aż 18 210,36 zł. 
 
-Teraz widać wyraźnie, że to podatek liniowy z ulgą IP Box najbardziej się opłaca w 2022 r. Chcesz obniżyć podatki i zwiększyć oszczędności? Już wiesz, co powinieneś wybrać. 
+**Teraz widać wyraźnie, że to podatek liniowy z ulgą IP Box najbardziej się opłaca w 2023 roku.** Chcesz obniżyć podatki i zwiększyć oszczędności? Już wiesz, co powinieneś wybrać. 
 
 
 <div class="wide-video">
@@ -90,10 +97,11 @@ Wiemy już, że zastosowanie ulgi IP Box się opłaca. Ale ile konkretnie możem
 
 **Przykład 1**
 
-Wyobraź sobie, że Twoje miesięczne wynagrodzenie netto wynosi 25 000 zł, a ponoszone koszty 300 zł. Rozliczając się 12% ryczałtem, w skali roku, zapłacisz podatek równy 46 947,54 zł. Przy podatku liniowym z ulgą IP Box zmaleje on do 28 737,17 zł. Oszczędzasz aż 18 210,36 zł. Podatek liniowy z ulgą IP Box w ujęciu rocznym daje Ci prawie 40 000 zł zysku, w porównaniu do tej samej formy opodatkowania, ale bez preferencji. A jak wygląda sytuacja przy niższych zarobkach?
+Wyobraź sobie, że Twoje miesięczne wynagrodzenie netto wynosi 25 000 zł, a ponoszone koszty 300 zł. Rozliczając się 12% ryczałtem, w skali roku, zapłacisz podatek równy 46 947,54 zł. Przy podatku liniowym z ulgą IP Box zmaleje on do 28 737,17 zł. Oszczędzasz aż 18 210,36 zł. **Podatek liniowy z ulgą IP Box w ujęciu rocznym daje Ci prawie 40 000 zł zysku, w porównaniu do tej samej formy opodatkowania, ale bez preferencji.** A jak wygląda sytuacja przy niższych zarobkach?
 
 **Przykład 2**
-Teraz załóżmy, że zarabiasz 5 000 zł netto miesięcznie, a Twoje koszty to wciąż 300 zł. Na 12% ryczałcie, w ujęciu rocznym, zapłacisz 10 567,38 zł. Przy podatku liniowy z ulgą IP Box zapłacisz już 5 726,57 zł. Dzięki uldze IP Box zaoszczędzisz, w porównaniu z ryczałtem, aż 4 840,80 zł w skali roku. Na podatku liniowym z ulgą IP Box, zyskujesz rocznie prawie 7 000 zł. Wniosek jest jeden. Brak ulgi to brak oszczędności. 
+
+Teraz załóżmy, że zarabiasz 5 000 zł netto miesięcznie, a Twoje koszty to wciąż 300 zł. Na 12% ryczałcie, w ujęciu rocznym, zapłacisz 10 567,38 zł. Przy podatku liniowy z ulgą IP Box zapłacisz już 5 726,57 zł. **Dzięki uldze IP Box zaoszczędzisz, w porównaniu z ryczałtem, aż 4 840,80 zł w skali roku.** Na podatku liniowym z ulgą IP Box, zyskujesz rocznie prawie 7 000 zł. Wniosek jest jeden. Brak ulgi to brak oszczędności. 
 
 ## 10. Od jakich zarobków IP Box się opłaca, a kiedy nie warto się nim zajmować?
 
