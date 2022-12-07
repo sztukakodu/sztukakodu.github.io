@@ -4,6 +4,7 @@ title: IP Box — ile naprawdę można na nim zyskać?
 description: 
 image: /images/ipbox.png
 tags: [podatki, ipbox, b2b, ryczalt, rozliczenie, finanse, wspolpraca]
+sponsored: true
 ---
 
 Przełom roku to dobry moment na przyjrzenie się swoim finansom.

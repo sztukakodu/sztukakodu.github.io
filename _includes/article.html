@@ -3,6 +3,7 @@
   {% if post.image %}
   <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
     {% if post.video %}<span>WIDEO</span>{% endif %}
+    {% if post.sponsored %}<span>WSPÓŁPRACA</span>{% endif %}
     <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
   </a>
   {% endif %}
