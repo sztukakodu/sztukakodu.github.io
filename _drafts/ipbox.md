@@ -93,16 +93,45 @@ Kontrola skarbowa zawsze brzmi groźnie i budzi lęk. Niepotrzebnie. Urzędy Ska
 
 Czynności sprawdzające to nic innego jak formalna ocena poprawności dokumentów rozliczeniowych oraz weryfikacja poniesionych wydatków i osiągniętych dochodów. Jeśli dokumentację prowadzisz rzetelnie i prawidłowo, nie masz się czego bać. 
 
-## 9. Ile konkretnie można zyskać na IP Box'ie?
-Wiemy już, że zastosowanie ulgi IP Box się opłaca. Ale ile konkretnie możemy na niej zyskać? Sprawdźmy to ponownie — tym razem na innych liczbach. 
+## 9. Ile konkretnie można zyskać na IP Boxie?
+Wiemy już, że zastosowanie ulgi IP Box się opłaca. A ile konkretnie możemy na niej zyskać? Sprawdźmy to ponownie — tym razem na innych liczbach. 
 
 **Przykład 1**
 
-Wyobraź sobie, że Twoje miesięczne wynagrodzenie netto wynosi 25 000 zł, a ponoszone koszty 300 zł. Rozliczając się 12% ryczałtem, w skali roku, zapłacisz podatek równy 46 947,54 zł. Przy podatku liniowym z ulgą IP Box zmaleje on do 28 737,17 zł. Oszczędzasz aż 18 210,36 zł. **Podatek liniowy z ulgą IP Box w ujęciu rocznym daje Ci prawie 40 000 zł zysku, w porównaniu do tej samej formy opodatkowania, ale bez preferencji.** A jak wygląda sytuacja przy niższych zarobkach?
+Załóżmy, że Twoje miesięczne wynagrodzenie netto wynosi 25 000 zł, a ponoszone koszty 300 zł.
+
+* Rozliczając się 12% ryczałtem, w skali roku, zapłacisz podatek równy 46 947,54 zł. 
+* Przy podatku liniowym bez ulgi kwota ta wzrasta do 68,535,18 zł. 
+* Na skali podatkowej bez ulgi wynosi aż 92 826,87 zł. 
+
+Jak zmieni się sytuacja, gdy przy tych samych zarobkach i kosztach zastosujemy ulgę IP Box?
+
+* Na 12% ryczałcie wciąż zapłacisz roczny podatek w wysokości 46 947,54 zł.
+* Przy podatku liniowym z ulgą IP Box zmaleje on do 28 737,17 zł.
+	- **Oszczędzasz aż 18 210,36 zł.**
+* Na skali podatkowej z ulgą IP Box zapłacisz 41 324,57 zł.
+
+Gdy porównamy sam podatek liniowy, a w połączeniu z ulgą IP Box, daje nam to prawie 40 000 zł zysku w skali roku.
+
+A jak wygląda sytuacja przy niższych zarobkach?
 
 **Przykład 2**
 
-Teraz załóżmy, że zarabiasz 5 000 zł netto miesięcznie, a Twoje koszty to wciąż 300 zł. Na 12% ryczałcie, w ujęciu rocznym, zapłacisz 10 567,38 zł. Przy podatku liniowy z ulgą IP Box zapłacisz już 5 726,57 zł. **Dzięki uldze IP Box zaoszczędzisz, w porównaniu z ryczałtem, aż 4 840,80 zł w skali roku.** Na podatku liniowym z ulgą IP Box, zyskujesz rocznie prawie 7 000 zł. Wniosek jest jeden. Brak ulgi to brak oszczędności. 
+Teraz załóżmy, że zarabiasz 15 000 zł netto miesięcznie, a Twoje koszty to wciąż 300 zł. 
+
+* Na 12% ryczałcie, w ujęciu rocznym, zapłacisz 27 494,10 zł. 
+* Przy podatku liniowym bez ulgi zapłacisz już 39 865,90 zł. 
+* Na skali podatkowej bez ulgi kwota rocznego podatku wzrasta do 43 626,87 zł.
+
+Teraz dodajmy ulgę IP Box.
+
+* Rozliczając się 12% ryczałtem, wciąż zapłacisz 27 494,10 zł w skali roku.
+* Przy podatku liniowym z ulgą IP Box kwota ta maleje do 16 859,99 zł.
+	- **Różnica między podatkiem na ryczałcie a na podatku liniowym z IP Box to aż 10 634,10 zł.**
+* Na skali podatkowej z ulgą IP Box zapłacisz 24 524,57 zł. 
+
+Dla początkujących programistów z wynagrodzeniem na poziomie 5000 zł dobrym rozwiązaniem na start będzie wybór skali podatkowej. Ta forma rozliczenia także pozwala oszczędzać z IP Boxem. 
+
 
 ## 10. Od jakich zarobków IP Box się opłaca, a kiedy nie warto się nim zajmować?
 
@@ -119,5 +148,5 @@ Umów się na bezpłatną konsultację i dowiedz się, czy kwalifikujesz się do
 
 
 > Sprawdź, czy kwalifikujesz się do ulgi i odbierz bezpłatną kalkulację
-> [![pravna1](/images/pravna1.jpeg)](https://pravna.pl/ipbox?utm_medium=other&utm_source=sztuka+kodu&utm_campaign=ip+box+kwalifikacja+i+kalkulacja+&utm_content=sztuka+kodu+&utm_term=ip+box+kwalifikacja+i+kalkulacja+q&a)
+> [![pravna](/images/ipbox3.jpeg)](https://pravna.pl/ipbox?utm_medium=other&utm_source=sztuka+kodu&utm_campaign=ip+box+kwalifikacja+i+kalkulacja+&utm_content=sztuka+kodu+&utm_term=ip+box+kwalifikacja+i+kalkulacja+q&a)
 
