@@ -16,7 +16,7 @@ on:
 
   # run daily at midnight
   schedule:
-    - cron: '0 0 * * 8'
+    - cron: '0 0 * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
