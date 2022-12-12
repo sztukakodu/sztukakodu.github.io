@@ -49,16 +49,15 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__description: Zapisz się na i odbieraj materiały, które pomogą Ci w rozwoju Twojej kariery 👇
-  hero__image: '/images/skpframe.png'
+  hero__image: '/images/newsletter-cover.png'
 
 
 #-------------------------------
 # Newsletter
 newsletter: 'enable'
 newsletter__submit_url: hook.eu1.make.com/sn2c1iqkglhnrwhz2w89vwo333iu218o
-newsletter__input__text: Twój adres e-mail
-newsletter__button__text: Zaczynam!
+newsletter__input__text: Zapisz się przez e-mail
+newsletter__button__text: Zaczynamy!
 
 #-------------------------------
 # Projects Settings
