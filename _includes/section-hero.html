@@ -13,8 +13,7 @@
 
           <div class="hero__right">
             <h1 class="hero__title"><span>#SztukaKoduPlus</span><br/>Cotygodniowa publikacja dla Javowców!</h1>
-            <p>Otrzymuj praktyczne porady dla Javowców, Backendowców i Architektów. 👇</p>
-            {% if site.data.settings.newsletter == "enable" %}
+            <p>Otrzymuj praktyczne porady dla Javowców, Backendowców i Architektów na swoją skrzynkę e-mail 👇</p>
             <div class="hero__subscribe">
               <form class="subscribe-form validate"
                 action="{% if site.data.settings.newsletter__submit_url %}//{{site.data.settings.newsletter__submit_url}}{% else %}#{% endif %}" method="POST"
@@ -26,7 +25,7 @@
                   site.data.settings.newsletter__button__text }}</button>
               </form>
             </div>
-            {% endif %}
+            <p>🕒 Następne wydanie <strong id="hero__timer">w poniedziałek o 12:00</strong></p>
           </div>
 
         </div>

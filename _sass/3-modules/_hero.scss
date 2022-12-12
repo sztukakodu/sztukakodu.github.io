@@ -90,7 +90,7 @@
   color: var(--heading-font-color);
 
   span {
-    color: #004aad;
+    color: var(--hero-title-color);
   }
 
   @media only screen and (max-width: $wide) {
@@ -114,7 +114,7 @@
 
 .hero__subscribe {
   max-width: 510px;
-  margin-top: 48px;
+  margin: 24px 0;
 
   .subscribe-form {
     position: relative;
@@ -151,11 +151,11 @@
 
   @media only screen and (max-width: $wide) {
     max-width: 100%;
-    margin-top: 32px;
+    margin: 16px 0;
   }
 
   @media only screen and (max-width: $desktop) {
-    margin-top: 20px;
+    margin: 10px 0;
   }
 
   @media only screen and (max-width: $mobile) {

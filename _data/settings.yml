@@ -151,7 +151,7 @@ disqus-identifier: sztuka-kodu # Add your shortname for Disqus Comment. For exam
 
 #-------------------------------
 # Related Posts
-related-posts: false  # if display or not related-posts section under posts
+related-posts: true  # if display or not related-posts section under posts
 
 
 #-------------------------------
