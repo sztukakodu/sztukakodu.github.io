@@ -12,8 +12,8 @@
           </div>
 
           <div class="hero__right">
-            <h1 class="hero__title"><span>#SztukaKoduPlus</span><br/>Cotygodniowa publikacja dla Javowców!</h1>
-            <p>Otrzymuj praktyczne porady dla Javowców, Backendowców i Architektów na swoją skrzynkę e-mail 👇</p>
+            <h1 class="hero__title">Newsletter <span>#SztukaKoduPlus</span></h1>
+            <p class="hero__description"><strong>Cotygodniowa publikacja</strong> zbierająca praktyczne porady dla <strong>Javowców, Backendowców i Architektów 👇</strong></p>
             <div class="hero__subscribe">
               <form class="subscribe-form validate"
                 action="{% if site.data.settings.newsletter__submit_url %}//{{site.data.settings.newsletter__submit_url}}{% else %}#{% endif %}" method="POST"
@@ -25,7 +25,7 @@
                   site.data.settings.newsletter__button__text }}</button>
               </form>
             </div>
-            <p>🕒 Następne wydanie <strong id="hero__timer">w poniedziałek o 12:00</strong></p>
+            <p style="text-align: center; font-size: smaller;">🕒 Następne wydanie <strong id="hero__timer">w poniedziałek o 12:00</strong></p>
           </div>
 
         </div>
