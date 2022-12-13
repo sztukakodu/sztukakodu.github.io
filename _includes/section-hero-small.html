@@ -1,0 +1,33 @@
+<!-- begin hero -->
+<section class="hero section">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+
+          <div class="hero__left">
+            <h1 class="hero__title"><span>#SztukaKoduPlus</span><br/>Cotygodniowa publikacja dla Javowców!</h1>
+            <p>Otrzymuj praktyczne porady dla Javowców, Backendowców i Architektów na swoją skrzynkę e-mail 👇</p>
+          </div>
+
+          <div class="hero__right">
+            <div class="hero__subscribe">
+              <form class="subscribe-form validate"
+                action="{% if site.data.settings.newsletter__submit_url %}//{{site.data.settings.newsletter__submit_url}}{% else %}#{% endif %}" method="POST"
+                id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+                <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+                <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="email"
+                  placeholder="{% if site.data.settings.newsletter__input__text %}{{ site.data.settings.newsletter__input__text }}{% else %}Email address{% endif %}">
+                <button class="button button--primary button--small subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{
+                  site.data.settings.newsletter__button__text }}</button>
+              </form>
+            </div>
+            <p style="text-align: center">🕒 Następne wydanie <strong id="hero__timer">w poniedziałek o 12:00</strong></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
