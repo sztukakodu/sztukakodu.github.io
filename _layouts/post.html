@@ -18,6 +18,9 @@ layout: default
           {% endif %}
   
           <h1 class="post-title">{{ page.title | escape }}</h1>
+
+
+          {% include post__share.html %}
   
           <div class="post-meta">
             <a class="post-author-link">{{site.data.settings.author.author__name}}</a> –
@@ -51,42 +54,10 @@ layout: default
   <article class="post">
 
     <div class="post__content">
-      <!--{{ content }}-->
       {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor" h_max=2 %}
     </div>
 
     {% include post-promo.html %}
-
-    <div class="post__share">
-      <h4 style="text-align: center">Podziel się na Social Media</h4>
-      <ul class="share__list list-reset">
-        <li class="share__item">
-          <a class="share__link share__twitter"
-            href="https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-        </li>
-        <li class="share__item">
-          <a class="share__link share__linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
-        </li>
-        <li class="share__item">
-          <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-        </li>
-      </ul>
-    </div>
-<div class="post__navigation">
-    {% if page.next.url %}
-      <a class="left" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
-    {% endif %}
-    {% if page.previous.url %}
-      <a class="right" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
-    {% endif %}
-</div>
-
   </article>
 </div>
 <!-- end post -->
@@ -98,6 +69,7 @@ layout: default
         {% include disqus-comments.html %} 
       </div>
     </div>
+<hr />
   </div>
 {% endif %}
 

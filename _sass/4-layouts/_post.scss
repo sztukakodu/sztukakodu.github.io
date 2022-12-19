@@ -262,10 +262,18 @@
   padding: 0 20px;
 }
 
+div.highlighter-rouge {
+  margin: 38px 0;
+  width: 100vw;
+  max-width: 968px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Share */
 .post__share {
   padding-bottom: 48px;
-  border-bottom: 1px solid var(--background-alt-color);
+  // border-bottom: 1px solid var(--background-alt-color);
 
   .share__list {
     display: flex;
@@ -356,11 +364,13 @@
 
 .post__comments {
   max-width: 780px;
-  margin: 0 auto 100px;
+  // margin: 0 auto 100px;
+  margin: 0 auto;
 
   @media only screen and (max-width: $mobile) {
      &.is-open {
-       margin: 0 auto 80px;
+       // margin: 0 auto 80px;
+       margin: 0 auto;
      }
   }
 }
