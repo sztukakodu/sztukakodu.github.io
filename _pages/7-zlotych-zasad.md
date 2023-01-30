@@ -2,30 +2,49 @@
 title: 7 Złotych Zasad Budowania Aplikacji W Springu
 footer: false
 layout: project
+accent: rgb(71 106 119);
 ---
 
+<script src="{{ site.baseurl }}/js/counter.js"></script>
 
 
-Bezpłatne Szkolenie On-Line
+<div style="font-family: 'Roboto Mono', monospace; text-transform: uppercase; margin: 1em 0; font-weight: bold; text-align: center; color: {{page.accent}}">Darmowe Szkolenie</div>
 
-<div style="display: flex; flex-direction: row; gap: 2em " markdown="1">
-<div markdown="1" style="width: 60%">
 
-Kiedy: 20 lutego 2023
+<div style="text-align: center">
 
-Godzina: 20:00
+<h1 style="font-size: 3em; font-family: 'Roboto Mono', monospace">7 Złotych Zasad Budowania Aplikacji w Springu</h1>
 
-## 7 Złotych Zasad Budowania Aplikacji w Springu
+Poznaj najważniejsze zasady budowy aplikacji w Springu podczas darmowego szkolenia online.
 
-Short description of your offer and its key benefits.
-Here's what this webinar is about - and why it's
-useful for your target audience.
 
-Szkolenie potrwa 45-50 minut
+<div style="backgrorund: lightgrey; padding: 1em; text-align:">
+	Zapisz się na szkolenie
+	<form action="#" style="display: flex; gap: 1em">
+		<input style="width: 30%" id="name" type="text" placeholder="Imię" name="name">
+		<input style="width: 30%" id="email" type="email" placeholder="E-mail" name="email">
+		<button style="width: 30%" type="submit">Zapisz mnie</button>
+	</form>
+</div>
+
+</div>
 
 ## Webinar startuje za
 
-ZEGAR
+<div style="text-align: center" id="timer"></div>
+
+<hr />
+
+<div style="font-family: 'Roboto Mono'; display: flex; flex-direction: row; gap: 2em " markdown="1">
+<div markdown="1" style="width: 60%">
+
+
+Kiedy?
+
+20 lutego (poniedziałek) - godzina 20:00
+
+Szkolenie potrwa 45-50 minut
+
 
 ## Czego dowiesz się na szkoleniu?
 
@@ -47,17 +66,6 @@ Oraz odebrać darmowy prezent pogłebiający temat nauk Springa.
 </div>
 
 <div style="width: 40%">
-	<div style="border: 1px solid navy; padding: 1em">
-	<h3>Zapisz się</h3>
-	Zarejestruj się na szkolenie
-	<form action="#">
-	  <label for="name">Imię</label>
-		<input id="name" style="width: 100%" type="text" placeholder="Imię" name="name">
-	  <label for="email">E-mail</label>
-	  <input id="email" style="width: 100%" type="email" placeholder="E-mail" name="email">
-	  <button style="width: 100%" type="submit">Zapisz mnie</button>
-	</form>
-	</div>
 
 	<h3>Szkolenie poprowadzi</h3>
 	Dariusz Mydlarz
