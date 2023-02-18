@@ -3,7 +3,6 @@ layout: page
 sitemap: false
 footer: false
 title: Jeszcze tylko jeden krok...
-permalink: /dzieki/
 ---
 
 Potwierdź swoją subskrypcję, abym mógł wysyłać Ci wiadomości.
