@@ -5,16 +5,13 @@ layout: default
 <div class="post-head">
   <div class="container">
     <div class="row">
-
       <div class="col col-12">
         <div class="post-info">
   
           <h1 class="post-title">{{ page.title | escape }}</h1>
   
           <div class="post-meta">
-            <a class="post-author-link">{{site.data.settings.author.author__name}}</a> –
-            <!-- <a href="{{site.baseurl}}/about/" class="post-author-link">{{site.data.settings.author.author__name}}</a> – -->
-            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
           </div>
 
         </div>

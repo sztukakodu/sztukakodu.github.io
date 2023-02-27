@@ -1,6 +1,7 @@
 /* Post + Page */
 .post-head,
 .page-head {
+  margin-top: 16px;
   margin-bottom: 48px;
   text-align: center;
 
@@ -89,12 +90,12 @@
 .post-title,
 .page-title {
   margin-bottom: 32px;
-  font-size: 72px;
+  font-size: 64px;
   line-height: 1;
   overflow-wrap: break-word;
 
   @media only screen and (max-width: $wide) {
-    font-size: 60px;
+    font-size: 48px;
   }
 
   @media only screen and (max-width: $mobile) {
