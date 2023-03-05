@@ -93,11 +93,11 @@ Zaczynamy od zera. Dowiesz się, czym są wątki, co to jest współbieżność 
 Otrzymasz dostęp do lekcji online, w małych porcjach – 5-20 lekcji każdego tygodnia do przerobienia kiedy chcesz. Lekcje będą też aktualizowane w chwili gdy okaże się, że jakiś temat jest dla Was interesujący.
 </div>
 
-<div class="grid__box__2" markdown="1">
+<!-- <div class="grid__box__2" markdown="1">
 ## Weźmiesz Udział w Spotkaniach Live
 ![a](/images/spring-webinary.png)
 Jeśli nie wszystko będzie dla Ciebie jasne w trakcie studiowania kursu, będziesz mógł zapytać mnie na żywo o trapiące Cię kwestie podczas jednego ze spotkań na żywo.
-</div>
+</div> -->
 
 <div class="grid__box__2" markdown="1">
 ## Otrzymasz Zadania Domowe
@@ -146,9 +146,9 @@ Mąż i tata dwójki dzieci ;)
 
 1. **LEKCJE WIDEO 📹** - Program składa się z dziesiątek lekcji wideo podzielonych na 9 modułów
 1. **ZADANIA DOMOWE ✏️** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
-1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
+<!-- 1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości. -->
 1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Slacku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
-1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Slacku gdzie pomagać Ci w Twojej drodze.
+1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Jestem dostępny na grupie na Slacku, gdzie pomagam Ci w Twojej drodze.
 
 </div>
 </div>
@@ -188,14 +188,14 @@ Mąż i tata dwójki dzieci ;)
 ## Jeśli dołączysz do kursu, otrzymasz:
 
 1. **9-Tygodniowy Program Kurs Współbieżności:** Wartość 1.999 PLN
-1. **Spotkania Na Żywo (Live Call) Ze Studentami:** Wartość 899 PLN
+<!-- 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** Wartość 899 PLN -->
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** Wartość 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** Wartość 499 PLN
 1. **Dożywotni Dostęp Do Społeczności Na Slacku:** Bezcenne
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-<strike class="price-red">4.396 PLN</strike>
+<strike class="price-red">3.497 PLN</strike>
 To wszystko dostępne za jedyne
 <p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 {% include spring-kup.md %}
