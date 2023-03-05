@@ -32,8 +32,8 @@ Poznaj **framework #1** w Javie do budowania **aplikacji webowych**! Stwórz swo
 1. Zapraszam Cię do **kompleksowego programu** nauki **frameworka Spring**.
 2. W ramach programu dostajesz dostęp do **11 modułów wideo**, w których pokazuję Ci jak efektywnie budować aplikacje w Springu przechodząc **od fundamentów aż do wdrożenia na produkcję**.
 3. **Pomagam Ci przejść cały program**. Komunikujemy się za pomocą **grupy na Slacku**, na której spotkasz mnie i pozostałych studentów.
-4. Oprócz tego spotykamy się na **dedykowanych webinarach**, podczas których możemy dodatkowo rozwiać Twoje wątpliwości.
-5. Otrzymujesz odpowiednie **narzędzia, przyszłe aktualizacje i moją dostępność** by pomóc Ci w dobrym poznaniu Springa.
+<!-- 4. Oprócz tego spotykamy się na **dedykowanych webinarach**, podczas których możemy dodatkowo rozwiać Twoje wątpliwości. -->
+4. Otrzymujesz odpowiednie **narzędzia, przyszłe aktualizacje i moją dostępność** by pomóc Ci w dobrym poznaniu Springa.
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">
 <div class="project-content" markdown="1">
@@ -87,11 +87,11 @@ Otrzymasz dostęp do lekcji online, w małych porcjach - 5-20 lekcji w każdym m
 Do przerobienia kiedy chcesz. 
 </div>
 
-<div class="grid__box__2" markdown="1">
+<!-- <div class="grid__box__2" markdown="1">
 ## Weźmiesz udział w Spotkaniach Live
 ![a](/images/spring-webinary.png)
 Jeśli nie wszystko będzie dla Ciebie jasne w trakcie studiowania kursu, będziesz mógł zapytać mnie na żywo o trapiące Cię kwestie podczas jednego z trzech spotkań na żywo.
-</div>
+</div> -->
 
 <div class="grid__box__2" markdown="1">
 ## Otrzymasz Zadania Domowe
@@ -146,9 +146,9 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 
 1. **LEKCJE WIDEO 📹** - Program składa się z dziesiątek lekcji wideo podzielonych na 11 modułów
 1. **ZADANIA DOMOWE ✏️** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
-1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
+<!-- 1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości. -->
 1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Slacku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
-1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Slacku gdzie pomagać Ci w Twojej drodze.
+1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Jestem dostępny na grupie na Slacku, gdzie pomagam Ci w Twojej drodze.
 1. **NARZĘDZIA 🪛** - W programie wykorzystamy produkcyjne narzędzia. Poznasz pracę z **GIT-em**, **Mavenem**, bazą **PostgreSQL**, **Dockerem**, **Swaggerem**, **Amazon Web Services** czy **Heroku**! Dla ułatwienia przygotowałem dla Ciebie też licencję na **INTELLIJ IDEA ULTIMATE**.
 
 </div>
@@ -189,7 +189,7 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 ## Jeśli dołączysz do kursu, otrzymasz:
 
 1. **11-Modułowy Program Wspólnej Nauki:** 2.499 PLN
-1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
+<!-- 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN -->
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
 1. **Przedłużoną Licencję Na IntelliJ IDEA Ultimate:** 249 PLN
@@ -197,7 +197,7 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-<strike class="price-red">5.145 PLN</strike>
+<strike class="price-red">4.246 PLN</strike>
 To wszystko dostępne za jedyne
 <p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 
