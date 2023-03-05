@@ -117,11 +117,11 @@ Otrzymasz dostęp do lekcji online, w małych porcjach - 5-20 lekcji w każdym m
 Do przerobienia kiedy chcesz. 
 </div>
 
-<div class="grid__box__2" markdown="1">
+<!-- <div class="grid__box__2" markdown="1">
 ## Weźmiesz udział w Spotkaniach Live
 ![a](/images/spring-webinary.png)
 Jeśli nie wszystko będzie dla Ciebie jasne w trakcie studiowania kursu, będziesz mógł zapytać mnie na żywo o trapiące Cię kwestie podczas jednego z trzech spotkań na żywo.
-</div>
+</div> -->
 
 <div class="grid__box__2" markdown="1">
 ## Otrzymasz Zadania Domowe
@@ -170,9 +170,9 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 
 1. **LEKCJE WIDEO 📹** - Program składa się z dziesiątek lekcji wideo podzielonych na 5 modułów
 1. **ZADANIA DOMOWE ✏️** - Na końcu każdego modułu czeka na Ciebie zadanie domowe, które pomoże Ci wdrożyć poznaną wiedzę w praktyce.
-1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości.
+<!-- 1. **SPOTKANIA LIVE 🔴** - W ramach programu spotykamy się na 3 webinary na żywo, gdzie możesz rozwiać swoje wątpliwości. -->
 1. **GRUPA MASTERMIND 🗣️** - W programie towarzyszy nam specjalna grupa na Slacku, gdzie możemy być ze sobą w kontakcie. Będziesz miał dostęp do mnie oraz do pozostałych uczestników kursu.
-1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Oprócz nagrań wideo, webinarów jestem po prostu dostępny na grupie na Slacku gdzie pomagać Ci w Twojej drodze.
+1. **WSPARCIE 🤝** - Ja jestem w tym programie razem z Tobą. Jestem dostępny na grupie na Slacku, gdzie pomagam Ci w Twojej drodze.
 1. **NARZĘDZIA 🪛** - W programie wykorzystamy produkcyjne narzędzia. Poznasz pracę z **Micrometerem**, **Prometheusem** i **Grafaną**.
 
 </div>
@@ -200,14 +200,14 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 ## Jeśli dołączysz do kursu, otrzymasz:
 
 1. **5-Modułowy Program Wspólnej Nauki:** 1.499 PLN
-1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN
+<!-- 1. **Spotkania Na Żywo (Live Call) Ze Studentami:** 899 PLN -->
 1. **Dożywotni Dostęp Do Kursu Oraz Aktualizacji Materiałów:** 999 PLN
 1. **Dostęp Do Analizy Twoich Materiałów Przeze Mnie:** 499 PLN
 1. **Dożywotni Dostęp Do Społeczności Na Slacku:** Bezcenne
 
 <div class="center" markdown="1">
 Wartość wszystkich elementów:
-<strike class="price-red">3.896 PLN</strike>
+<strike class="price-red">2.997 PLN</strike>
 To wszystko dostępne za jedyne
 <p class="price-green">{{page.price}} ZŁ BRUTTO!</p>
 {% include spring-kup.md %}
