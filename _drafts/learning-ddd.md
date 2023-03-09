@@ -2,7 +2,7 @@
 layout:	post
 title: Dlaczego Learning Domain Driven Design to najlepsza książka o DDD jaką czytałem?
 description: 
-# image: /images/1500x1000.png
+image: /images/1500x1000.png
 tags: [DDD, architektura, craftsmanship]
 ---
 
