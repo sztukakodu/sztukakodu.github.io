@@ -81,12 +81,37 @@ Zaproponowane sposoby integracji to:
 
 ### Część II - DDD Taktyczne
 
+<div class="box-info" markdown="1">
+### Rozdziały
 {:start="5"}
 5. Implementacja Prostej Logiki Biznesowej
 6. Obsługa Złożonej Logiki Biznesowej
 7. Modelowanie Wymiaru Czasu
 8. Wzorce Architektoniczne
 9. Wzorce Komunikacyjne
+</div>
+
+W tej części opisane jest jak zastosować DDD.
+
+Prezentowane są wzorce Skrypt Transakcyjny (Transaction Script), Aktywny Rekord (Active Record).
+
+Przedstawiane są pojęcia Obiektów Wartości (Value Object), Encji (Entity), Agregatów (Aggregate).
+
+Nie brakuje też informacji o Zdarzeniach Domenowych (Domain Events), Język Wszechobecny (Ubiquitous Langugage) czy Serwisach Domenowych (Domain Service).
+
+Modelowanie wymiaru czasu oparte jest o przedstawienie Event Sourcingu oraz Modelu Domenowego opartego o Event Sourcing (Event-Sourced DOmain Model).
+
+Następnie przechodzimy do opisów różnych wzorców architektonicznych:
+
+1. Architektura warstwowa (layered architecture)
+2. Architektura Heksagonalna (Hexagonal / Ports & Adapters)
+3. Command-Query Responsibility Segregation (CQRS)
+
+Na koniec mowa jest o wzorcach komunikacyjnych.
+
+Synchronicznnym i asynchronicznmy.
+
+W kontekście komunikacji agregatów wspomniane są wzorce Outbox, Saga i Process Manager.
 
 ### Część III - Stosowanie DDD w Praktyce
 
