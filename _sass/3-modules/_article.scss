@@ -23,6 +23,13 @@ article.post {
   margin-bottom: 32px;
 }
 
+.wide-element {
+  width: 100vw;
+  max-width: 968px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 .article__image {
   margin-bottom: 32px;
   position: relative;
