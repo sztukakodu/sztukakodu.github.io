@@ -217,10 +217,10 @@ table th {
 }
 
 table tr {
-  background-color: var(--tr-color);
+  background-color: transparent;
   transition: all .3s ease;
   &:nth-child(even) {
-    background-color: transparent;
+    background-color: var(--tr-color);
   }
 }
 

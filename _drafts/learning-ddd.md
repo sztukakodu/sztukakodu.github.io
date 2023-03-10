@@ -69,13 +69,15 @@ W tej częśći dowiesz się także czym jest Model, Kontekst Ograniczony (Bound
 
 Zaproponowane sposoby integracji to:
 
-1. Współpraca (Partnership)
-2. Współdzielone Jądro (Shared Kernel)
-3. Klient-Dostawca (Customer-Supplier)
-4. Konformista (Conformist)
-5. Warstwa Antykorozyjna (Anticorruption Layer)
-6. Usługa Otwartego Hosta (Open Host Service)
-7. Osobne Drogi (Separate Ways)
+| Sposób Integracji | Opis | Przykład |
+|------------------ |----- | -------- |
+| Współpraca (Partnership) | Integracja na bieżąco na zasadzie wspólnej współpracy. Żadna strona nie jest dominującą, zespoły na bieżąco ustalają sposoby integracji między sobą i implementują je po swoich stronach. | Backend i Frontend aplikacji rozwijany jednocześnie w ramach dostarczanego projektu. |
+| Współdzielone Jądro (Shared Kernel) | Integracja przez współdzielenie ograniczonego nakładającego się modelu należącego do wszystkich kontekstów ograniczonych | Model uprawnień, który mogą odczytywać i modyfikować wszystkie systemy z takim samą ważnością zmian |
+| Konformista (Conformist) | Jedna ze stron jest stroną dominująca (dostawaca). Klient musi dostosować się do wystawionego API | Korzystanie z publicznego API zewnętrznej usługi. |
+| Warstwa Antykorozyjna (Anticorruption Layer) | Konsument integracji tłumaczy w miejscu integracji model dostawcy tak by pasował on do jego modelu. | Konsumowanie zewnętrznego API i wykorzystanie wzorca Adapter w miejscu integracji. |
+| Usługa Otwartego Hosta (Open Host Service) | Dostawca udostępnia publiczny język za pomocą którego klient może się z nim zintegrować. | Język SQL w bazach danych. Język zapytań w usłudze wyszukiwania (np. Elasticsearch) |
+| Osobne Drogi (Separate Ways) | Sytuacje, gdy taniej jest zduplikować daną funkcjonalność w dwóch systemach niż próbować ją ze sobą integrować. | Framework do logów. Nie ma sensu, by jedna ze stron udostępniała pisanie logów jako swoją usługę. |
+{: .wide-element }
 
 ### Część II - DDD Taktyczne
 
