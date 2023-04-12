@@ -38,10 +38,13 @@ Przejdźmy po niej, rozdział po rozdziale.
 
 ### Część 1 - DDD Strategiczne
 
+#### Rozdziały
+
 1. Analiza Domeny Biznesowej
 2. Odkrywanie Wiedzy Domenowej
 3. Zarządzanie Złożonością Domenową
 4. Integracja Ograniczonych Kontekstów (Bounded Contexts)
+
 
 Pierwsza część książki wprowadza nas w świat DDD.
 
@@ -81,15 +84,15 @@ Zaproponowane sposoby integracji to:
 
 ### Część II - DDD Taktyczne
 
-<div class="box-info" markdown="1">
-### Rozdziały
+#### Rozdziały
+
 {:start="5"}
 5. Implementacja Prostej Logiki Biznesowej
 6. Obsługa Złożonej Logiki Biznesowej
 7. Modelowanie Wymiaru Czasu
 8. Wzorce Architektoniczne
 9. Wzorce Komunikacyjne
-</div>
+
 
 W tej części opisane jest jak zastosować DDD.
 
@@ -115,13 +118,18 @@ W kontekście komunikacji agregatów wspomniane są wzorce Outbox, Saga i Proces
 
 ### Część III - Stosowanie DDD w Praktyce
 
+#### Rozdziały
+
 {:start="10"}
 10. Heurystyki Architektoniczne
 11. Ewolucja Decyzji Architektonicznych
 12. Event Storming (brak kolorów! 😢)
 13. DDD w prawdziwym świecie (Strangler Fig Pattern)
 
+
 ### Część IV - Relacja z innymi Metodykami i Wzorcami
+
+#### Rozdziały
 
 {:start="14"}
 14. Mikroserwisy

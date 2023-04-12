@@ -14,7 +14,7 @@ lightbg: rgb(222 244 222);
 
 # Ten program nauczy Cię budować aplikacje webowe w <span style="color: {{page.accent}}">Springu</span>!
 
-{% include_relative _vimeo_full.md id="771996198" %}
+{% include_relative _bunny_full.md id="1d8eb73d-7d08-40e5-aa7a-77cfc8570db0" %}
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
 Poznaj **framework #1** w Javie do budowania **aplikacji webowych**! Stwórz swoją **pierwszą aplikację**, poznaj **najlepsze praktyki**, **biblioteki**, **narzędzia** i **wzorce**. 
@@ -176,10 +176,10 @@ Swoją wiedzą dzieli się na blogu sztukakodu.pl
 
 <div class="landing__grid">
 
-{% include_relative _vimeo.md id="499157637" hash="690a2a2bba" opis="MODUŁ 2, LEKCJA 3 - Pierwszy projekt w Springu" %}
-{% include_relative _vimeo.md id="500823865" hash="abffcb0b0f" opis="MODUŁ 3, LEKCJA 7 - Stosowanie Interfejsów" %}
-{% include_relative _vimeo.md id="509689209" hash="8fa38b159a" opis="MODUŁ 6, LEKCJA 6 - Audytowanie Encji" %}
-{% include_relative _vimeo.md id="525431851" hash="1cbce6a95c" opis="MODUŁ 10, LEKCJA 6 - Deployment na Heroku" %}
+{% include_relative _bunny.md id="391646ec-4289-4033-b851-6204307d105a" opis="LEKCJA 2.3 - Pierwszy projekt w Springu" %}
+{% include_relative _bunny.md id="a8aafa2d-bc56-4235-85fd-97815959f0a5" opis="LEKCJA 3.7 - Stosowanie Interfejsów" %}
+{% include_relative _bunny.md id="34a769ac-d079-441c-b3ef-ee04d2e19c1c" opis="LEKCJA 6.6 - Audytowanie Encji" %}
+{% include_relative _bunny.md id="4383eff5-eb37-410a-ae40-5b7448177999" opis="LEKCJA 10.6 - Deployment na Heroku" %}
 </div>
 
 </div>
