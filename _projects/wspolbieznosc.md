@@ -16,7 +16,7 @@ lightbg: rgb(233, 241, 250);
 # Ten program przygotuje Cię w 100% do pracy ze <span style="color: {{page.accent}}">Współbieżnością</span> w Javie!
 
 
-{% include_relative _vimeo_full.md id="424725672" hash="#" %}
+{% include_relative _bunny_full.md id="5196c305-0404-4605-bfd4-1c297385c4b2" %}
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
 Poznaj **wszystkie narzędzia** do pracy ze **współbieżnością** w Javie.  
