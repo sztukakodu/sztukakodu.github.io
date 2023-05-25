@@ -14,7 +14,7 @@ lightbg: rgb(241 231 248);
 <div class="project-content" markdown="1">
 # Wykorzystaj pełnię możliwości <span style="color: {{page.accent}}">Lomboka</span>!
 
-{% include_relative _vimeo_full.md id="540595216" hash="#" %}
+{% include_relative _bunny_full.md id="902837cf-858e-4341-b945-4776867036ad" %}
 
 <div style="text-align: center; margin-top: 1em" markdown="1">
 Poznaj bibliotekę #1 w Javie, dzięki której będziesz pisać **mniej boilerplate-u**, **zaoszczędzisz czas** i popełnisz **mniej błędów**.
