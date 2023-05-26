@@ -52,8 +52,9 @@ Poznaj bibliotekę #1 w Javie, dzięki której będziesz pisać **mniej boilerpl
 
 <div class="landing__grid">
 
-{% include_relative _vimeo.md id="544996848" hash="#" opis="Lekcja 1.3 Dodanie Lomboka" %}
-{% include_relative _vimeo.md id="544996931" hash="#" opis="Lekcja 2.1 Sneaky Throws" %}
+{% include_relative _bunny.md id="63298417-55c0-4329-ac02-b32e7daf7962" opis="Lekcja 1.3 Dodanie Lomboka" %}
+{% include_relative _bunny.md id="05de2785-3f2e-4b25-8f4f-4634d292d625" opis="Lekcja 2.1 Sneaky Throws" %}
+
 </div>
 
 </div>
