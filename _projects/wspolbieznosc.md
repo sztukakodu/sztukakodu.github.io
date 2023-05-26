@@ -173,12 +173,12 @@ Mąż i tata dwójki dzieci ;)
 <h2 class="landing-subtitle">Zobacz jak wyglądają lekcje z kursu!</h2>
 
 
-<div class="landing__grid">
-
-{% include_relative _vimeo.md id="326024938" hash="#" opis="MODUŁ 2, LEKCJA 7 - Thread.join" %}
-{% include_relative _vimeo.md id="326431773" hash="#" opis="MODUŁ 3, LEKCJA 3 - Sekcja Krytyczna" %}
-{% include_relative _vimeo.md id="328112439" hash="#" opis="MODUŁ 4, LEKCJA 5 - Rodzaje Pól Wątków" %}
-{% include_relative _vimeo.md id="527686512" hash="#" opis="MODUŁ 7, LEKCJA 8 - Monitorowanie Pól Wątków" %}
+<div class="landing__grid">	
+	
+{% include_relative _bunny.md id="0854bf9f-a486-4ae4-ab83-b3daea53ef96" opis="Lekcja 2.7 - Thread.join" %}
+{% include_relative _bunny.md id="898d1114-46c2-491e-9be3-ffb66e8a8578" opis="Lekcja 3.3 - Sekcja Krytyczna" %}
+{% include_relative _bunny.md id="c25fa87e-31bb-4e89-82c5-d0f15b199583" opis="Lekcja 4.5 - Rodzaje Pól Wątków" %}
+{% include_relative _bunny.md id="bd20901b-05bd-427f-970e-9cbd34ace76f" opis="Lekcja 7.8 - Monitorowanie Pól Wątków" %}
 </div>
 
 </div>
