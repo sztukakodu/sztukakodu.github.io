@@ -4,7 +4,7 @@ subtitle: Kurs Online
 image: '/images/wspolbieznosc.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 date: 2022-01-02
-price: 799
+price: 559
 footer: false
 accent: rgb(47, 106, 188);
 lightbg: rgb(233, 241, 250);
