@@ -4,7 +4,7 @@ subtitle: Kurs Online
 image: '/images/spring.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507
 date: 2022-01-03
-price: 1.299
+price: 899
 footer: false
 accent: green;
 lightbg: rgb(222 244 222);
