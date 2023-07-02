@@ -8,6 +8,7 @@ price: 79
 footer: false
 accent: rgb(113, 39, 170);
 lightbg: rgb(241 231 248);
+env: development
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">

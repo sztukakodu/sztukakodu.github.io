@@ -9,6 +9,7 @@ price: 799
 sitemap: false
 accent: rgb(222, 53, 53);
 lightbg: rgb(250, 238, 238);
+env: development
 ---
 
 <div class="full-width" markdown="1" style="background: {{page.lightbg}}">

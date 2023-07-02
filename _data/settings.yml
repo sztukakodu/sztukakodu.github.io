@@ -12,10 +12,10 @@ menu__settings:
   menu__items:
     - title: 'Strona Główna'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Kursy'
-      url: '/kursy/'
+    # - title: 'Wszystkie Wpisy'
+    #   url: '/blog/'
+    # - title: 'Kursy'
+    #   url: '/kursy/'
     # - title: 'Projekty'
     #   url: '/projects/'
     # - title: 'Strony'
@@ -106,7 +106,7 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Ostatnie wpisy na blogu
+  blog__title: Artykuły
   blog__description: Zanurz się w świecie Javy i programowania
 
 
@@ -120,8 +120,6 @@ footer_menu__settings:
       url: '/blog/'
     - title: 'Kontakt'
       url: '/kontakt/'
-    - title: 'Kursy'  
-      url: 'https://edu.sztukakodu.pl'
 
 
 #-------------------------------
