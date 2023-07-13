@@ -187,11 +187,10 @@ Mam doświadczenie w tym, jak monitorować swoje systemy tak, by nic nam nie umk
 
 <div class="landing__grid">
 
-{% include_relative _vimeo.md id="564984597" hash="#" opis="Lekcja 3.7 Pomiar requestów HTTP" %}
-{% include_relative _vimeo.md id="564984607" hash="#" opis="Lekcja 3.8 Pomiar pamięci Heap" %}
-
-{% include_relative _vimeo.md id="564984736" hash="#" opis="Lekcja 4.5 Użycie adnotacji – @Timed" %}
-{% include_relative _vimeo.md id="659591864" hash="#" opis="Lekcja 5.6 Setup Alertingu" %}
+{% include_relative _bunny.md id="e4d9185f-6b56-4eb4-a12c-6ccdb69faf20" opis="Lekcja 3.7 Pomiar requestów HTTP" %}
+{% include_relative _bunny.md id="71bba6e0-4d86-43f9-80b0-fe7c989188d8" opis="Lekcja 3.8 Pomiar pamięci Heap" %}
+{% include_relative _bunny.md id="711e6948-9610-448b-8860-119feee9f429" opis="Lekcja 4.5 Użycie adnotacji – @Timed" %}
+{% include_relative _bunny.md id="5022f5d1-3306-40ec-bb01-708e41827457" opis="Lekcja 5.6 Setup Alertingu" %}
 </div>
 
 </div>
