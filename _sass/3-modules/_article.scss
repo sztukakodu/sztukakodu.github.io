@@ -1,11 +1,11 @@
 /* Article */
 .article {
-  margin-bottom: 64px;
+  margin-bottom: 0px;
   will-change: transform;
   transition: transform .2s ease-in-out;
 
   &:hover {
-    transform: translateY(-4px);
+    /* transform: translateY(-4px); */
   }
 
   @media only screen and (max-width: $mobile) {

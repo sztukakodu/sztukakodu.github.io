@@ -9,12 +9,15 @@
           <div class="section__head">
             <h2 class="section__title">{{ site.data.settings.blog__settings.blog__title }}</h2>
           </div>
+          {% if site.data.settings.blog__settings.blog__description %}
+            <p class="section__description">{{ site.data.settings.blog__settings.blog__description }}</p>
+          {% endif %}
         </div>
   
           <div class="row">
             {% if site.posts.size > 0 %}
-              {% for post in site.posts %}
-                {% include article.html %}
+              {% for post in site.posts offset:0 limit:3 %}
+                {% include article-mini.html %}
               {% endfor %}
             {% endif %}
           </div>
@@ -24,8 +27,8 @@
     </div>
   </div>
 
-  <!-- <div class="section__navigation">
+  <div class="section__navigation">
     <a href="{{ '/blog' | relative_url }}" class="button button--primary section-button">Zobacz wszystkie ({{ site.posts.size }})</a>
-  </div> -->
+  </div>
 </section>
 <!-- end blog -->

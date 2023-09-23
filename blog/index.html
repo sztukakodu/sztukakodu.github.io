@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Blog
-description: Blog o programowaniu w Javie, Springu, karierze i architekturze. Miejsce, w którym dokumentuję swoją drogę i dzielę się moim doświadczeniem w świecie IT.
+title: Najnowsze wpisy
 ---
 
 <div class="container">
@@ -16,7 +15,7 @@ description: Blog o programowaniu w Javie, Springu, karierze i architekturze. Mi
 </div>
 
 <div class="container animate">
-  <div class="row">
+  <div class="row" style="max-width: 720px; margin: 0 auto;">
     {% if site.posts.size > 0 %}
       {% for post in paginator.posts offset:0 %}
         {% include article.html %}

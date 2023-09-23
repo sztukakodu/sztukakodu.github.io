@@ -12,10 +12,10 @@ menu__settings:
   menu__items:
     - title: 'Strona Główna'
       url: '/'
-    # - title: 'Wszystkie Wpisy'
-    #   url: '/blog/'
-    # - title: 'Kursy'
-    #   url: '/kursy/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Kursy'
+      url: '/kursy/'
     # - title: 'Projekty'
     #   url: '/projects/'
     # - title: 'Strony'
@@ -106,8 +106,8 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Artykuły
-  blog__description: Zanurz się w świecie Javy i programowania
+  blog__title: Najnowsze wpisy
+  blog__description: Sprawdź najnowsze wpisy na blogu
 
 
 #-------------------------------
