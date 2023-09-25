@@ -1,7 +1,7 @@
 ---
 title: Kurs Współbieżności
-subtitle: Kurs Online
-image: '/images/wspolbieznosc.png'
+subtitle: 9-Modułowy Kurs Online
+image: '/images/wspolbieznosc-project.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=22
 date: 2022-01-02
 price: 799

@@ -1,0 +1,43 @@
+<section class="section animate">
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="footer__inner">
+          <div class="container">
+            <div class="row">
+      
+              <div class="col col-12 col-d-12">
+                <div class="footer__author">
+                  <div class="footer__author-avatar">
+                    <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+                  </div>
+                  <div class="footer__author-info">
+                    <h3 class="footer__author-name">{{site.data.settings.author.author__name}}</h3>
+                    <p class="footer__author-bio">
+                    Java Developer z ponad 10-letnim doświadczeniem.<br/>Uwielbiam Springa, Mikroserwisy i czysty kod.
+                    </p>
+                    {% if site.data.settings.social %}
+                    <div class="social">
+                      <ul class="social__list list-reset">
+                        {% for social in site.data.settings.social %}
+                        <li class="social__item">
+                          <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
+                            aria-label="Social link"><i class="ion {{social.icon}}"></i></a>
+                        </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

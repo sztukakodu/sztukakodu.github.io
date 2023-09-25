@@ -13,9 +13,14 @@
   }
 }
 
+.article:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+
 .blog {
   .article {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
   }
 }
 

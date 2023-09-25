@@ -1,7 +1,7 @@
 ---
 title: Kurs Lomboka
-subtitle: Kurs Online
-image: '/images/lombok.png'
+subtitle: Szybki Kurs Online
+image: '/images/lombok-project.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3736
 date: 2021-02-01
 price: 79

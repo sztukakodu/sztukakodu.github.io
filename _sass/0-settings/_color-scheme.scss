@@ -34,14 +34,15 @@
   --th-color: var(--light-gray);
   --tr-color: var(--light-gray);
 
-  --syntax-highlighting-background: #f3f3f3;
+  // --syntax-highlighting-background: #f3f3f3;
+  --syntax-highlighting-background: #151515;
 }
 
 :root[dark] {
   --brand-color: #ad72df;
   --white: #fff;
   --light-gray: #f0f0f0;
-  --gray: #9e9e9e;
+  --gray: #c2c2c2;
   --dark: #111016;
   --hero-title-color: var(--brand-color);
 
@@ -67,5 +68,6 @@
   --th-color: #18181d;;
   --tr-color: #080b12;
 
-  --syntax-highlighting-background: #080b12;
+  // --syntax-highlighting-background: #080b12;
+  --syntax-highlighting-background: #2A2D30;
 }

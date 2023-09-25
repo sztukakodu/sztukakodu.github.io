@@ -55,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("theme", "dark");
       document.documentElement.setAttribute("dark", "");
     }
+    const event = new Event('themeChanged');
+    document.dispatchEvent(event);
   }
 
 

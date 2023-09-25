@@ -1,7 +1,7 @@
 ---
 title: Szkoła Monitoringu
-subtitle: Kurs Online
-image: '/images/monitoring.png'
+subtitle: 5-Modułowy Kurs Online
+image: '/images/monitoring-project.png'
 date: 2022-01-01
 footer: false
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=3803

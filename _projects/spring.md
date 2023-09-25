@@ -1,7 +1,7 @@
 ---
 title: Szkoła Springa
-subtitle: Kurs Online
-image: '/images/spring.png'
+subtitle: 11-Modułowy Kurs Online
+image: '/images/spring-project.png'
 checkout: https://edu.sztukakodu.pl/zamowienie/?add-to-cart=2507
 date: 2022-01-03
 price: 1299

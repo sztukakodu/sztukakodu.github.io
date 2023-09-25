@@ -13,6 +13,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+p {
+  line-height: 2;
+}
+
 /* Sections
    ========================================================================== */
 
@@ -54,8 +58,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: 'Jetbrains Mono', monospace; /* 1 */
+  // font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -97,8 +101,9 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: 'Jetbrains Mono', monospace; /* 1 */
+  // font-family: monospace, monospace; /* 1 */
+  // font-size: 1em; /* 2 */
 }
 
 /**
