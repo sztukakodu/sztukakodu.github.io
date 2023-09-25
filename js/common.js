@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   };
 
-  console.log("DIV=", backToSztukaDiv);
   if(backToSztukaDiv) {
     backToSztuka();
   }
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Create a URL object from the referrer
       const url = new URL(referrer);
       // Check if the host of the referrer is 'sztukakodu.pl'
-      if (url.host === 'sztukakodu.pl' || url.host === 'localhost:4000') {
+      if (url.host.includes('sztukakodu.pl') || url.host === 'localhost:4000') {
         backToSztukaDiv.classList.add('show');
         backToSztukaDiv.addEventListener('click', function() {
           window.location.href = referrer;
