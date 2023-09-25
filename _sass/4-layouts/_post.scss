@@ -56,7 +56,7 @@
 
   .post__tag {
     padding: 8px 12px;
-    margin: 4px 4px 4px 0;
+    margin: 0 4px;
     font-size: 10px;
     line-height: 1.2;
     font-weight: 500;
@@ -263,11 +263,8 @@
 }
 
 div.highlighter-rouge {
-  margin: 38px 0;
-  // width: 100vw;
+  margin: 32px 0;
   max-width: 968px;
-  // margin-left: 50%;
-  // transform: translateX(-50%);
 }
 
 /* Share */

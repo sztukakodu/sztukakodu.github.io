@@ -43,13 +43,13 @@ layout: default
       {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor" h_max=2 %}
     </div>
 
-          {% if page.tags.size >= 1 %}
+          <!-- {% if page.tags.size >= 1 %}
             <div class="post-tags">
               {% for tag in page.tags %}
                 <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
               {% endfor %}
             </div>
-          {% endif %}
+          {% endif %} -->
 
           {% include post__share.html %}
 
