@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Najnowsze wpisy
+description: Sprawdź najnowsze wpisy na blogu
 ---
 
 <div class="container">
   <div class="row">
     <div class="col col-8 push-2 col-t-12 push-t-0">
       <div class="page-head">
-        <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.blog__settings.blog__title }}{% endif %}</h1>
+        <h2 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.blog__settings.blog__title }}{% endif %}</h1>
         <p class="page-description">{{ page.description }}</p>
       </div>
     </div>
@@ -15,10 +16,10 @@ title: Najnowsze wpisy
 </div>
 
 <div class="container animate">
-  <div class="row" style="max-width: 720px; margin: 0 auto;">
+  <div class="row">
     {% if site.posts.size > 0 %}
       {% for post in paginator.posts offset:0 %}
-        {% include article.html %}
+        {% include article-mini.html %}
       {% endfor %}
     {% endif %}
   </div>

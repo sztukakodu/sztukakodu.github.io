@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
     toggleTheme = document.querySelector(".toggle-theme-js"),
-    btnScrollToTop = document.querySelector(".top");
+    btnScrollToTop = document.querySelector(".top"),
+    backToSztukaDiv = document.querySelector(".back-to-sztuka");
 
 
   /* =======================================================
@@ -38,10 +39,31 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   };
 
+  console.log("DIV=", backToSztukaDiv);
+  if(backToSztukaDiv) {
+    backToSztuka();
+  }
+
   // attach target=_blank for external URLs in main-nav
   document.querySelectorAll(".main-nav a[href^='https://']").forEach(link => {
     link.setAttribute('target', '_blank');
   });
+
+  function backToSztuka() {
+    const referrer = document.referrer;
+    try {
+      // Create a URL object from the referrer
+      const url = new URL(referrer);
+      // Check if the host of the referrer is 'sztukakodu.pl'
+      if (url.host === 'sztukakodu.pl' || url.host === 'localhost:4000') {
+        backToSztukaDiv.classList.add('show');
+        backToSztukaDiv.addEventListener('click', function() {
+          window.location.href = referrer;
+        });
+      }
+    } catch (e) {
+    }
+  }
 
 
   // Theme Switcher

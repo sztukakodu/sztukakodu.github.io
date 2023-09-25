@@ -20,6 +20,17 @@
   }
 }
 
+.back-to-sztuka {
+  background: white;
+  padding: 0.5em 1em;
+  display: none;
+  cursor: pointer;
+
+  &.show {
+    display: block;
+  }
+}
+
 .project-subtitle {
   margin: 20px 0 0;
   font-size: 18px;
