@@ -395,6 +395,65 @@ div.highlighter-rouge {
   }
 }
 
+.post__promo a {
+  display: block;
+  padding: 0.5em 1em;
+  margin: 2em 0 3em;
+  border-radius: 10px;
+
+  &:hover {
+    border: 1px dashed;
+  }
+}
+
+.post__promo.spring a {
+  background: #f9fff9;
+  color: green;
+  border: 1px dashed green;
+
+  &:hover {
+    background: green;
+    border-color: green;
+    color: white;
+  }
+}
+
+.post__promo.wspolbieznosc a {
+  background: #f9f9ff;
+  color: blue;
+  border: 1px dashed blue;
+
+  &:hover {
+    background: blue;
+    border-color: blue;
+    color: white;
+  }
+}
+
+.post__promo.lombok a {
+  background: #fcf9ff;
+  color: purple;
+  border: 1px dashed purple;
+
+  &:hover {
+    background: purple;
+    border-color: purple;
+    color: white;
+  }
+}
+
+.post__promo.monitoring a {
+  background: #fff9f9;
+  color: red;
+  border: 1px dashed red;
+
+  &:hover {
+    background: red;
+    border-color: red;
+    color: white;
+  }
+}
+
 /* 404 */
 .error {
   text-align: center;

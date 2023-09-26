@@ -29,6 +29,10 @@
   transition: color .25s ease;
 }
 
+.logo__description {
+  font-family: $monospace-font-family;
+}
+
 .logo__image {
   max-height: 50px;
 }

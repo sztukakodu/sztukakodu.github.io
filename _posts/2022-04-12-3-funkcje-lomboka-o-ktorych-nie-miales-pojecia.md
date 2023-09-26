@@ -4,7 +4,7 @@ title: 3 Funkcje Lomboka, O Których Nie Miałeś Pojęcia
 description: Lombok to jedna z najczęściej używanych bibliotek w Javie. Pozwala zaoszczędzić czas (i pieniądze!) programisty. Poznaj te, o których nie każdy wie!
 date: 2022-04-12 12:24:35 +0200
 image: /images/niewiedziales.jpg
-tags: [lombok, java, spring]
+tags: [lombok, java]
 ---
 
 Zdradzę Ci sekret.

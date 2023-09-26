@@ -2,7 +2,7 @@
 # Site Settings
 title: Sztuka Kodu
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Pomogam rozwijać się programistom Java.
+description: Praktyczne porady dla programistów Java
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -30,7 +30,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: Dariusz Mydlarz
-  author__bio: Java Developer z ponad 10-letnim doświadczeniem. Uwielbiam Springa, Mikroserwisy i czysty kod.
+  author__bio: Programista Java z 10+ letnim doświadczeniem. Uwielbiam Springa, mikroserwisy i czysty kod.
   author__avatar: '/images/darek-bluza.jpeg'
   author__link: https://www.linkedin.com/in/darekmydlarz/
 

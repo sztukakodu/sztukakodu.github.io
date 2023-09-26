@@ -148,6 +148,9 @@ Jeśli chcemy ograniczyć długość kolejki wystarczy, że przekażemy ten argu
 ### 6. Co się dzieje, gdy wszystkie wątki są zajęte?
 Gdy wysyłamy zadanie na pule wątków, której wszystkie wątki są zajęte to czeka ono na kolejce do wykonania, lub w przypadku zapełnienia się całej kolejki, jest odrzucane i wyrzucany jest wyjątek.
 
+
+{% include post-promo.html %}
+
 ## Synchronizacja
 
 ### 1. Co to jest sekcja krytyczna? Jak ją utworzyć w Javie?
