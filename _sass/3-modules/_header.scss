@@ -31,6 +31,10 @@
 
 .logo__description {
   font-family: $monospace-font-family;
+
+  @media only screen and (max-width: $tablet) {
+    display: none;
+  }
 }
 
 .logo__image {

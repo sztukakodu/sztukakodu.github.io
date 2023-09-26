@@ -7,30 +7,13 @@ layout: default
     <div class="row">
       <div class="col col-12">
         <div class="post-info">
-  
           <h1 class="post-title">{{ page.title | escape }}</h1>
-  
           <div class="post-meta">
-            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+          <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
           </div>
-
         </div>
       </div>
-
     </div>
-  </div>
-</div>
-
-<div class="container page">
-  <div class="row">
-    {%if page.image and page.video == nil %}
-     <div class="col col-12">
-      <div class="post-image animate">
-        {% if page.sponsored %}<span>WSPÓŁPRACA</span>{% endif %}
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      </div>
-    </div>
-    {%endif %}
   </div>
 </div>
 
@@ -38,22 +21,16 @@ layout: default
 <div class="container animate">
 
   <article class="post">
-
+    {%if page.image and page.video == nil %}
+      <div class="post-image animate">
+        {% if page.sponsored %}<span>WSPÓŁPRACA</span>{% endif %}
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    </div>
+    {%endif %}
     <div class="post__content">
       {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor" h_max=2 %}
     </div>
-
     {% include post-promo.html %}
-
-    <!-- {% if page.tags.size >= 1 %}
-      <div class="post-tags">
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
-        {% endfor %}
-      </div>
-    {% endif %} -->
-
-    <!-- {% include post__share.html %} -->
   </article>
 </div>
 <!-- end post -->
@@ -69,5 +46,5 @@ layout: default
 {% endif %}
 
 {% if site.data.settings.related-posts %}
-{% include related-posts.html %}
+  {% include related-posts.html %}
 {% endif %}
