@@ -11,10 +11,12 @@ permalink: /tagi/
     <div class="row">
       <div class="col col-12 ">
       {% if tag_words.size >= 1 %}
-        <h2>Wybierz kategorię</h2>
+        <h2>Wybierz kategorię:</h2>
         <div class="post-tags">
           {% for tag in tag_words %}
-            <a href="{{ site.baseurl }}/tagi/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}/tagi/?tag={{ tag | downcase | url_encode }}" class="post__tag">
+              {% if site.data.tags[tag] != null %} {{ site.data.tags[tag] }} {% else %} {{ tag }} {% endif %}
+            </a>
           {% endfor %}
         </div>
       {% endif %}
@@ -36,7 +38,7 @@ permalink: /tagi/
         <div class="row">
           <div class="col col-12">
             <div class="tag__info">
-              <h2 class="tag__name">{{ this_word }}</h2>
+              <h2 class="tag__name">{% if site.data.tags[this_word] != null %} {{ site.data.tags[this_word] }} {% else %} {{ this_word }} {% endif %}</h2>
               <div class="tag__counter">{{ site.tags[this_word].size }} {% if site.tags[page.tag].size < 2 %}Wpis{% else %}Wpisów{% endif %}</div>
             </div>
           </div>
