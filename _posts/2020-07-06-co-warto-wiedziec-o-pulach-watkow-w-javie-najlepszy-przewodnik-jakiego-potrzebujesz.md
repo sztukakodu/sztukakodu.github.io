@@ -3,7 +3,7 @@ layout: post
 title: Co warto wiedzieć o pulach wątków w Javie? - Najlepszy przewodnik jakiego potrzebujesz
 description: 
 image: /images/pule-watkow.png
-tags: [pule-watków, wspolbieznosc, wielowatkowosc]
+tags: [pule-watkow, wspolbieznosc, wielowatkowosc]
 ---
 
 Jednym z najważniejszych czynników zwiększającą wydajność aplikacji w Javie jest możliwość korzystania z wątków. Dzięki zrównolegleniu niektórych działań efektywność programu może znacząco wzrosnąć. Przy pracy z wątkami warto jednak pamiętać o dobrych praktykach, między innymi o korzystaniu z pul wątków.

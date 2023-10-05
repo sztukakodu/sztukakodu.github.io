@@ -7,6 +7,13 @@ layout: default
     <div class="row">
       <div class="col col-12">
         <div class="post-info">
+          {% if page.tags.size >= 1 %}
+            <div class="post-tags">
+              {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tagi/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
           <h1 class="post-title">{{ page.title | escape }}</h1>
           <div class="post-meta">
           <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
