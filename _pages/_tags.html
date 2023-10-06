@@ -13,8 +13,11 @@ permalink: /tagi/
       {% if tag_words.size >= 1 %}
         <h2>Wybierz kategorię:</h2>
         <div class="post-tags">
+          <a href="{{ site.baseurl }}/tagi" class="post__tag all">
+              WSZYSTKIE
+            </a>
           {% for tag in tag_words %}
-            <a href="{{ site.baseurl }}/tagi/?tag={{ tag | downcase | url_encode }}" class="post__tag">
+            <a href="{{ site.baseurl }}/tagi/?tag={{ tag | downcase | url_encode }}" class="post__tag {{tag}}">
               {% if site.data.tags[tag] != null %} {{ site.data.tags[tag] }} {% else %} {{ tag }} {% endif %}
             </a>
           {% endfor %}
@@ -60,14 +63,23 @@ permalink: /tagi/
     {% endunless %}
   {% endfor %}
 
+  <div id="all-entries" class="is-hidden">
+    {% include tags-all.html %}
+  </div>
+
 </section>
 <!-- end tags -->
 
 <script>
-  var tag_name = decodeURI(window.location.search.replace("?tag=", "#"));
-  console.log("TAG_NAME", tag_name);
+  var tag_name = decodeURI(window.location.search.replace("?tag=", ""));
   if (tag_name) {
-      var el = document.querySelector(tag_name);
-      el.classList.remove("is-hidden");
-    }
+    var el = document.querySelector('#' + tag_name);
+    el.classList.remove("is-hidden");
+    var tagEl = document.querySelector('.post-tags').querySelector('.' + tag_name);
+    tagEl.classList.add('highlight');
+  } else {
+    document.querySelector("#all-entries").classList.remove('is-hidden');
+    var tagEl = document.querySelector('.post-tags').querySelector('.all');
+    tagEl.classList.add('highlight');
+  }
 </script>

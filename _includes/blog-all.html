@@ -1,0 +1,23 @@
+<!-- begin blog -->
+<div class="tags__inner">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="tag__info">
+          <h2 class="tag__name">Wszystkie Artykuły</h2>
+          <div class="tag__counter">{{ site.posts.size }} wpisy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container animate">
+    <div class="row">
+        {% if site.posts.size > 0 %}
+          {% for post in site.posts %}
+            {% include article-mini.html %}
+          {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+<!-- end blog -->

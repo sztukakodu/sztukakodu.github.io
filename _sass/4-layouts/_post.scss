@@ -70,7 +70,7 @@
     transition-property: background-color, color;
     background-color: var(--background-alt-color);
 
-    &:hover {
+    &:hover, &.highlight {
       color: var(--dark);
       background-color: var(--brand-color);
     }
@@ -197,7 +197,6 @@
 .page,
 .project-content {
   max-width: 780px;
-  // margin: 0 auto 60px;
   margin: 0 auto;
   color: var(--text-color);
 

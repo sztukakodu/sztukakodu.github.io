@@ -12,8 +12,8 @@
   }
   
   .tag__name {
-    margin-bottom: 20px;
-    font-size: 64px;
+    margin: 20px 0px;
+    font-size: 44px;
     line-height: 0.9;
     text-transform: capitalize;
   }
@@ -34,7 +34,17 @@
     }
 
     .tag__name {
-      font-size: 40px;
+      font-size: 36px;
     }
   }
+}
+
+.tags__list {
+  @media only screen and (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.is-hidden {
+    display: none;
 }
