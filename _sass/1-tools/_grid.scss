@@ -43,11 +43,14 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   }
 
   @media only screen and (max-width: $desktop) {
-    max-width: 740px;
+    max-width: 1000px;
+    padding-left: $container-offset;
+    padding-right: $container-offset;
   }
 
   @media only screen and (max-width: $tablet) {
-    max-width: 560px;
+    padding-left: $container-offset;
+    padding-right: $container-offset;
   }
 
   @media only screen and (max-width: $mobile) {
