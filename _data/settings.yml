@@ -35,12 +35,12 @@ author:
   author__link: https://www.linkedin.com/in/darekmydlarz/
 
 social:
-- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/darekmydlarz/"}
-- {icon: "ion-logo-twitter", link: "https://twitter.com/darekmydlarz"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com/sztukakodu"}
+# - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/darekmydlarz/"}
+# - {icon: "ion-logo-twitter", link: "https://twitter.com/darekmydlarz"}
+# - {icon: "ion-logo-facebook", link: "https://facebook.com/sztukakodu"}
 #- {icon: "ion-logo-instagram", link: "https://instagram.com/darek.mydlarz"}
 #- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCCpPtAUzE10Ys_LOb2t4r9g/"}
-- {icon: "ion-logo-rss", link: "/feed.xml"}
+# - {icon: "ion-logo-rss", link: "/feed.xml"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
